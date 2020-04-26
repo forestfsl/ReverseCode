@@ -1,0 +1,9 @@
+Package: com.mj.test
+Name: tweak_test
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: MJ Lee
+Author: MJ Lee
+Section: Tweaks

@@ -1,0 +1,9 @@
+Package: com.mj.wechat
+Name: tweak_wechat
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: MJ Lee
+Author: MJ Lee
+Section: Tweaks
