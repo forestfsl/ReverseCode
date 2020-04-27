@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0717023D219D84F000E95859 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0717023C219D84F000E95859 /* AppDelegate.m */; };
+		07170240219D84F000E95859 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0717023F219D84F000E95859 /* ViewController.m */; };
+		07170243219D84F000E95859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07170241219D84F000E95859 /* Main.storyboard */; };
+		07170245219D84F100E95859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07170244219D84F100E95859 /* Assets.xcassets */; };
+		07170248219D84F100E95859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07170246219D84F100E95859 /* LaunchScreen.storyboard */; };
+		0717024B219D84F100E95859 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0717024A219D84F100E95859 /* main.m */; };
+		07170255219D84F100E95859 /* _01_________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07170254219D84F100E95859 /* _01_________Tests.m */; };
+		07170260219D84F100E95859 /* _01_________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0717025F219D84F100E95859 /* _01_________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07170251219D84F100E95859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07170230219D84F000E95859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07170237219D84F000E95859;
+			remoteInfo = "001--脚本自动重签名";
+		};
+		0717025C219D84F100E95859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07170230219D84F000E95859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07170237219D84F000E95859;
+			remoteInfo = "001--脚本自动重签名";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07170238219D84F000E95859 /* 001--脚本自动重签名.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "001--脚本自动重签名.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0717023B219D84F000E95859 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0717023C219D84F000E95859 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0717023E219D84F000E95859 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0717023F219D84F000E95859 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07170242219D84F000E95859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07170244219D84F100E95859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07170247219D84F100E95859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07170249219D84F100E95859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0717024A219D84F100E95859 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07170250219D84F100E95859 /* 001--脚本自动重签名Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "001--脚本自动重签名Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07170254219D84F100E95859 /* _01_________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_01_________Tests.m"; sourceTree = "<group>"; };
+		07170256219D84F100E95859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0717025B219D84F100E95859 /* 001--脚本自动重签名UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "001--脚本自动重签名UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0717025F219D84F100E95859 /* _01_________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_01_________UITests.m"; sourceTree = "<group>"; };
+		07170261219D84F100E95859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07170235219D84F000E95859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0717024D219D84F100E95859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07170258219D84F100E95859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0717022F219D84F000E95859 = {
+			isa = PBXGroup;
+			children = (
+				0717023A219D84F000E95859 /* 001--脚本自动重签名 */,
+				07170253219D84F100E95859 /* 001--脚本自动重签名Tests */,
+				0717025E219D84F100E95859 /* 001--脚本自动重签名UITests */,
+				07170239219D84F000E95859 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07170239219D84F000E95859 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07170238219D84F000E95859 /* 001--脚本自动重签名.app */,
+				07170250219D84F100E95859 /* 001--脚本自动重签名Tests.xctest */,
+				0717025B219D84F100E95859 /* 001--脚本自动重签名UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0717023A219D84F000E95859 /* 001--脚本自动重签名 */ = {
+			isa = PBXGroup;
+			children = (
+				0717023B219D84F000E95859 /* AppDelegate.h */,
+				0717023C219D84F000E95859 /* AppDelegate.m */,
+				0717023E219D84F000E95859 /* ViewController.h */,
+				0717023F219D84F000E95859 /* ViewController.m */,
+				07170241219D84F000E95859 /* Main.storyboard */,
+				07170244219D84F100E95859 /* Assets.xcassets */,
+				07170246219D84F100E95859 /* LaunchScreen.storyboard */,
+				07170249219D84F100E95859 /* Info.plist */,
+				0717024A219D84F100E95859 /* main.m */,
+			);
+			path = "001--脚本自动重签名";
+			sourceTree = "<group>";
+		};
+		07170253219D84F100E95859 /* 001--脚本自动重签名Tests */ = {
+			isa = PBXGroup;
+			children = (
+				07170254219D84F100E95859 /* _01_________Tests.m */,
+				07170256219D84F100E95859 /* Info.plist */,
+			);
+			path = "001--脚本自动重签名Tests";
+			sourceTree = "<group>";
+		};
+		0717025E219D84F100E95859 /* 001--脚本自动重签名UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0717025F219D84F100E95859 /* _01_________UITests.m */,
+				07170261219D84F100E95859 /* Info.plist */,
+			);
+			path = "001--脚本自动重签名UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07170237219D84F000E95859 /* 001--脚本自动重签名 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07170264219D84F100E95859 /* Build configuration list for PBXNativeTarget "001--脚本自动重签名" */;
+			buildPhases = (
+				07170234219D84F000E95859 /* Sources */,
+				07170235219D84F000E95859 /* Frameworks */,
+				07170236219D84F000E95859 /* Resources */,
+				0717026E219D852D00E95859 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "001--脚本自动重签名";
+			productName = "001--脚本自动重签名";
+			productReference = 07170238219D84F000E95859 /* 001--脚本自动重签名.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0717024F219D84F100E95859 /* 001--脚本自动重签名Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07170267219D84F100E95859 /* Build configuration list for PBXNativeTarget "001--脚本自动重签名Tests" */;
+			buildPhases = (
+				0717024C219D84F100E95859 /* Sources */,
+				0717024D219D84F100E95859 /* Frameworks */,
+				0717024E219D84F100E95859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07170252219D84F100E95859 /* PBXTargetDependency */,
+			);
+			name = "001--脚本自动重签名Tests";
+			productName = "001--脚本自动重签名Tests";
+			productReference = 07170250219D84F100E95859 /* 001--脚本自动重签名Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0717025A219D84F100E95859 /* 001--脚本自动重签名UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0717026A219D84F100E95859 /* Build configuration list for PBXNativeTarget "001--脚本自动重签名UITests" */;
+			buildPhases = (
+				07170257219D84F100E95859 /* Sources */,
+				07170258219D84F100E95859 /* Frameworks */,
+				07170259219D84F100E95859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0717025D219D84F100E95859 /* PBXTargetDependency */,
+			);
+			name = "001--脚本自动重签名UITests";
+			productName = "001--脚本自动重签名UITests";
+			productReference = 0717025B219D84F100E95859 /* 001--脚本自动重签名UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07170230219D84F000E95859 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = LogicEDU;
+				TargetAttributes = {
+					07170237219D84F000E95859 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					0717024F219D84F100E95859 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 07170237219D84F000E95859;
+					};
+					0717025A219D84F100E95859 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 07170237219D84F000E95859;
+					};
+				};
+			};
+			buildConfigurationList = 07170233219D84F000E95859 /* Build configuration list for PBXProject "001--脚本自动重签名" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0717022F219D84F000E95859;
+			productRefGroup = 07170239219D84F000E95859 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07170237219D84F000E95859 /* 001--脚本自动重签名 */,
+				0717024F219D84F100E95859 /* 001--脚本自动重签名Tests */,
+				0717025A219D84F100E95859 /* 001--脚本自动重签名UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07170236219D84F000E95859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07170248219D84F100E95859 /* LaunchScreen.storyboard in Resources */,
+				07170245219D84F100E95859 /* Assets.xcassets in Resources */,
+				07170243219D84F000E95859 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0717024E219D84F100E95859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07170259219D84F100E95859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0717026E219D852D00E95859 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# ${SRCROOT} 它是工程文件所在的目录\nTEMP_PATH=\"${SRCROOT}/Temp\"\nASSETS_PATH=\"${SRCROOT}/APP\"\nTARGET_IPA_PATH=\"${ASSETS_PATH}/*.ipa\"\n#清空Temp文件夹\nrm -rf \"$TEMP_PATH\"\nmkdir \"$TEMP_PATH\"\n\n#1.1将IPA解压到Temp下\nunzip -oqq \"$TARGET_IPA_PATH\" -d \"$TEMP_PATH\"\n\n#1.2拿到解压临时的APP路径\nTEMP_APP_PATH=$(set -- \"$TEMP_PATH/Payload/\"*.app;echo \"$1\")\necho \"TEMP:🍺$TEMP_APP_PATH\"\n\n#2拷贝APP\n#2.1拿到当前工程下的APP路径\nTARGET_APP_PATH=\"$BUILT_PRODUCTS_DIR/$TARGET_NAME.app\"\necho \"TARGET_APP_PATH🍺:$TARGET_APP_PATH\"\n#2.2拷贝三方APP到我们的工程下\ncp -rf \"$TEMP_APP_PATH/\" \"$TARGET_APP_PATH\"\n\n#3干掉多余的部分\nrm -rf \"$TARGET_APP_PATH/PlugIns\"\nrm -rf \"$TARGET_APP_PATH/Watch\"\n#4修改info.plist 文件\n/usr/libexec/PlistBuddy -c \"Set :CFBundleIdentifier $PRODUCT_BUNDLE_IDENTIFIER\" \"$TARGET_APP_PATH/Info.plist\"\n\n#5.给可执行文件上权限\n#添加ipa二进制的执行权限,否则xcode会告知无法运行\n#这个操作是要找到第三方app包里的可执行文件名称，因为info.plist的 'Executable file' key对应的是可执行文件的名称\n#我们grep 一下,然后取最后一行, 然后以cut 命令分割，取出想要的关键信息。存到APP_BINARY变量里\nAPP_BINARY=`plutil -convert xml1 -o - $TARGET_APP_PATH/Info.plist|grep -A1 Exec|tail -n1 | cut -f2 -d\\> | cut -f1 -d\\<`\n\necho \"🍺：   $APP_BINARY\"\nchmod +x \"$TARGET_APP_PATH/$APP_BINARY\"\n\n\n#6.重签名三方FrameWorks\nTARGET_APP_FRAMEWORKS_PATH=\"$TARGET_APP_PATH/Frameworks\"\nfor FRAMEWORK in \"$TARGET_APP_FRAMEWORKS_PATH/\"*\ndo\n#echo \"🍺FRAMEWORK:$FRAMEWORK\"\n/usr/bin/codesign --force --sign \"$EXPANDED_CODE_SIGN_IDENTITY\" \"$FRAMEWORK\"\ndone\n\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07170234219D84F000E95859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07170240219D84F000E95859 /* ViewController.m in Sources */,
+				0717024B219D84F100E95859 /* main.m in Sources */,
+				0717023D219D84F000E95859 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0717024C219D84F100E95859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07170255219D84F100E95859 /* _01_________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07170257219D84F100E95859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07170260219D84F100E95859 /* _01_________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07170252219D84F100E95859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07170237219D84F000E95859 /* 001--脚本自动重签名 */;
+			targetProxy = 07170251219D84F100E95859 /* PBXContainerItemProxy */;
+		};
+		0717025D219D84F100E95859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07170237219D84F000E95859 /* 001--脚本自动重签名 */;
+			targetProxy = 0717025C219D84F100E95859 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07170241219D84F000E95859 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07170242219D84F000E95859 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07170246219D84F100E95859 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07170247219D84F100E95859 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07170262219D84F100E95859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07170263219D84F100E95859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07170265219D84F100E95859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = GZXZ6RN6N6;
+				INFOPLIST_FILE = "001--脚本自动重签名/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.forest.wechat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = WildCard;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07170266219D84F100E95859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = GZXZ6RN6N6;
+				INFOPLIST_FILE = "001--脚本自动重签名/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.forest.wechat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = WildCard;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07170268219D84F100E95859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KN6964MFR;
+				INFOPLIST_FILE = "001--脚本自动重签名Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.logic.-01---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/001--脚本自动重签名.app/001--脚本自动重签名";
+			};
+			name = Debug;
+		};
+		07170269219D84F100E95859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KN6964MFR;
+				INFOPLIST_FILE = "001--脚本自动重签名Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.logic.-01---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/001--脚本自动重签名.app/001--脚本自动重签名";
+			};
+			name = Release;
+		};
+		0717026B219D84F100E95859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KN6964MFR;
+				INFOPLIST_FILE = "001--脚本自动重签名UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.logic.-01---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "001--脚本自动重签名";
+			};
+			name = Debug;
+		};
+		0717026C219D84F100E95859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KN6964MFR;
+				INFOPLIST_FILE = "001--脚本自动重签名UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.logic.-01---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "001--脚本自动重签名";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07170233219D84F000E95859 /* Build configuration list for PBXProject "001--脚本自动重签名" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07170262219D84F100E95859 /* Debug */,
+				07170263219D84F100E95859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07170264219D84F100E95859 /* Build configuration list for PBXNativeTarget "001--脚本自动重签名" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07170265219D84F100E95859 /* Debug */,
+				07170266219D84F100E95859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07170267219D84F100E95859 /* Build configuration list for PBXNativeTarget "001--脚本自动重签名Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07170268219D84F100E95859 /* Debug */,
+				07170269219D84F100E95859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0717026A219D84F100E95859 /* Build configuration list for PBXNativeTarget "001--脚本自动重签名UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0717026B219D84F100E95859 /* Debug */,
+				0717026C219D84F100E95859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07170230219D84F000E95859 /* Project object */;
+}
