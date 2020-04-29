@@ -58,21 +58,38 @@ struct rebindings_entry {
 
 static struct rebindings_entry *_rebindings_head;
 
+
+/*
+ 在prepend_rebindings 方法中，fishhook会维护这个结构:
+ prepend_rebindings 用于rebindings_entry 结构的维护
+ struct rebindings_entry **rebindings_head - 对应的是static 的_rebindings_head
+ struct rebinding rebindings[] - 传入的方法符号数组
+ size_t nel - 数组对应的元素数量
+ */
+
 static int prepend_rebindings(struct rebindings_entry **rebindings_head,
                               struct rebinding rebindings[],
                               size_t nel) {
+    //声明rebindings_entry 一个指针，并为其分配空间
   struct rebindings_entry *new_entry = (struct rebindings_entry *) malloc(sizeof(struct rebindings_entry));
+    //分配空间失败的容错处理
   if (!new_entry) {
     return -1;
   }
+    //为链表中元素的rebindings 实力分配指定空间
   new_entry->rebindings = (struct rebinding *) malloc(sizeof(struct rebinding) * nel);
+    //分配空间的容错处理
   if (!new_entry->rebindings) {
     free(new_entry);
     return -1;
   }
+    //将rebindings 数组copy到new_entry -> rebindings 成员中
   memcpy(new_entry->rebindings, rebindings, sizeof(struct rebinding) * nel);
+    //为new_entry -> rebindings_nel 赋值
   new_entry->rebindings_nel = nel;
+    //为new_entry -> newx 赋值，维护链表结构
   new_entry->next = *rebindings_head;
+    //移动head指针，指向表头
   *rebindings_head = new_entry;
   return 0;
 }
@@ -84,7 +101,7 @@ static void perform_rebinding_with_section(struct rebindings_entry *rebindings,
                                            char *strtab,
                                            uint32_t *indirect_symtab) {
     //nl_symbol_ptr和la_symbol_ptrsection中的reserved1字段指明对应的indirect symbol table起始的index
-  uint32_t *indirect_symbol_indices = indirect_symtab + section->reserved1;
+  uint32_t *indirect_symbol_indices = indirect_symtab + section->reserved1; //section->reserved1 这个会用section->reserved1 * 每个元素的字节数量 = section->reserved1 * 4
     //slide+section->addr 就是符号对应的存放函数实现的数组也就是我相应的__nl_symbol_ptr和__la_symbol_ptr相应的函数指针都在这里面了，所以可以去寻找到函数的地址
   void **indirect_symbol_bindings = (void **)((uintptr_t)slide + section->addr);
     //遍历section里面的每一个符号
@@ -142,31 +159,56 @@ static void rebind_symbols_for_image(struct rebindings_entry *rebindings,
     return;
   }
     //下面就是定义好几个变量，准备从MachO里面去找！
+    // 声明几个查找量:
+    // linkedit_segment, symtab_command, dysymtab_command
   segment_command_t *cur_seg_cmd;
   segment_command_t *linkedit_segment = NULL;
   struct symtab_command* symtab_cmd = NULL;
   struct dysymtab_command* dysymtab_cmd = NULL;
     //跳过header的大小，找loadCommand
+    // 初始化游标
+    // header = 0x100000000 - 二进制文件基址默认偏移
+    // sizeof(mach_header_t) = 0x20 - Mach-O Header 部分
+    // 首先需要跳过 Mach-O Header
   uintptr_t cur = (uintptr_t)header + sizeof(mach_header_t);
   for (uint i = 0; i < header->ncmds; i++, cur += cur_seg_cmd->cmdsize) {
+      // 遍历每一个 Load Command，游标每一次偏移每个命令的 Command Size 大小
+       // header -> ncmds: Load Command 加载命令数量
+       // cur_seg_cmd -> cmdsize: Load 大小
     cur_seg_cmd = (segment_command_t *)cur;
+          // Load Command 的类型是 LC_SEGMENT
     if (cur_seg_cmd->cmd == LC_SEGMENT_ARCH_DEPENDENT) {
+          // 比对一下 Load Command 的 name 是否为 __LINKEDIT
       if (strcmp(cur_seg_cmd->segname, SEG_LINKEDIT) == 0) {
+            // 检索到 __LINKEDIT
         linkedit_segment = cur_seg_cmd;
       }
+        // 判断当前 Load Command 是否是 LC_SYMTAB 类型
+        // LC_SEGMENT - 代表当前区域链接器信息
     } else if (cur_seg_cmd->cmd == LC_SYMTAB) {
+           // 检索到 LC_SYMTAB
       symtab_cmd = (struct symtab_command*)cur_seg_cmd;
+        // 判断当前 Load Command 是否是 LC_DYSYMTAB 类型
+        // LC_DYSYMTAB - 代表动态链接器信息区域
     } else if (cur_seg_cmd->cmd == LC_DYSYMTAB) {
+          // 检索到 LC_DYSYMTAB
       dysymtab_cmd = (struct dysymtab_command*)cur_seg_cmd;
     }
   }
-   //如果刚才获取的，有一项为空就直接返回
+   //如果刚才获取的，有一项为空就直接返回 // 容错处理
   if (!symtab_cmd || !dysymtab_cmd || !linkedit_segment ||
       !dysymtab_cmd->nindirectsyms) {
     return;
   }
 
   // Find base symbol/string table addresses
+    // slide: ASLR 偏移量
+       // vmaddr: SEG_LINKEDIT 的虚拟地址
+       // fileoff: SEG_LINKEDIT 地址偏移
+       // 式①：base = SEG_LINKEDIT真实地址 - SEG_LINKEDIT地址偏移
+       // 式②：SEG_LINKEDIT真实地址 = SEG_LINKEDIT虚拟地址 + ASLR偏移量
+       // 将②代入①：Base = SEG_LINKEDIT虚拟地址 + ASLR偏移量 - SEG_LINKEDIT地址偏移
+    
 //链接时程序的基址 = __LINKEDIT.VM_Address -__LINKEDIT.File_Offset + silde的改变值
   uintptr_t linkedit_base = (uintptr_t)slide + linkedit_segment->vmaddr - linkedit_segment->fileoff;
 //    printf("地址:%p\n",linkedit_base);
@@ -179,24 +221,33 @@ static void rebind_symbols_for_image(struct rebindings_entry *rebindings,
     //动态符号表地址 = 基址 + 动态符号表偏移量
   uint32_t *indirect_symtab = (uint32_t *)(linkedit_base + dysymtab_cmd->indirectsymoff);
 
+    // 归零游标，复用
   cur = (uintptr_t)header + sizeof(mach_header_t);
   for (uint i = 0; i < header->ncmds; i++, cur += cur_seg_cmd->cmdsize) {
     cur_seg_cmd = (segment_command_t *)cur;
+       // Load Command 的类型是 LC_SEGMENT
     if (cur_seg_cmd->cmd == LC_SEGMENT_ARCH_DEPENDENT) {
-        //寻找到data段
+           // 查询 Segment Name 过滤出 __DATA 或者 __DATA_CONST
       if (strcmp(cur_seg_cmd->segname, SEG_DATA) != 0 &&
           strcmp(cur_seg_cmd->segname, SEG_DATA_CONST) != 0) {
         continue;
       }
         
+        // 遍历 Segment 中的 Section
+        
       for (uint j = 0; j < cur_seg_cmd->nsects; j++) {
+           // 取出 Section
         section_t *sect =
           (section_t *)(cur + sizeof(segment_command_t)) + j;
           //找懒加载表
+          // flags & SECTION_TYPE 通过 SECTION_TYPE 掩码获取 flags 记录类型的 8 bit
+                         // 如果 section 的类型为 S_LAZY_SYMBOL_POINTERS
+                         // 这个类型代表 lazy symbol 指针 Section
         if ((sect->flags & SECTION_TYPE) == S_LAZY_SYMBOL_POINTERS) {
+               // 进行 rebinding 重写操作
           perform_rebinding_with_section(rebindings, sect, slide, symtab, strtab, indirect_symtab);
         }
-          //非懒加载表
+          //非懒加载表 // 这个类型代表 non-lazy symbol 指针 Section
         if ((sect->flags & SECTION_TYPE) == S_NON_LAZY_SYMBOL_POINTERS) {
           perform_rebinding_with_section(rebindings, sect, slide, symtab, strtab, indirect_symtab);
         }
@@ -204,6 +255,21 @@ static void rebind_symbols_for_image(struct rebindings_entry *rebindings,
     }
   }
 }
+
+/*
+ 为什么传入的 _rebind_symbols_for_image 作为回调函数呢？
+ extern void _dyld_register_func_for_add_image(void (*func)(const struct mach_header* mh, intptr_t vmaddr_slide))    __OSX_AVAILABLE_STARTING(__MAC_10_1, __IPHONE_2_0);
+ extern void _dyld_register_func_for_remove_image(void (*func)(const struct mach_header* mh, intptr_t vmaddr_slide)) __OSX_AVAILABLE_STARTING(__MAC_10_1, __IPHONE_2_0);
+ 
+ extern 关键字来告知编译器当调用方法的时候，请在其他模块中寻找该方法定义。并且在这两个方法的声明中，所注册方法的参数列表一定是 (const struct mach_header* mh, intptr_t vmaddr_slide)。
+ */
+
+/**
+* _rebind_symbols_for_image 是 rebind_symbols_for_image 的一个入口方法
+* 这个入口方法存在的意义是满足 _dyld_register_func_for_add_image 传入回调方法的格式
+* header - Mach-O 头
+* slide - intptr_t 持有指针
+*/
 
 static void _rebind_symbols_for_image(const struct mach_header *header,
                                       intptr_t slide) {
@@ -224,6 +290,11 @@ int rebind_symbols_image(void *header,
     return retval;
 }
 
+/*
+ rebind_symbols
+ struct rebinding rebindings[] - rebinding 结构体数组
+ size_t rebindings_nel -数组长度
+ */
 int rebind_symbols(struct rebinding rebindings[], size_t rebindings_nel) {
     //prepend_rebindings的函数会将整个 rebindings 数组添加到 _rebindings_head 这个链表的头部
     //Fishhook采用链表的方式来存储每一次调用rebind_symbols传入的参数，每次调用，就会在链表的头部插入一个节点，链表的头部是：_rebindings_head
@@ -232,11 +303,16 @@ int rebind_symbols(struct rebinding rebindings[], size_t rebindings_nel) {
     if (retval < 0) {
     return retval;
   }
-    //根据_rebindings_head->next是否为空判断是不是第一次调用。
+    //根据_rebindings_head->next是否为空判断是不是第一次调用，NULL则代表第一次调用。
   if (!_rebindings_head->next) {
       //第一次调用的话，调用_dyld_register_func_for_add_image注册监听方法.
       //已经被dyld加载的image会立刻进入回调。
       //之后的image会在dyld装载的时候触发回调。
+//      _dyld_register_func_for_add_image 是什么？
+      /*
+       这里笔者查看了 Apple 官方的 dyld.h 头文件，其中对于 _dyld_register_func_for_add_image 有较为详细的说明（dyld.h）：
+       dyld_register_func_for_add_image 这个方法当镜像 Image 被 load 或是 unload 的时候都会由 dyld 主动调用。当该方法被触发时，会为每个镜像触发其回调方法。之后则将其镜像与其回电函数进行绑定（但是未进行初始化）。使用 _dyld_register_func_for_add_image 注册的回调将在镜像中的 terminators 启动后被调用。
+       */
     _dyld_register_func_for_add_image(_rebind_symbols_for_image);
   } else {
       //遍历已经加载的image，进行的hook
