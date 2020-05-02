@@ -13,7 +13,36 @@
 		07F51F2E24552D30001D531A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F51F2D24552D30001D531A /* Assets.xcassets */; };
 		07F51F3124552D30001D531A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F51F2F24552D30001D531A /* LaunchScreen.storyboard */; };
 		07F51F3424552D30001D531A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F51F3324552D30001D531A /* main.m */; };
+		07F51F4524552EAA001D531A /* TestHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 07F51F4324552EAA001D531A /* TestHook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07F51F4824552EAA001D531A /* TestHook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F51F4124552EAA001D531A /* TestHook.framework */; };
+		07F51F4924552EAA001D531A /* TestHook.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07F51F4124552EAA001D531A /* TestHook.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07F51F5024552EBE001D531A /* InjectCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 07F51F4E24552EBE001D531A /* InjectCode.h */; };
+		07F51F5124552EBE001D531A /* InjectCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F51F4F24552EBE001D531A /* InjectCode.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07F51F4624552EAA001D531A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07F51F1924552D2F001D531A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07F51F4024552EAA001D531A;
+			remoteInfo = TestHook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		07F51F4D24552EAA001D531A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				07F51F4924552EAA001D531A /* TestHook.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		07F51F2124552D2F001D531A /* 破坏微信注册.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "破坏微信注册.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +55,24 @@
 		07F51F3024552D30001D531A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07F51F3224552D30001D531A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07F51F3324552D30001D531A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07F51F3B24552E4D001D531A /* appSign.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = appSign.sh; sourceTree = SOURCE_ROOT; };
+		07F51F4124552EAA001D531A /* TestHook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestHook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F51F4324552EAA001D531A /* TestHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestHook.h; sourceTree = "<group>"; };
+		07F51F4424552EAA001D531A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07F51F4E24552EBE001D531A /* InjectCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InjectCode.h; sourceTree = "<group>"; };
+		07F51F4F24552EBE001D531A /* InjectCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InjectCode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		07F51F1E24552D2F001D531A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F51F4824552EAA001D531A /* TestHook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F51F3E24552EAA001D531A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				07F51F2324552D2F001D531A /* 破坏微信注册 */,
+				07F51F4224552EAA001D531A /* TestHook */,
 				07F51F2224552D2F001D531A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				07F51F2124552D2F001D531A /* 破坏微信注册.app */,
+				07F51F4124552EAA001D531A /* TestHook.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,6 +106,7 @@
 				07F51F2424552D2F001D531A /* AppDelegate.h */,
 				07F51F2524552D2F001D531A /* AppDelegate.m */,
 				07F51F2724552D2F001D531A /* ViewController.h */,
+				07F51F3B24552E4D001D531A /* appSign.sh */,
 				07F51F2824552D2F001D531A /* ViewController.m */,
 				07F51F2A24552D2F001D531A /* Main.storyboard */,
 				07F51F2D24552D30001D531A /* Assets.xcassets */,
@@ -71,7 +117,30 @@
 			path = "破坏微信注册";
 			sourceTree = "<group>";
 		};
+		07F51F4224552EAA001D531A /* TestHook */ = {
+			isa = PBXGroup;
+			children = (
+				07F51F4324552EAA001D531A /* TestHook.h */,
+				07F51F4424552EAA001D531A /* Info.plist */,
+				07F51F4E24552EBE001D531A /* InjectCode.h */,
+				07F51F4F24552EBE001D531A /* InjectCode.m */,
+			);
+			path = TestHook;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07F51F3C24552EAA001D531A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F51F5024552EBE001D531A /* InjectCode.h in Headers */,
+				07F51F4524552EAA001D531A /* TestHook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		07F51F2024552D2F001D531A /* 破坏微信注册 */ = {
@@ -81,15 +150,36 @@
 				07F51F1D24552D2F001D531A /* Sources */,
 				07F51F1E24552D2F001D531A /* Frameworks */,
 				07F51F1F24552D2F001D531A /* Resources */,
+				07F51F3A24552DCA001D531A /* ShellScript */,
+				07F51F4D24552EAA001D531A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				07F51F4724552EAA001D531A /* PBXTargetDependency */,
 			);
 			name = "破坏微信注册";
 			productName = "破坏微信注册";
 			productReference = 07F51F2124552D2F001D531A /* 破坏微信注册.app */;
 			productType = "com.apple.product-type.application";
+		};
+		07F51F4024552EAA001D531A /* TestHook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F51F4A24552EAA001D531A /* Build configuration list for PBXNativeTarget "TestHook" */;
+			buildPhases = (
+				07F51F3C24552EAA001D531A /* Headers */,
+				07F51F3D24552EAA001D531A /* Sources */,
+				07F51F3E24552EAA001D531A /* Frameworks */,
+				07F51F3F24552EAA001D531A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestHook;
+			productName = TestHook;
+			productReference = 07F51F4124552EAA001D531A /* TestHook.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -101,6 +191,9 @@
 				ORGANIZATIONNAME = com.forest;
 				TargetAttributes = {
 					07F51F2024552D2F001D531A = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					07F51F4024552EAA001D531A = {
 						CreatedOnToolsVersion = 10.2;
 					};
 				};
@@ -119,6 +212,7 @@
 			projectRoot = "";
 			targets = (
 				07F51F2024552D2F001D531A /* 破坏微信注册 */,
+				07F51F4024552EAA001D531A /* TestHook */,
 			);
 		};
 /* End PBXProject section */
@@ -134,7 +228,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		07F51F3F24552EAA001D531A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07F51F3A24552DCA001D531A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${SRCROOT}/appSign.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		07F51F1D24552D2F001D531A /* Sources */ = {
@@ -147,7 +268,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		07F51F3D24552EAA001D531A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F51F5124552EBE001D531A /* InjectCode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07F51F4724552EAA001D531A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07F51F4024552EAA001D531A /* TestHook */;
+			targetProxy = 07F51F4624552EAA001D531A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		07F51F2A24552D2F001D531A /* Main.storyboard */ = {
@@ -285,14 +422,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VQ75YVQ6ZN;
 				INFOPLIST_FILE = "破坏微信注册/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.forest.------";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdhlt.jump;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = 20200426;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -301,15 +441,74 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VQ75YVQ6ZN;
 				INFOPLIST_FILE = "破坏微信注册/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.forest.------";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdhlt.jump;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = 20200426;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07F51F4B24552EAA001D531A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TestHook/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.forest.TestHook;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		07F51F4C24552EAA001D531A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TestHook/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.forest.TestHook;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -330,6 +529,15 @@
 			buildConfigurations = (
 				07F51F3824552D30001D531A /* Debug */,
 				07F51F3924552D30001D531A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07F51F4A24552EAA001D531A /* Build configuration list for PBXNativeTarget "TestHook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F51F4B24552EAA001D531A /* Debug */,
+				07F51F4C24552EAA001D531A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
