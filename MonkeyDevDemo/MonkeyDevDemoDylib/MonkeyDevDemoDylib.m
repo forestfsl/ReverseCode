@@ -13,10 +13,11 @@
 #import <UIKit/UIKit.h>
 #import <Cycript/Cycript.h>
 #import <MDCycriptManager.h>
+#import <FLEX/FLEX.h>
 
 CHConstructor{
     printf(INSERT_SUCCESS_WELCOME);
-    
+    [[FLEXManager sharedManager] showExplorer];
     [[NSNotificationCenter defaultCenter] addObserverForName:UIApplicationDidFinishLaunchingNotification object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification * _Nonnull note) {
         
 #ifndef __OPTIMIZE__
