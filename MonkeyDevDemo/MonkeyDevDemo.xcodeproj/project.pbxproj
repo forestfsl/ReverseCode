@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		076202D2245E872500822064 /* test.cy in Resources */ = {isa = PBXBuildFile; fileRef = 076202D1245E872500822064 /* test.cy */; };
+		076202D5245E875800822064 /* md.cy in Resources */ = {isa = PBXBuildFile; fileRef = 076202D3245E875800822064 /* md.cy */; };
+		076202D6245E875800822064 /* MS.cy in Resources */ = {isa = PBXBuildFile; fileRef = 076202D4245E875800822064 /* MS.cy */; };
+		076202D7245E885700822064 /* test.cy in CopyFiles */ = {isa = PBXBuildFile; fileRef = 076202D1245E872500822064 /* test.cy */; };
+		076202D8245E885700822064 /* md.cy in CopyFiles */ = {isa = PBXBuildFile; fileRef = 076202D3245E875800822064 /* md.cy */; };
+		076202D9245E885700822064 /* MS.cy in CopyFiles */ = {isa = PBXBuildFile; fileRef = 076202D4245E875800822064 /* MS.cy */; };
 		078CD5A4245D020000A30969 /* MDConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 078CD5A3245D020000A30969 /* MDConfig.plist */; };
 		078CD5AE245D020100A30969 /* libMonkeyDevDemoDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 078CD5AD245D020100A30969 /* libMonkeyDevDemoDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		078CD5BC245D020100A30969 /* MonkeyDevDemoDylib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 078CD5BB245D020100A30969 /* MonkeyDevDemoDylib.mm */; };
@@ -37,6 +43,7 @@
 		078CD5FD245D02FE00A30969 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078CD5B4245D020100A30969 /* Foundation.framework */; };
 		078CD600245D030000A30969 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078CD5B2245D020100A30969 /* JavaScriptCore.framework */; };
 		078CD602245D030300A30969 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078CD5B6245D020100A30969 /* UIKit.framework */; };
+		3AE75D0DC9E6303C28698FCB /* Pods_MonkeyDevDemoDylib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E5C7EF9208B6B65F5DB7FEF /* Pods_MonkeyDevDemoDylib.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +63,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				076202D7245E885700822064 /* test.cy in CopyFiles */,
+				076202D8245E885700822064 /* md.cy in CopyFiles */,
+				076202D9245E885700822064 /* MS.cy in CopyFiles */,
 				078CD5AE245D020100A30969 /* libMonkeyDevDemoDylib.dylib in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +73,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		076202D1245E872500822064 /* test.cy */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.cy; sourceTree = "<group>"; };
+		076202D3245E875800822064 /* md.cy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = md.cy; sourceTree = "<group>"; };
+		076202D4245E875800822064 /* MS.cy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MS.cy; sourceTree = "<group>"; };
 		078CD59C245D020000A30969 /* MonkeyDevDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonkeyDevDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		078CD59F245D020000A30969 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		078CD5A1245D020000A30969 /* quick-resign.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "quick-resign.sh"; sourceTree = "<group>"; };
@@ -101,6 +114,9 @@
 		078CD5EF245D020100A30969 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
 		078CD5F1245D020100A30969 /* MonkeyDevDemoDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonkeyDevDemoDylib.h; sourceTree = "<group>"; };
 		078CD5F3245D020100A30969 /* MonkeyDevDemoDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonkeyDevDemoDylib.m; sourceTree = "<group>"; };
+		0E5C7EF9208B6B65F5DB7FEF /* Pods_MonkeyDevDemoDylib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonkeyDevDemoDylib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE16ECB5072BC3EC79AEF7D /* Pods-MonkeyDevDemoDylib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonkeyDevDemoDylib.release.xcconfig"; path = "Target Support Files/Pods-MonkeyDevDemoDylib/Pods-MonkeyDevDemoDylib.release.xcconfig"; sourceTree = "<group>"; };
+		9576AA341F9F1946689770C1 /* Pods-MonkeyDevDemoDylib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonkeyDevDemoDylib.debug.xcconfig"; path = "Target Support Files/Pods-MonkeyDevDemoDylib/Pods-MonkeyDevDemoDylib.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +134,7 @@
 				078CD5FD245D02FE00A30969 /* Foundation.framework in Frameworks */,
 				078CD602245D030300A30969 /* UIKit.framework in Frameworks */,
 				078CD600245D030000A30969 /* JavaScriptCore.framework in Frameworks */,
+				3AE75D0DC9E6303C28698FCB /* Pods_MonkeyDevDemoDylib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +148,7 @@
 				078CD5B8245D020100A30969 /* MonkeyDevDemoDylib */,
 				078CD5B1245D020100A30969 /* Frameworks */,
 				078CD59D245D020000A30969 /* Products */,
+				0FB06DE4F5276ACB128A746B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,6 +164,9 @@
 		078CD59E245D020000A30969 /* MonkeyDevDemo */ = {
 			isa = PBXGroup;
 			children = (
+				076202D1245E872500822064 /* test.cy */,
+				076202D3245E875800822064 /* md.cy */,
+				076202D4245E875800822064 /* MS.cy */,
 				078CD59F245D020000A30969 /* icon.png */,
 				078CD5A7245D020000A30969 /* Info.plist */,
 				078CD5A0245D020000A30969 /* Scripts */,
@@ -185,6 +206,7 @@
 				078CD5B2245D020100A30969 /* JavaScriptCore.framework */,
 				078CD5B4245D020100A30969 /* Foundation.framework */,
 				078CD5B6245D020100A30969 /* UIKit.framework */,
+				0E5C7EF9208B6B65F5DB7FEF /* Pods_MonkeyDevDemoDylib.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -280,6 +302,16 @@
 			path = fishhook;
 			sourceTree = "<group>";
 		};
+		0FB06DE4F5276ACB128A746B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9576AA341F9F1946689770C1 /* Pods-MonkeyDevDemoDylib.debug.xcconfig */,
+				2AE16ECB5072BC3EC79AEF7D /* Pods-MonkeyDevDemoDylib.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -326,6 +358,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 078CD5F7245D020100A30969 /* Build configuration list for PBXNativeTarget "MonkeyDevDemoDylib" */;
 			buildPhases = (
+				9432102291AF711BBFF95A52 /* [CP] Check Pods Manifest.lock */,
 				078CD5A8245D020100A30969 /* ShellScript */,
 				078CD5A9245D020100A30969 /* Sources */,
 				078CD5AA245D020100A30969 /* Frameworks */,
@@ -381,7 +414,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				076202D5245E875800822064 /* md.cy in Resources */,
 				078CD5A4245D020000A30969 /* MDConfig.plist in Resources */,
+				076202D2245E872500822064 /* test.cy in Resources */,
+				076202D6245E875800822064 /* MS.cy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +474,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+		9432102291AF711BBFF95A52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonkeyDevDemoDylib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -596,6 +654,7 @@
 		};
 		078CD5F8245D020100A30969 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9576AA341F9F1946689770C1 /* Pods-MonkeyDevDemoDylib.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer: Polly Wilbur (R2N9CWGB83)";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
@@ -659,6 +718,7 @@
 		};
 		078CD5F9245D020100A30969 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AE16ECB5072BC3EC79AEF7D /* Pods-MonkeyDevDemoDylib.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer: Polly Wilbur (R2N9CWGB83)";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
@@ -720,8 +780,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = GZXZ6RN6N6;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6VWZP43FN;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MonkeyDevDemo/Info.plist;
 				MONKEYDEV_ADD_SUBSTRATE = YES;
@@ -734,7 +794,7 @@
 				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_BUNDLE_IDENTIFIER = com.forest.MonkeyDevDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = WildCard;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -743,8 +803,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = GZXZ6RN6N6;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6VWZP43FN;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MonkeyDevDemo/Info.plist;
 				MONKEYDEV_ADD_SUBSTRATE = YES;
@@ -757,7 +817,7 @@
 				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_BUNDLE_IDENTIFIER = com.forest.MonkeyDevDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = WildCard;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

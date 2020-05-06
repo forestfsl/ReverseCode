@@ -175,7 +175,7 @@
 			<key>priority</key>
 			<string>1</string>
 			<key>url</key>
-			<string>https://raw.githubusercontent.com/AloneMonkey/MDCycript/master/MS.cy</string>
+			<string>https://gitee.com/fengsonglin/cy/raw/master/MS.cy</string>
 		</dict>
 		<key>hook</key>
 		<dict>
@@ -201,7 +201,7 @@
 			<key>priority</key>
 			<string>3</string>
 			<key>url</key>
-			<string>https://raw.githubusercontent.com/AloneMonkey/MDCycript/master/md.cy</string>
+			<string>https://gitee.com/fengsonglin/cy/raw/master/md.cy</string>
 		</dict>
 	</dict>
 </dict>
