@@ -1,7 +1,7 @@
 # 忽略 .a 文件
 *.a
 *.ipa
-
+*.xcuserstate
 # 但否定忽略 lib.a, 尽管已经在前面忽略了 .a 文件
 !lib.a
 
