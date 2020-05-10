@@ -1,0 +1,10 @@
+Package: com.forest.alipaypwddemo
+Name: AliPayPwdDemo
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: forest
+Author: forest
+Section: Tweaks
+Version: 0.0.1-1+debug
+Installed-Size: 104

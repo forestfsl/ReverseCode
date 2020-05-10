@@ -1,8 +1,8 @@
 (function(utils) {
 
     utils.constants = {
-        APPID:  	[NSBundle mainBundle].bundleIdentifier,
-        APPPATH:     [NSBundle mainBundle].bundlePath,
+        APPID:  	[NSBundle.mainBundle].bundleIdentifier,
+        APPPATH:    [NSBundle mainBundle].bundlePath,
         APPHOME:	 NSHomeDirectory(),
         APPDOC:      NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0],
         APPLIBRARY:  NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES)[0],
