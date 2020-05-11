@@ -1,3 +1,0 @@
-#插件的安装
-https://github.com/DerekSelander/LLDB
-https://github.com/facebook/chisel
