@@ -1,0 +1,2 @@
+参考链接:https://blog.csdn.net/wzzscsto/article/details/79676686?utm_source=blogxgwz6
+参考链接2:https://stackoverflow.com/questions/4179754/is-there-a-way-to-get-the-bundle-id-at-runtime
