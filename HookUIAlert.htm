@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<!-- saved from url=(0143)http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#hook-presentViewController-%E6%96%B9%E6%B3%95 -->
+<html lang="zh-CN,en,default" class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="generator" content="Hexo 3.9.0">
+  
+  
+    <title>腾讯实习第一个月工作总结 | yulingtianxia's blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="杨萧玉">
+    
+
+    
+    <meta name="description" content="来腾讯实习正好一个月了，因为项目已经进入了成熟期，接了两个需求，改了二十几个 bug。所以把这期间的一些思考写下来，发了邮件分享给组内同事们。我把一些自己觉得不合适的内容刨除出去，选取邮件的部分内容写在这里：）">
+<meta name="keywords" content="iOS">
+<meta property="og:type" content="article">
+<meta property="og:title" content="腾讯实习第一个月工作总结">
+<meta property="og:url" content="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/index.html">
+<meta property="og:site_name" content="yulingtianxia&#39;s blog">
+<meta property="og:description" content="来腾讯实习正好一个月了，因为项目已经进入了成熟期，接了两个需求，改了二十几个 bug。所以把这期间的一些思考写下来，发了邮件分享给组内同事们。我把一些自己觉得不合适的内容刨除出去，选取邮件的部分内容写在这里：）">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http://yulingtianxia.com/resources/TBAlertController.png">
+<meta property="og:updated_time" content="2019-05-26T10:08:45.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="腾讯实习第一个月工作总结">
+<meta name="twitter:description" content="来腾讯实习正好一个月了，因为项目已经进入了成熟期，接了两个需求，改了二十几个 bug。所以把这期间的一些思考写下来，发了邮件分享给组内同事们。我把一些自己觉得不合适的内容刨除出去，选取邮件的部分内容写在这里：）">
+<meta name="twitter:image" content="http://yulingtianxia.com/resources/TBAlertController.png">
+<meta name="twitter:creator" content="@yulingtianxia">
+<link rel="publisher" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/106642427004837273341">
+
+    
+    <link rel="alternative" href="http://yulingtianxia.com/atom.xml" title="yulingtianxia&#39;s blog" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="http://yulingtianxia.com/img/favicon.png">
+    
+    
+    <link rel="apple-touch-icon" href="http://yulingtianxia.com/img/jacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="http://yulingtianxia.com/img/jacman.jpg">
+    
+    <link rel="stylesheet" href="./HookUIAlert_files/style.css">
+<script src="./HookUIAlert_files/hm.js"></script><script async="" src="./HookUIAlert_files/analytics(1).js"></script><script type="text/javascript" async="" src="./HookUIAlert_files/embed.js"></script><script type="text/javascript" async="" src="./HookUIAlert_files/count.js"></script><link rel="prefetch" as="style" href="https://c.disquscdn.com/next/embed/styles/lounge.9a11b91b20ca66d0cf6475e0f5c1ab1a.css"><link rel="prefetch" as="script" href="https://c.disquscdn.com/next/embed/common.bundle.f9554506a08a1cc2b021f0dfc3f59ebb.js"><link rel="prefetch" as="script" href="https://c.disquscdn.com/next/embed/lounge.bundle.3130273e39cea7ac6e72980ac388e5e0.js"><link rel="prefetch" as="script" href="https://disqus.com/next/config.js"><style type="text/css">.fancybox-margin{margin-right:0px;}</style><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><script src="./HookUIAlert_files/alfalfalfa.0823c767a3bc925f628afd9bed26c958.js" async="" charset="UTF-8"></script></head>
+<body style=""><div id="MathJax_Message" style="display: none;"></div>
+  
+    <header>
+      
+<div>
+		
+			<div id="imglogo">
+				<a href="http://yulingtianxia.com/"><img src="./HookUIAlert_files/logo.png" alt="yulingtianxia&#39;s blog" title="yulingtianxia&#39;s blog"></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="http://yulingtianxia.com/" title="yulingtianxia&#39;s blog">yulingtianxia's blog</a></h1>
+				<h2 class="blog-motto">玉令天下的博客</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#" title="菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="http://yulingtianxia.com/">Home</a></li>
+					
+						<li><a href="http://yulingtianxia.com/archives">Archives</a></li>
+					
+						<li><a href="http://yulingtianxia.com/tags">Tags</a></li>
+					
+						<li><a href="http://yulingtianxia.com/about">About</a></li>
+					
+					<li>
+ 					
+					<form class="search" action="http://yulingtianxia.com/search/index.html" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="search" id="search" autocomplete="off" name="q" maxlength="20" placeholder="Google">
+					</form>
+					
+					</li>
+				</ul>
+			</ul></nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope="" itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/" title="腾讯实习第一个月工作总结" itemprop="url">腾讯实习第一个月工作总结</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="https://plus.google.com/106642427004837273341?rel=author" title="杨萧玉" target="_blank" itemprop="author">杨萧玉</a>
+		
+  </p><p class="article-time">
+    <time datetime="2015-11-13T15:55:38.000Z" itemprop="datePublished"> 发表于 2015-11-13</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+		
+			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E8%AE%A9-UIAlertController-%E5%85%BC%E5%AE%B9-iOS7"><span class="toc-number">1.</span> <span class="toc-text">让 UIAlertController 兼容 iOS7</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E9%97%AE%E9%A2%98%E8%83%8C%E6%99%AF"><span class="toc-number">1.1.</span> <span class="toc-text">问题背景</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E5%88%86%E6%9E%90%E9%97%AE%E9%A2%98"><span class="toc-number">1.2.</span> <span class="toc-text">分析问题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E6%8A%80%E6%9C%AF%E9%87%8D%E7%82%B9"><span class="toc-number">1.3.</span> <span class="toc-text">技术重点</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E8%A7%A3%E5%86%B3%E6%80%9D%E8%B7%AF"><span class="toc-number">1.4.</span> <span class="toc-text">解决思路</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E6%9E%84%E5%BB%BA-TBAlertAction-%E6%9B%BF%E4%BB%A3-UIAlertAction"><span class="toc-number">1.4.1.</span> <span class="toc-text">构建 TBAlertAction 替代 UIAlertAction</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E6%9E%84%E5%BB%BA-TBAlertController-%E5%B1%9E%E6%80%A7"><span class="toc-number">1.4.2.</span> <span class="toc-text">构建 TBAlertController 属性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E6%9E%84%E5%BB%BA-TBAlertController-%E6%96%B9%E6%B3%95"><span class="toc-number">1.4.3.</span> <span class="toc-text">构建 TBAlertController 方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#hook-presentViewController-%E6%96%B9%E6%B3%95"><span class="toc-number">1.4.4.</span> <span class="toc-text">hook presentViewController: 方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E8%BF%98%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E5%9C%B0%E6%96%B9"><span class="toc-number">1.4.5.</span> <span class="toc-text">还需要注意的地方</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E6%84%9F%E6%82%9F-amp-%E6%80%BB%E7%BB%93"><span class="toc-number">1.5.</span> <span class="toc-text">感悟&amp;总结</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#LLDB-%E8%B0%83%E8%AF%95-UI-%E7%9A%84%E6%8A%80%E5%B7%A7"><span class="toc-number">2.</span> <span class="toc-text">LLDB 调试 UI 的技巧</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E9%97%AE%E9%A2%98%E8%83%8C%E6%99%AF-1"><span class="toc-number">2.1.</span> <span class="toc-text">问题背景</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E7%94%A8-LLDB-%E6%94%B9%E5%8F%98%E8%A7%86%E5%9B%BE"><span class="toc-number">2.2.</span> <span class="toc-text">用 LLDB 改变视图</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E4%BD%BF%E7%94%A8-Chisel-%E7%AE%80%E5%8C%96-LLDB-%E5%91%BD%E4%BB%A4"><span class="toc-number">2.3.</span> <span class="toc-text">使用 Chisel 简化 LLDB 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E6%88%91%E7%9A%84%E5%AE%9E%E8%B7%B5%E4%B8%8E%E6%84%9F%E6%82%9F"><span class="toc-number">2.4.</span> <span class="toc-text">我的实践与感悟</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5%E7%AE%A1%E7%90%86%E7%BB%8F%E9%AA%8C"><span class="toc-number">3.</span> <span class="toc-text">项目实践管理经验</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E5%9B%BE%E7%89%87%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86"><span class="toc-number">3.1.</span> <span class="toc-text">图片资源管理</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E6%96%87%E6%A1%88%E7%AE%A1%E7%90%86"><span class="toc-number">3.2.</span> <span class="toc-text">文案管理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E6%96%87%E6%A1%88%E6%98%AF%E5%8F%AF%E5%A4%8D%E7%94%A8%E7%9A%84"><span class="toc-number">3.2.1.</span> <span class="toc-text">文案是可复用的</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E9%87%8D%E5%A4%8D%E7%9A%84%E6%96%87%E6%A1%88%E5%9C%A8%E5%A4%9A%E5%A4%84-hardcode-%E4%BC%9A%E9%99%8D%E4%BD%8E%E6%95%88%E7%8E%87"><span class="toc-number">3.2.2.</span> <span class="toc-text">重复的文案在多处 hardcode 会降低效率</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E6%88%91%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%EF%BC%9A%E6%96%87%E6%A1%88%E4%B8%8E%E4%BB%A3%E7%A0%81%E5%88%86%E7%A6%BB"><span class="toc-number">3.2.3.</span> <span class="toc-text">我的解决方案：文案与代码分离</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E7%9A%84%E5%88%86%E6%9E%90"><span class="toc-number">3.2.4.</span> <span class="toc-text">解决方案的分析</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#project-pbxproj%E6%96%87%E4%BB%B6"><span class="toc-number">3.3.</span> <span class="toc-text">project.pbxproj文件</span></a></li></ol></li></ol>
+		
+		</div>
+		
+		<p>来腾讯实习正好一个月了，因为项目已经进入了成熟期，接了两个需求，改了二十几个 bug。所以把这期间的一些思考写下来，发了邮件分享给组内同事们。我把一些自己觉得不合适的内容刨除出去，选取邮件的部分内容写在这里：）</p>
+<a id="more"></a>
+
+<h1 id="让-UIAlertController-兼容-iOS7"><a href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E8%AE%A9-UIAlertController-%E5%85%BC%E5%AE%B9-iOS7" class="headerlink" title="让 UIAlertController 兼容 iOS7"></a>让 UIAlertController 兼容 iOS7</h1><h2 id="问题背景"><a href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E9%97%AE%E9%A2%98%E8%83%8C%E6%99%AF" class="headerlink" title="问题背景"></a>问题背景</h2><p>公司项目中用到了 <a href="http://yulingtianxia.com/blog/2014/09/29/uialertcontroller-in-ios8/"><code>UIAlertController</code></a> 来实现自定义 actionsheet 文字颜色的需求，而 <code>UIAlertController</code> <strong>只能在 iOS8 及更高版本系统使用，在iOS7下会 crash</strong>。老大让我写个组件兼容下 iOS7，于是 <code>TBAlertController</code> 诞生了。</p>
+<p>下面给出的关于 <code>TBAlertController</code> 的代码片段都不是真实源码，只为说明实现的具体思想。</p>
+<h2 id="分析问题"><a href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E5%88%86%E6%9E%90%E9%97%AE%E9%A2%98" class="headerlink" title="分析问题"></a>分析问题</h2><p>为了多快好省的解决当前的问题，我依然使用系统自带的 <code>UIAlertController</code> 和 <code>UIActionSheet</code> 分别兼容 iOS8、9 和 iOS7。并且接口与代码中已经存在的 <code>UIAlertController</code> 接口一致，这样只需要将代码中所有的 “UIAlertController” 和 “UIAlertAction” 改为 “TBAlertController” 和 “TBAlertAction” 即可。这样<strong>更符合设计模式中“对扩展开放，对修改关闭”的开放原则。</strong></p>
+<p>当然最长远的打算应该是自己写个 AlertController，可以随意定制想要的 style，而不受系统控件的风格限制。</p>
+<h2 id="技术重点"><a href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E6%8A%80%E6%9C%AF%E9%87%8D%E7%82%B9" class="headerlink" title="技术重点"></a>技术重点</h2><p><code>UIAlertController</code> 与 <code>UIActionSheet</code> 接口上最大的不同之处就是处理按钮点击事件时前者在 block 中实现，后者以 delegate 回调的形式实现。而且还需要高度模仿 <code>UIAlertController</code> 的接口，使原有代码修改量达到最少。而我若想实现一个组件兼容二者，那就必须将它们“装箱”封装。同理，<code>UIAlertAction</code> 也需要类似的处理。</p>
+<h2 id="解决思路"><a href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E8%A7%A3%E5%86%B3%E6%80%9D%E8%B7%AF" class="headerlink" title="解决思路"></a>解决思路</h2><h3 id="构建-TBAlertAction-替代-UIAlertAction"><a href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E6%9E%84%E5%BB%BA-TBAlertAction-%E6%9B%BF%E4%BB%A3-UIAlertAction" class="headerlink" title="构建 TBAlertAction 替代 UIAlertAction"></a>构建 TBAlertAction 替代 UIAlertAction</h3><p>首先，参照 <code>UIAlertAction</code> 的接口，造一个 <code>TBAlertAction</code> 出来。思想是 iOS8以上直接使用 <code>UIAlertAction</code> 来替代，iOS7 则特殊处理，将重要信息保存下来：</p>
+<figure class="highlight objectivec"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">@interface</span> <span class="title">TBAlertAction</span> ()</span></span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nullable</span>, <span class="keyword">nonatomic</span>) <span class="built_in">NSString</span> *title;</span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>) TBAlertActionStyle style;</span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>) <span class="built_in">BOOL</span> enabled;</span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nullable</span>,<span class="keyword">nonatomic</span>,<span class="keyword">strong</span>) <span class="keyword">void</span> (^handler)(TBAlertAction *);</span><br><span class="line"><span class="keyword">@end</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">@implementation</span> <span class="title">TBAlertAction</span></span></span><br><span class="line">+ (<span class="keyword">id</span>)actionWithTitle:(<span class="built_in">NSString</span> *)title style:(TBAlertActionStyle)style handler:(<span class="keyword">void</span> (^)(TBAlertAction *))handler {</span><br><span class="line">    <span class="keyword">if</span> (iOS8Later) {</span><br><span class="line">        <span class="built_in">UIAlertActionStyle</span> actionStyle = (<span class="built_in">NSInteger</span>)style;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">return</span> [<span class="built_in">UIAlertAction</span> actionWithTitle:title style:actionStyle handler:(<span class="keyword">void</span> (^ __<span class="keyword">nullable</span>)(<span class="built_in">UIAlertAction</span> *))handler];</span><br><span class="line">    }</span><br><span class="line">    <span class="keyword">else</span> {</span><br><span class="line">        TBAlertAction *action = [[TBAlertAction alloc] init];</span><br><span class="line">        action.title = title;</span><br><span class="line">        action.style = style;</span><br><span class="line">        action.handler = handler;</span><br><span class="line">        action.enabled = <span class="literal">YES</span>;</span><br><span class="line">        <span class="keyword">return</span> action;</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line"><span class="keyword">@end</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>这里的 <code>handler</code> block 很重要，在 iOS7 中使用 <code>UIActionSheet</code> 时是在 delegate 回调方法中处理按钮点击事件的，而处理的事务逻辑此时已经写在 <code>handler</code> 中了，后续只需在 delegate 回调方法中正确的执行对应的 block 就行了。</p>
+<h3 id="构建-TBAlertController-属性"><a href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E6%9E%84%E5%BB%BA-TBAlertController-%E5%B1%9E%E6%80%A7" class="headerlink" title="构建 TBAlertController 属性"></a>构建 TBAlertController 属性</h3><p><code>TBAlertController</code> 也是采取装箱策略，模仿 <code>UIAlertController</code> 的接口，并添加了一个 <code>adaptiveAlert</code> 替身和 <code>actions</code> 数组。</p>
+<p><a href="./HookUIAlert_files/TBAlertController.png" title="TBAlertController 属性" class="fancybox" rel="article0"><img src="./HookUIAlert_files/TBAlertController.png" alt="TBAlertController 属性"></a><span class="caption">TBAlertController 属性</span></p>
+<figure class="highlight objectivec"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line">- (<span class="keyword">instancetype</span>)init</span><br><span class="line">{</span><br><span class="line">    <span class="keyword">self</span> = [<span class="keyword">super</span> init];</span><br><span class="line">    <span class="keyword">if</span> (<span class="keyword">self</span>) {</span><br><span class="line">        <span class="keyword">if</span> (iOS8Later) {</span><br><span class="line">            _adaptiveAlert = [[<span class="built_in">UIAlertController</span> alloc] init];</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">else</span> {</span><br><span class="line">            _adaptiveAlert = [[<span class="built_in">UIActionSheet</span> alloc] init];</span><br><span class="line">            _actions = [<span class="built_in">NSMutableArray</span> array];</span><br><span class="line">            ((<span class="built_in">UIActionSheet</span> *)_adaptiveAlert).delegate = <span class="keyword">self</span>;</span><br><span class="line">        }</span><br><span class="line">        [<span class="keyword">self</span> addObserver:<span class="keyword">self</span> forKeyPath:<span class="string">@"view.tintColor"</span> options:<span class="built_in">NSKeyValueObservingOptionNew</span>|<span class="built_in">NSKeyValueObservingOptionOld</span> context:<span class="literal">nil</span>];</span><br><span class="line">    }</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">self</span>;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">- (<span class="keyword">void</span>)dealloc {</span><br><span class="line">    [<span class="keyword">self</span> removeObserver:<span class="keyword">self</span> forKeyPath:<span class="string">@"view.tintColor"</span>];</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">+ (<span class="keyword">instancetype</span>)alertControllerWithTitle:(<span class="built_in">NSString</span> *)title message:(<span class="built_in">NSString</span> *)message preferredStyle:(TBAlertControllerStyle)preferredStyle {</span><br><span class="line">    TBAlertController *controller = [[TBAlertController alloc] init];</span><br><span class="line">    <span class="keyword">if</span> (iOS8Later) {</span><br><span class="line">        controller.adaptiveAlert = [<span class="built_in">UIAlertController</span> alertControllerWithTitle:title message:message preferredStyle:(<span class="built_in">NSInteger</span>)preferredStyle];</span><br><span class="line">    }</span><br><span class="line">    <span class="keyword">else</span> {</span><br><span class="line">        <span class="keyword">switch</span> (preferredStyle) {</span><br><span class="line">            <span class="keyword">case</span> TBAlertControllerStyleActionSheet: {</span><br><span class="line">                controller.adaptiveAlert = [[<span class="built_in">UIActionSheet</span> alloc] initWithTitle:title delegate:controller cancelButtonTitle:<span class="literal">nil</span> destructiveButtonTitle:<span class="literal">nil</span> otherButtonTitles:<span class="literal">nil</span>];</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            }</span><br><span class="line">            <span class="keyword">case</span> TBAlertControllerStyleAlert: {</span><br><span class="line">                controller.adaptiveAlert = [[<span class="built_in">UIAlertView</span> alloc] initWithTitle:title message:message delegate:controller cancelButtonTitle:<span class="literal">nil</span> otherButtonTitles: <span class="literal">nil</span>];</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            }</span><br><span class="line">            <span class="keyword">default</span>: {</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            }</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line">    <span class="keyword">return</span> controller;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+<p>这段实例化 <code>TBAlertController</code> 的方法很好理解，总之就是针对不同情况将 <code>adaptiveAlert</code> 赋予不同的实例。还顺带用 KVO 监听了下 tintColor，这是为了实现当初使用 <code>UIAlertController</code> 的目的-改变字体颜色。</p>
+<h3 id="构建-TBAlertController-方法"><a href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E6%9E%84%E5%BB%BA-TBAlertController-%E6%96%B9%E6%B3%95" class="headerlink" title="构建 TBAlertController 方法"></a>构建 TBAlertController 方法</h3><p><code>addAction:</code> 方法的实现类似，也是针对不同情况向 <code>actions</code> 数组添加不同内容：</p>
+<figure class="highlight objectivec"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">- (<span class="keyword">void</span>)addAction:(TBAlertAction *)action {</span><br><span class="line">    <span class="keyword">if</span> (iOS8Later) {</span><br><span class="line">        [<span class="keyword">self</span>.adaptiveAlert addAction:(<span class="built_in">UIAlertAction</span> *)action];</span><br><span class="line">    }</span><br><span class="line">    <span class="keyword">else</span> {</span><br><span class="line">        [<span class="keyword">self</span>.actions addObject:action];</span><br><span class="line">        <span class="built_in">NSInteger</span> buttonIndex = [<span class="keyword">self</span>.adaptiveAlert addButtonWithTitle:action.title];</span><br><span class="line">        <span class="built_in">UIColor</span> *textColor;</span><br><span class="line">        <span class="keyword">switch</span> (action.style) {</span><br><span class="line">            <span class="keyword">case</span> TBAlertActionStyleDefault: {</span><br><span class="line">                textColor = <span class="keyword">self</span>.tintColor;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            }</span><br><span class="line">            <span class="keyword">case</span> TBAlertActionStyleCancel: {</span><br><span class="line">                [<span class="keyword">self</span>.adaptiveAlert setCancelButtonIndex:buttonIndex];</span><br><span class="line">                textColor = <span class="keyword">self</span>.tintColor;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            }</span><br><span class="line">            <span class="keyword">case</span> TBAlertActionStyleDestructive: {</span><br><span class="line">                [<span class="keyword">self</span>.adaptiveAlert setDestructiveButtonIndex:buttonIndex];</span><br><span class="line">                textColor = [<span class="built_in">UIColor</span> redColor];</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            }</span><br><span class="line">            <span class="keyword">default</span>: {</span><br><span class="line">                textColor = <span class="keyword">self</span>.tintColor;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            }</span><br><span class="line">        }</span><br><span class="line"><span class="comment">//        [((UIButton *)((UIView *)self.adaptiveAlert).subviews.lastObject) setTitleColor:textColor forState:0xFFFFFFFF];</span></span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+<p>需要注意的是针对不同 style 的按钮要设置好对应的 <code>buttonindex</code> 和 <code>titleColor</code>。因为苹果可能会拒绝修改系统控件样式的 app 上架，所以我将那行设置颜色的代码注释掉了。</p>
+<p>然后在 delegate 中取到对应的 block 并执行：</p>
+<figure class="highlight objectivec"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#pragma - UIAlertViewDelegate</span></span><br><span class="line"></span><br><span class="line">- (<span class="keyword">void</span>)alertView:(<span class="built_in">UIAlertView</span> *)alertView clickedButtonAtIndex:(<span class="built_in">NSInteger</span>)buttonIndex {</span><br><span class="line">    __<span class="keyword">weak</span> __<span class="keyword">typeof</span>(<span class="keyword">self</span>)weakSelf = <span class="keyword">self</span>;</span><br><span class="line">    <span class="keyword">if</span> (<span class="keyword">self</span>.actions[buttonIndex].handler) {</span><br><span class="line">    	<span class="keyword">self</span>.actions[buttonIndex].handler(weakSelf.adaptiveAlert);</span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+<h3 id="hook-presentViewController-方法"><a href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#hook-presentViewController-%E6%96%B9%E6%B3%95" class="headerlink" title="hook presentViewController: 方法"></a>hook presentViewController: 方法</h3><p>最后封装下 <code>presentViewController:</code> 就可以了，因为要做到接口与 <code>UIAlertController</code> 一模一样，减少已有代码修改量，需要 hook 到系统的 <code>presentViewController:</code> 方法，并折腾一番：</p>
+<figure class="highlight objectivec"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><span class="line">+ (<span class="keyword">void</span>)load {</span><br><span class="line">    <span class="keyword">static</span> <span class="built_in">dispatch_once_t</span> onceToken;</span><br><span class="line">    <span class="built_in">dispatch_once</span>(&amp;onceToken, ^{</span><br><span class="line">        Class aClass = [<span class="keyword">self</span> <span class="keyword">class</span>];</span><br><span class="line">        </span><br><span class="line">        SEL originalSelector = <span class="keyword">@selector</span>(presentViewController:animated:completion:);</span><br><span class="line">        SEL swizzledSelector = <span class="keyword">@selector</span>(tb_presentViewController:animated:completion:);</span><br><span class="line">        </span><br><span class="line">        Method originalMethod = class_getInstanceMethod(aClass, originalSelector);</span><br><span class="line">        Method swizzledMethod = class_getInstanceMethod(aClass, swizzledSelector);</span><br><span class="line">        </span><br><span class="line">        <span class="built_in">BOOL</span> didAddMethod =</span><br><span class="line">        class_addMethod(aClass,</span><br><span class="line">                        originalSelector,</span><br><span class="line">                        method_getImplementation(swizzledMethod),</span><br><span class="line">                        method_getTypeEncoding(swizzledMethod));</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">if</span> (didAddMethod) {</span><br><span class="line">            class_replaceMethod(aClass,</span><br><span class="line">                                swizzledSelector,</span><br><span class="line">                                method_getImplementation(originalMethod),</span><br><span class="line">                                method_getTypeEncoding(originalMethod));</span><br><span class="line">        } <span class="keyword">else</span> {</span><br><span class="line">            method_exchangeImplementations(originalMethod, swizzledMethod);</span><br><span class="line">        }</span><br><span class="line">    });</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="meta">#pragma mark - Method Swizzling</span></span><br><span class="line"></span><br><span class="line">- (<span class="keyword">void</span>)tb_presentViewController:(<span class="built_in">UIViewController</span> *)viewControllerToPresent animated:(<span class="built_in">BOOL</span>)flag completion:(<span class="keyword">void</span> (^)(<span class="keyword">void</span>))completion {</span><br><span class="line">    <span class="keyword">if</span> ([viewControllerToPresent isKindOfClass:[TBAlertController <span class="keyword">class</span>]]) {</span><br><span class="line">        TBAlertController* controller = (TBAlertController *)viewControllerToPresent;</span><br><span class="line">        <span class="keyword">if</span> (iOS8Later) {</span><br><span class="line">            ((<span class="built_in">UIAlertController</span> *)controller.adaptiveAlert).view.tintColor = controller.tintColor;</span><br><span class="line">            [<span class="keyword">self</span> tb_presentViewController:((TBAlertController *)viewControllerToPresent).adaptiveAlert animated:flag completion:completion];</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">else</span> {</span><br><span class="line">            <span class="keyword">if</span> ([controller.adaptiveAlert isKindOfClass:[<span class="built_in">UIAlertView</span> <span class="keyword">class</span>]]) {</span><br><span class="line">                <span class="keyword">self</span>.tbAlertController = controller;</span><br><span class="line">                controller.ownerController = <span class="keyword">self</span>;</span><br><span class="line">                [controller.adaptiveAlert show];</span><br><span class="line">            }</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span> ([controller.adaptiveAlert isKindOfClass:[<span class="built_in">UIActionSheet</span> <span class="keyword">class</span>]]) {</span><br><span class="line">                <span class="keyword">self</span>.tbAlertController = controller;</span><br><span class="line">                controller.ownerController = <span class="keyword">self</span>;</span><br><span class="line">                [controller.adaptiveAlert showInView:<span class="keyword">self</span>.view];</span><br><span class="line">            }</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line">    <span class="keyword">else</span> {</span><br><span class="line">        [<span class="keyword">self</span> tb_presentViewController:viewControllerToPresent animated:flag completion:completion];</span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+<p>在 Objective-C 中，hook 被称为一种叫做“Method Swizzling”的技术，每种动态语言的 <a href="http://yulingtianxia.com/blog/2014/11/05/objective-c-runtime/">Runtime</a> 系统都支持这些特性。在这里，我在 hook 到的方法里先实例化一个 <code>TBAlertController</code>，然后判断系统版本，分别将 <code>UIAlertController</code> 或 <code>UIAlertView</code>、<code>UIActionSheet</code>展示出来。</p>
+<h3 id="还需要注意的地方"><a href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E8%BF%98%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E5%9C%B0%E6%96%B9" class="headerlink" title="还需要注意的地方"></a>还需要注意的地方</h3><p>这里需要注意两点：</p>
+<ol>
+<li>使用 <code>UIAlertController</code> 时，必需在添加完所有 Action 之后才能设定它的 <code>view.tintColor</code> 属性，否则会在 iOS8 下出现问题：取消按钮与其他按钮连成一片。而在 iOS9 下面则不会出现此问题。这也是为什么我会在 hook 到 <code>presentViewController:</code> 时才设定它的  <code>tintColor</code>。</li>
+<li>一旦 <code>adaptiveAlert</code> 替身被展现在屏幕上， <code>TBAlertController</code> 这个箱子就可能会被释放掉。因为很可能其他人创建 <code>TBAlertController</code> 实例的时候只是个局部变量，一旦出了作用域，它就会被释放掉，而一旦它被提前释放，delegate 回调方法就永远不会执行，前面的努力都白费了，正如下面这样：<figure class="highlight groovy"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">TBAlertController *operationAlertController = [TBAlertController <span class="string">alertControllerWithTitle:</span>@<span class="string">"是否取消关注"</span> <span class="string">message:</span>nil <span class="string">preferredStyle:</span>TBAlertControllerStyleActionSheet];</span><br><span class="line">[operationAlertController <span class="string">addAction:</span>[TBAlertAction <span class="string">actionWithTitle:</span>@<span class="string">"是"</span> <span class="string">style:</span>TBAlertActionStyleDestructive <span class="string">handler:</span>^(TBAlertAction * _Nonnull action) {</span><br><span class="line">       [self <span class="string">alertControllerHandler:</span><span class="number">1</span> <span class="string">clickedButtonAtIndex:</span><span class="number">0</span>];</span><br><span class="line">}]];</span><br><span class="line">   [operationAlertController <span class="string">addAction:</span>[TBAlertAction <span class="string">actionWithTitle:</span>@<span class="string">"否"</span> <span class="string">style:</span>TBAlertActionStyleCancel <span class="string">handler:</span>nil]];</span><br><span class="line">   operationAlertController.view.tintColor = [UIColor blackColor];</span><br><span class="line"></span><br><span class="line">   [[[TBRootViewController sharedInstance] getCurrentNavigationController] <span class="string">presentViewController:</span>operationAlertController <span class="string">animated:</span>YES <span class="string">completion:</span>nil];</span><br></pre></td></tr></tbody></table></figure>
+
+</li>
+</ol>
+<p>我总不能强制要求所有使用 <code>TBAlertController</code> 的人都要用一个属性来强引用它吧?所以我为 <code>UIViewController</code> 添加了一个类别，目的是为其增加一个属性 <code>tbAlertController</code>（因为 OC 的类别无法为添加的属性自动生成 getter 和 setter，需要使用关联对象动态添加），利用它来保持对“箱子” <code>TBAlertController</code> 的强引用，防止其内存被过早释放。并在 hook 时的 <code>tb_presentViewController:</code> 方法中添加这样一行：</p>
+<figure class="highlight ini"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">self.tbAlertController</span> = controller;</span><br></pre></td></tr></tbody></table></figure>
+
+<p>此时又涉及到了另一个问题：内存泄露。因为我们无法确定其他人在实例化 <code>TBAlertAction</code> 时传入的 block 中做了什么，因为它很有可能捕获到了 <code>self</code>！而此时 <code>self</code> 很可能强引用了一个 <code>UIViewController</code>，然后其 <code>tbAlertController</code> 属性又强引用了 <code>TBAlertController</code>，这个 <code>TBAlertController</code> 的 <code>actions</code> 数组中的一个 <code>TBAlertAction</code> 强引用了这个 block。好长的一个保留环啊！那么如何打破这个环呢？我总不能要求使用者必需在 block 内外做个 <a href="http://ashfurrow.com/blog/weakstrong-dance/" target="_blank" rel="noopener">Weak/Strong Dance</a> 吧！毕竟“谁创建，谁释放”的规则我们还是要遵守的，必需在组件内部解决可能发生的内存泄露问题。于是我给 <code>TBAlertController</code> 又添加了一个属性 <code>ownerController</code>，注意内存管理语义是 <code>weak</code>：</p>
+<figure class="highlight objectivec"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">@property</span> (<span class="keyword">nullable</span>,<span class="keyword">nonatomic</span>,<span class="keyword">weak</span>) <span class="built_in">UIViewController</span> *ownerController;</span><br></pre></td></tr></tbody></table></figure>
+
+<p>然后在 <code>tb_presentViewController:</code> 方法中再添加一行代码，将 <code>TBAlertController</code> 的 <code>ownerController</code> 设为调用 <code>presentViewController:</code> 方法的 controller：</p>
+<figure class="highlight ini"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">controller.ownerController</span> = self;</span><br></pre></td></tr></tbody></table></figure>
+
+<p>最后在 <code>UIAlertView</code> 或 <code>UIActionSheet</code> 消失时将 <code>tbAlertController</code> 设为 <code>nil</code> 就打破保留环了，它原本指向 <code>TBAlertController</code> 自己，设为 <code>nil</code> 后，没有对象引用 <code>TBAlertController</code> 实例了，其引用计数为零，然后被释放：</p>
+<figure class="highlight objectivec"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">- (<span class="keyword">void</span>)actionSheet:(<span class="built_in">UIActionSheet</span> *)actionSheet didDismissWithButtonIndex:(<span class="built_in">NSInteger</span>)buttonIndex {</span><br><span class="line">	    <span class="keyword">self</span>.ownerController.tbAlertController = <span class="literal">nil</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+<p>除此之外还有很多细节没有在这里阐述，比如对属性的封装，还有对 <code>addTextFieldWithConfigurationHandler:</code> 等接口的封装等。</p>
+<p>其实早已有人做过类似的事情，将系统组件封装成兼容的版本：<a href="https://github.com/steipete/PSTAlertController" target="_blank" rel="noopener">PSTAlertController</a>。但其接口与原生的 <code>UIAlertController</code> 差很多，需要手动替换很多已有的代码。</p>
+<h2 id="感悟-amp-总结"><a href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E6%84%9F%E6%82%9F-amp-%E6%80%BB%E7%BB%93" class="headerlink" title="感悟&amp;总结"></a>感悟&amp;总结</h2><p>在这里还想说下关于 block 中的 <a href="http://ashfurrow.com/blog/weakstrong-dance/" target="_blank" rel="noopener">Weak/Strong Dance</a> 的问题。我看到项目中好多带有 block 的代码都使用一些宏定义，比如 <a href="http://blog.aceontech.com/post/111694918560/weakifyself-a-more-elegant-solution-to" target="_blank" rel="noopener">@weakify(self): A more elegant solution to weakSelf in Objective-C</a>，而个别 block 其实是不需要使用 weakSelf 的，这些 block 的拥有者并没被 <code>self</code> 在其生存周期始终强引用着，所以没必要用 weakSelf。反而在少数极端情况下（例如异步延时执行 block）因为捕获的是 weakSelf，而在 block 执行前 self 已经是 <code>nil</code>。此时不要指望 block 中的 strongSelf 会帮到什么忙，因为它力所能及的只是在 block 执行过程中保证对 weakSelf 的强引用。如若 weakSelf 不再指向 <code>self</code> 而是 <code>nil</code>，block 中的内容肯定不会正常执行（这不代表一定会 crash，向 <code>nil</code> 发送消息会执行默认的行为）。</p>
+<h1 id="LLDB-调试-UI-的技巧"><a href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#LLDB-%E8%B0%83%E8%AF%95-UI-%E7%9A%84%E6%8A%80%E5%B7%A7" class="headerlink" title="LLDB 调试 UI 的技巧"></a>LLDB 调试 UI 的技巧</h1><h2 id="问题背景-1"><a href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E9%97%AE%E9%A2%98%E8%83%8C%E6%99%AF-1" class="headerlink" title="问题背景"></a>问题背景</h2><p>在 Xcode 添加 View Debugging 之前，我们有两种方式来调试 UI 界面。一种是花钱买 <a href="http://revealapp.com/" target="_blank" rel="noopener">Reveal</a> 享受视图层级可视化调试，另一种是用 lldb（更早是 gdb）命令来调试。而如今 Xcode 已经提供了部分审查视图元素和层级的功能，也可以在调试时显示每个视图的 frame 外框和视图的渲染状况等。这已经满足了很大部分的 UI 调试需求。<a href="https://www.jetbrains.com/objc/" target="_blank" rel="noopener">AppCode</a> 则选择了与 <a href="http://revealapp.com/" target="_blank" rel="noopener">Reveal</a> 集成，虽然 jetbrains 大法好，但也有不给力的时候。</p>
+<h2 id="用-LLDB-改变视图"><a href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E7%94%A8-LLDB-%E6%94%B9%E5%8F%98%E8%A7%86%E5%9B%BE" class="headerlink" title="用 LLDB 改变视图"></a>用 LLDB 改变视图</h2><p>在 <strong>iOS7 上 Xcode 并不支持捕获可视化的视图层级，我们只能用 lldb 的命令来输出视图层级</strong>：</p>
+<figure class="highlight inform7"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">po <span class="comment">[<span class="comment">[<span class="comment">[UIApplication sharedApplication]</span> keyWindow]</span> recursiveDescription]</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p><code>po</code> 是 <code>p object</code> 的缩写，而 <code>p</code> 又是 <code>print</code> 的缩写，<code>print</code> 又是 <code>expression --</code>的缩写。<code>expression</code> 就是 <code>e</code> 命令，而 <code>--</code> 代表标识的结束。上面这条命令的参数是一个全局变量，所以可以在任何时候访问，无需在特定位置加断点，只需点暂停按钮即可。</p>
+<p>通过 <code>e</code> 命令，可以<em>在调试时改变变量的值，比如某个视图的透明度、背景颜色等，还可以临时创建新的视图或者视图控制器，甚至可以完成视图控制器的 push 操作</em>。虽然此时程序（某个进程）是被我们暂停了的，但是后台的渲染服务是由后台的另一个进程完成的，所以可以<strong>强制触发渲染服务</strong>：</p>
+<figure class="highlight arduino"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">e (<span class="keyword">void</span>)[CATransaction <span class="built_in">flush</span>]</span><br></pre></td></tr></tbody></table></figure>
+
+<h2 id="使用-Chisel-简化-LLDB-命令"><a href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E4%BD%BF%E7%94%A8-Chisel-%E7%AE%80%E5%8C%96-LLDB-%E5%91%BD%E4%BB%A4" class="headerlink" title="使用 Chisel 简化 LLDB 命令"></a>使用 Chisel 简化 LLDB 命令</h2><p>虽然调试器也有一定的代码补全功能，但是毕竟程序员的时间是宝贵的， Xcode 的调试器毕竟还没做到 zsh 那样屌炸天，我们需要更多的“缩写”命令。Facebook 的程序员们最先按捺不住（毕竟人家做个客户端就要动辄几百号人），开发了一个基于 lldb 的工具：<a href="https://github.com/facebook/chisel" target="_blank" rel="noopener">chisel</a>。从此，输出视图层级只需要一条命令：<code>pviews</code>，输出视图控制器层级也是一条命令：<code>pvc</code>，刷新渲染服务更是一条命令：<code>caflush</code>。安装 chisel 更是简单，直接用 <a href="http://brew.sh/" target="_blank" rel="noopener">Homebrew</a> 分分钟搞定，因为 Homebrew 在 OSX 上太火，有人还专门做了个带图形界面的客户端 <a href="https://www.cakebrew.com/" target="_blank" rel="noopener">Cakebrew</a>，简直骚得不得了。</p>
+<p>当然我们无需查看完整的视图层级树，<code>pviews</code> 后面可以附带参数，查看当前 view 为根节点下的层级树。默认不带参数就是完整打印。</p>
+<h2 id="我的实践与感悟"><a href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E6%88%91%E7%9A%84%E5%AE%9E%E8%B7%B5%E4%B8%8E%E6%84%9F%E6%82%9F" class="headerlink" title="我的实践与感悟"></a>我的实践与感悟</h2><p>最直观的还是能可视化地查看视图层级，比如某个视图为何不显示？是因为 hidden 了还是 alpha 问题，或是被其他视图遮挡住了？捕获下视图层级一看便知。但其缺点是捕获速度较慢，视图层级较为复杂时，查找明确类型的视图或者明确内存地址的视图对象较为困难。所以 lldb 调试 UI 还是有一定优势的，尤其是在动画繁多界面变化节奏较快时也会需要用到。我在调试“图片选择器触发摄像头拍照后屏幕变黑无反应”的 bug 时就是靠 <code>pvc</code> 和 <code>pviews</code> 这两个命令来弄清视图控制器与视图之间复杂的层级。表面上看是图片选择器的原因，因为其他用到摄像头组件的地方并没有这个 bug，其实摄像头组件对外部调用有一些依赖条件，一旦不满足就会产生 bug。最后更改拍照控件的实现，弃用了 <code>UIWindow</code> 和一些视图控制器，简化层级，从源头上消除了 bug。</p>
+<h1 id="项目实践管理经验"><a href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5%E7%AE%A1%E7%90%86%E7%BB%8F%E9%AA%8C" class="headerlink" title="项目实践管理经验"></a>项目实践管理经验</h1><p>在公司项目中我发现了有关项目资源管理的一些问题：</p>
+<ol>
+<li>图片资源使用文件夹管理</li>
+<li>文案 hardcode</li>
+<li>工程文件 project.pbxproj 冲突合并</li>
+</ol>
+<h2 id="图片资源管理"><a href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E5%9B%BE%E7%89%87%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86" class="headerlink" title="图片资源管理"></a>图片资源管理</h2><p>我觉得图片最好是放在 xcassets 中，因为好处简直是一大堆。比如对多分辨率多设备的支持，矢量pdf图片的支持，类似安卓“9.png”的图片 slicing 支持，更改图片颜色和 Xcode7 新增的“On Demand Resource”等等。如果图片过多，还可以在 xcassets 中再建立 xcassets 嘛，如果有打包需要可以配合上 Bundle。</p>
+<p>图片一旦用 Asset Catalog 管理后，在程序中加载图片只需要用图片名而无需后缀名，更不用关心几倍分辨率，是用2x 还是 3x？Xcode 全都帮我们搞定了！之前碰到过一个 iOS7 上图片被拉伸的 bug，原因就是没有使用 Asset Catalog 管理图片资源，而是直接用文件夹。而在代码中却写了图片文件的全名，比如 “<a href="mailto:pic@2x.png" target="_blank" rel="noopener">pic@2x.png</a>”，本来贴心的 Xcode 会为我们在后缀名前自动加上 “@2x” 来寻找图片，于是去查找 “pic@<a href="mailto:2x@2x.png" target="_blank" rel="noopener">2x@2x.png</a>”，发现并没有这个二倍分辨率图片，Xcode 于是只好继续寻找一倍分辨率的图片，也就是 “<a href="mailto:pic@2x.png" target="_blank" rel="noopener">pic@2x.png</a>” 被当做了一倍分辨率的图片处理了，所以 <code>UIImage</code> 的 <code>size</code> 就变大了。</p>
+<h2 id="文案管理"><a href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E6%96%87%E6%A1%88%E7%AE%A1%E7%90%86" class="headerlink" title="文案管理"></a>文案管理</h2><h3 id="文案是可复用的"><a href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E6%96%87%E6%A1%88%E6%98%AF%E5%8F%AF%E5%A4%8D%E7%94%A8%E7%9A%84" class="headerlink" title="文案是可复用的"></a>文案是可复用的</h3><p><strong>有很多文案可以重用，因为产品设计的文案大都是统一的</strong>，比如所有需要展示网络出错的文案肯定都是一模一样的，如果每个 Alert 弹出的文案提示都不一样，那才是产品的失责。从不能 A 界面无网络，提示“断网啦”，B 界面无网络时提示“无法访问网络”，这样子的设计很少见。</p>
+<h3 id="重复的文案在多处-hardcode-会降低效率"><a href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E9%87%8D%E5%A4%8D%E7%9A%84%E6%96%87%E6%A1%88%E5%9C%A8%E5%A4%9A%E5%A4%84-hardcode-%E4%BC%9A%E9%99%8D%E4%BD%8E%E6%95%88%E7%8E%87" class="headerlink" title="重复的文案在多处 hardcode 会降低效率"></a>重复的文案在多处 hardcode 会降低效率</h3><p>基于上面这点“小聪明”，我觉得不同功能界面的文案完全是可以复用的，这在我以往的经验中也得到了验证。而项目当前是直接将文案硬编码到业务逻辑代码中，以后每次修改都要找到对应的逻辑，并进行修改。如果是维护自己代码中的文案或者是业务逻辑较为简单时还可以接受，因为只是一次次的重复劳动罢了，对个人来说微不足道。</p>
+<p>一旦有一天我们的产品将要做国际化，加上英文，可能这对每个人负责的模块来说也只是替换下罢了。然而事情不能是这么任由发展的，先不说国际化中有一些诸如 XLIFF 文件的导入的标准和流程，一旦一个模块的文案全由另外一个不熟悉代码的人来修改，漏改或错改的风险会增加，这无疑增加了测试的时间成本。</p>
+<h3 id="我的解决方案：文案与代码分离"><a href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E6%88%91%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%EF%BC%9A%E6%96%87%E6%A1%88%E4%B8%8E%E4%BB%A3%E7%A0%81%E5%88%86%E7%A6%BB" class="headerlink" title="我的解决方案：文案与代码分离"></a>我的解决方案：文案与代码分离</h3><p>为什么不建立一个对照表，将所有的文案列出来呢？比如TB001号文案内容是“取消”，我敢说肯定很多 AlertView 的按钮都会用到，直接在代码里使用这个编号对应的的 <code>NSString</code>变量（或许干脆变量名就是 <code>tb001</code>）。产品那边提供文案时也列一张映射表，将各个模块页面的文案都对应上编号，然后编号又映射到具体文案内容。</p>
+<h3 id="解决方案的分析"><a href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E7%9A%84%E5%88%86%E6%9E%90" class="headerlink" title="解决方案的分析"></a>解决方案的分析</h3><p>可能这么做最开始会有一定的工作量，但趁着文案种类没有暴增时，这件事情做的越早越好。这会提高全组人的效率，因为以后再修改文案时，直接修改那个保存文案编码与内容的文件即可。如果需要变更代码中的编码，此时才需要涉及到查看代码逻辑，然而这种情况我相信是少数。</p>
+<h2 id="project-pbxproj文件"><a href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#project-pbxproj%E6%96%87%E4%BB%B6" class="headerlink" title="project.pbxproj文件"></a>project.pbxproj文件</h2><p>关于工程文件 project.pbxproj 确实诟病已久，多人协作时总会蛋疼。每次有文件的增删操作时我们总是需要解决 svn 上与本地版本的冲突。我对它研究并不多，但发现了有人提供了一个解决方案：<a href="https://github.com/truebit/xUnique" target="_blank" rel="noopener">xUnique</a>，目前处于观望状态，还不敢尝试。</p>
+<p>但我的设想是能够用一个脚本，每次 commit project.pbxproj 文件时可以自动屏蔽掉一些内容，比如证书等。但这种设想没有经过验证，可能还是无法解决根本问题。毕竟 project.pbxproj 文件格式可能还会有变化，苹果总是喜欢优化它被诟病的东西。</p>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="http://yulingtianxia.com/tags/iOS/">iOS</a>
+  </div>
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/" data-title="腾讯实习第一个月工作总结 | yulingtianxia&#39;s blog" data-tsina="1680627603" class="share clearfix">
+	  <div class="hoverqrcode clearfix" style="display: none;"></div><a class="overlay" id="qrcode"></a><a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fyulingtianxia.com%2Fblog%2F2015%2F11%2F13%2FSummary-of-the-first-month-in-the-internship-of-Tencent%2F" class="article-share-facebook" target="_blank" title="Facebook"></a><a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fyulingtianxia.com%2Fblog%2F2015%2F11%2F13%2FSummary-of-the-first-month-in-the-internship-of-Tencent%2F" class="article-share-twitter" target="_blank" title="Twitter"></a><a href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#qrcode" class="article-share-qrcode" title="微信"></a><a href="http://widget.renren.com/dialog/share?resourceUrl=http%3A%2F%2Fyulingtianxia.com%2Fblog%2F2015%2F11%2F13%2FSummary-of-the-first-month-in-the-internship-of-Tencent%2F&amp;srcUrl=http%3A%2F%2Fyulingtianxia.com%2Fblog%2F2015%2F11%2F13%2FSummary-of-the-first-month-in-the-internship-of-Tencent%2F&amp;title=%E8%85%BE%E8%AE%AF%E5%AE%9E%E4%B9%A0%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%9C%88%E5%B7%A5%E4%BD%9C%E6%80%BB%E7%BB%93%20|%20yulingtianxia%27s%20blog" class="article-share-renren" target="_blank" title="人人"></a><a href="http://service.weibo.com/share/share.php?title=%E8%85%BE%E8%AE%AF%E5%AE%9E%E4%B9%A0%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%9C%88%E5%B7%A5%E4%BD%9C%E6%80%BB%E7%BB%93%20|%20yulingtianxia%27s%20blog&amp;url=http%3A%2F%2Fyulingtianxia.com%2Fblog%2F2015%2F11%2F13%2FSummary-of-the-first-month-in-the-internship-of-Tencent%2F&amp;ralateUid=1680627603&amp;searchPic=true&amp;style=number" class="article-share-weibo" target="_blank" title="微博"></a><span title="Share to"></span></div>
+	
+	</div>
+
+
+</footer>
+
+   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev">
+ <a href="http://yulingtianxia.com/blog/2015/12/06/The-Principle-of-Refenrence-Counting/" title="Objective-C 引用计数原理">
+  <strong>上一篇：</strong><br>
+  <span>
+  Objective-C 引用计数原理</span>
+</a>
+</div>
+
+
+<div class="next">
+<a href="http://yulingtianxia.com/blog/2015/11/01/More-than-you-want-to-know-about-synchronized/" title="关于 @synchronized，这儿比你想知道的还要多">
+ <strong>下一篇：</strong><br> 
+ <span>关于 @synchronized，这儿比你想知道的还要多
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+
+<section id="comments" class="comment">
+  <div id="disqus_thread"><iframe id="dsq-app3062" name="dsq-app3062" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" title="Disqus" width="100%" src="./HookUIAlert_files/saved_resource.html" style="width: 1px !important; min-width: 100% !important; border: none !important; overflow: hidden !important; height: 2517px !important;" horizontalscrolling="no" verticalscrolling="no"></iframe></div>
+</section>
+
+
+
+</div>  
+      <div class="openaside" style="top: 80px;"><a class="navbutton" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#" title="显示侧边栏"></a></div>
+
+  <div id="toc" class="toc-aside" style="top: 140px;">
+  <strong class="toc-title">文章目录</strong>
+ 
+ <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E8%AE%A9-UIAlertController-%E5%85%BC%E5%AE%B9-iOS7"><span class="toc-number">1.</span> <span class="toc-text">让 UIAlertController 兼容 iOS7</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E9%97%AE%E9%A2%98%E8%83%8C%E6%99%AF"><span class="toc-number">1.1.</span> <span class="toc-text">问题背景</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E5%88%86%E6%9E%90%E9%97%AE%E9%A2%98"><span class="toc-number">1.2.</span> <span class="toc-text">分析问题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E6%8A%80%E6%9C%AF%E9%87%8D%E7%82%B9"><span class="toc-number">1.3.</span> <span class="toc-text">技术重点</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E8%A7%A3%E5%86%B3%E6%80%9D%E8%B7%AF"><span class="toc-number">1.4.</span> <span class="toc-text">解决思路</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E6%9E%84%E5%BB%BA-TBAlertAction-%E6%9B%BF%E4%BB%A3-UIAlertAction"><span class="toc-number">1.4.1.</span> <span class="toc-text">构建 TBAlertAction 替代 UIAlertAction</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E6%9E%84%E5%BB%BA-TBAlertController-%E5%B1%9E%E6%80%A7"><span class="toc-number">1.4.2.</span> <span class="toc-text">构建 TBAlertController 属性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E6%9E%84%E5%BB%BA-TBAlertController-%E6%96%B9%E6%B3%95"><span class="toc-number">1.4.3.</span> <span class="toc-text">构建 TBAlertController 方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#hook-presentViewController-%E6%96%B9%E6%B3%95"><span class="toc-number">1.4.4.</span> <span class="toc-text">hook presentViewController: 方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E8%BF%98%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E5%9C%B0%E6%96%B9"><span class="toc-number">1.4.5.</span> <span class="toc-text">还需要注意的地方</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E6%84%9F%E6%82%9F-amp-%E6%80%BB%E7%BB%93"><span class="toc-number">1.5.</span> <span class="toc-text">感悟&amp;总结</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#LLDB-%E8%B0%83%E8%AF%95-UI-%E7%9A%84%E6%8A%80%E5%B7%A7"><span class="toc-number">2.</span> <span class="toc-text">LLDB 调试 UI 的技巧</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E9%97%AE%E9%A2%98%E8%83%8C%E6%99%AF-1"><span class="toc-number">2.1.</span> <span class="toc-text">问题背景</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E7%94%A8-LLDB-%E6%94%B9%E5%8F%98%E8%A7%86%E5%9B%BE"><span class="toc-number">2.2.</span> <span class="toc-text">用 LLDB 改变视图</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E4%BD%BF%E7%94%A8-Chisel-%E7%AE%80%E5%8C%96-LLDB-%E5%91%BD%E4%BB%A4"><span class="toc-number">2.3.</span> <span class="toc-text">使用 Chisel 简化 LLDB 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E6%88%91%E7%9A%84%E5%AE%9E%E8%B7%B5%E4%B8%8E%E6%84%9F%E6%82%9F"><span class="toc-number">2.4.</span> <span class="toc-text">我的实践与感悟</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5%E7%AE%A1%E7%90%86%E7%BB%8F%E9%AA%8C"><span class="toc-number">3.</span> <span class="toc-text">项目实践管理经验</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E5%9B%BE%E7%89%87%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86"><span class="toc-number">3.1.</span> <span class="toc-text">图片资源管理</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E6%96%87%E6%A1%88%E7%AE%A1%E7%90%86"><span class="toc-number">3.2.</span> <span class="toc-text">文案管理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E6%96%87%E6%A1%88%E6%98%AF%E5%8F%AF%E5%A4%8D%E7%94%A8%E7%9A%84"><span class="toc-number">3.2.1.</span> <span class="toc-text">文案是可复用的</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E9%87%8D%E5%A4%8D%E7%9A%84%E6%96%87%E6%A1%88%E5%9C%A8%E5%A4%9A%E5%A4%84-hardcode-%E4%BC%9A%E9%99%8D%E4%BD%8E%E6%95%88%E7%8E%87"><span class="toc-number">3.2.2.</span> <span class="toc-text">重复的文案在多处 hardcode 会降低效率</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E6%88%91%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%EF%BC%9A%E6%96%87%E6%A1%88%E4%B8%8E%E4%BB%A3%E7%A0%81%E5%88%86%E7%A6%BB"><span class="toc-number">3.2.3.</span> <span class="toc-text">我的解决方案：文案与代码分离</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E7%9A%84%E5%88%86%E6%9E%90"><span class="toc-number">3.2.4.</span> <span class="toc-text">解决方案的分析</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#project-pbxproj%E6%96%87%E4%BB%B6"><span class="toc-number">3.3.</span> <span class="toc-text">project.pbxproj文件</span></a></li></ol></li></ol>
+ 
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="http://yulingtianxia.com/blog/2015/11/13/Summary-of-the-first-month-in-the-internship-of-Tencent/#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+
+  
+<div class="github-card">
+<p class="asidetitle">Github 名片</p>
+<iframe id="ghcard-yulingtianxia-1" frameborder="0" scrolling="0" allowtransparency="true" src="./HookUIAlert_files/medium.html" width="226" height="317"></iframe>
+<script type="text/javascript" src="./HookUIAlert_files/widget.js"></script>
+</div>
+
+
+
+  
+
+  <div class="linkslist">
+  <p class="asidetitle">友情链接</p>
+    <ul>
+        
+          <li>
+            
+            	<a href="http://fish.yulingtianxia.com/" target="_blank" title="养小鱼的水塘">养小鱼的水塘</a>
+            
+          </li>
+        
+    </ul>
+</div>
+
+  
+  <div class="tagcloudlist">
+    <p class="asidetitle">标签云</p>
+    <div class="tagcloudlist clearfix">
+       <a href="http://yulingtianxia.com/tags/ARC/" style="font-size: 10px;">ARC</a> <a href="http://yulingtianxia.com/tags/Algorithm/" style="font-size: 12.73px;">Algorithm</a> <a href="http://yulingtianxia.com/tags/App-Extensions/" style="font-size: 10px;">App Extensions</a> <a href="http://yulingtianxia.com/tags/AppGroups/" style="font-size: 10px;">AppGroups</a> <a href="http://yulingtianxia.com/tags/AppleScript/" style="font-size: 10px;">AppleScript</a> <a href="http://yulingtianxia.com/tags/BlockHook/" style="font-size: 15.45px;">BlockHook</a> <a href="http://yulingtianxia.com/tags/C/" style="font-size: 10.91px;">C</a> <a href="http://yulingtianxia.com/tags/CocoaPods/" style="font-size: 10px;">CocoaPods</a> <a href="http://yulingtianxia.com/tags/Core-Data/" style="font-size: 14.55px;">Core Data</a> <a href="http://yulingtianxia.com/tags/Dart/" style="font-size: 15.45px;">Dart</a> <a href="http://yulingtianxia.com/tags/Flutter/" style="font-size: 14.55px;">Flutter</a> <a href="http://yulingtianxia.com/tags/GitHub/" style="font-size: 13.64px;">GitHub</a> <a href="http://yulingtianxia.com/tags/Java/" style="font-size: 10px;">Java</a> <a href="http://yulingtianxia.com/tags/Machine-Leaning/" style="font-size: 11.82px;">Machine Leaning</a> <a href="http://yulingtianxia.com/tags/Message-Forwarding/" style="font-size: 10.91px;">Message Forwarding</a> <a href="http://yulingtianxia.com/tags/Messaging/" style="font-size: 10px;">Messaging</a> <a href="http://yulingtianxia.com/tags/Metal/" style="font-size: 11.82px;">Metal</a> <a href="http://yulingtianxia.com/tags/Objective-C/" style="font-size: 20px;">Objective-C</a> <a href="http://yulingtianxia.com/tags/Octopress/" style="font-size: 10px;">Octopress</a> <a href="http://yulingtianxia.com/tags/RAC/" style="font-size: 10.91px;">RAC</a> <a href="http://yulingtianxia.com/tags/Reference-Counting/" style="font-size: 10px;">Reference Counting</a> <a href="http://yulingtianxia.com/tags/Reverse-Engineering/" style="font-size: 10.91px;">Reverse Engineering</a> <a href="http://yulingtianxia.com/tags/Runtime/" style="font-size: 17.27px;">Runtime</a> <a href="http://yulingtianxia.com/tags/Social-Framework/" style="font-size: 10px;">Social Framework</a> <a href="http://yulingtianxia.com/tags/SpriteKit/" style="font-size: 16.36px;">SpriteKit</a> <a href="http://yulingtianxia.com/tags/Swift/" style="font-size: 18.18px;">Swift</a> <a href="http://yulingtianxia.com/tags/UIKit-Dynamics/" style="font-size: 10px;">UIKit Dynamics</a> <a href="http://yulingtianxia.com/tags/VPN/" style="font-size: 10px;">VPN</a> <a href="http://yulingtianxia.com/tags/Xcode/" style="font-size: 13.64px;">Xcode</a> <a href="http://yulingtianxia.com/tags/iCloud/" style="font-size: 10px;">iCloud</a> <a href="http://yulingtianxia.com/tags/iOS/" style="font-size: 19.09px;">iOS</a> <a href="http://yulingtianxia.com/tags/macOS/" style="font-size: 16.36px;">macOS</a> <a href="http://yulingtianxia.com/tags/%E5%AD%97%E4%BD%93/" style="font-size: 10px;">字体</a> <a href="http://yulingtianxia.com/tags/%E6%9C%AC%E5%9C%B0%E5%8C%96/" style="font-size: 10px;">本地化</a> <a href="http://yulingtianxia.com/tags/%E7%9E%8E%E6%8A%98%E8%85%BE/" style="font-size: 11.82px;">瞎折腾</a> <a href="http://yulingtianxia.com/tags/%E7%A2%B0%E6%92%9E%E6%A3%80%E6%B5%8B/" style="font-size: 10px;">碰撞检测</a> <a href="http://yulingtianxia.com/tags/%E7%BF%BB%E8%AF%91/" style="font-size: 15.45px;">翻译</a> <a href="http://yulingtianxia.com/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" style="font-size: 13.64px;">设计模式</a> <a href="http://yulingtianxia.com/tags/%E8%BD%AC%E8%BD%BD/" style="font-size: 10px;">转载</a>
+    </div>
+  </div>
+
+
+  <div class="rsspart">
+	<a href="http://yulingtianxia.com/atom.xml" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+  <div class="weiboshow">
+  <p class="asidetitle">新浪微博</p>
+    <iframe width="100%" height="119" class="share_self" frameborder="0" scrolling="no" src="./HookUIAlert_files/index.html"></iframe>
+</div>
+
+
+  
+
+<div class="doubanshow">
+<p class="asidetitle">豆瓣秀</p>
+<div>
+<script type="text/javascript" src="./HookUIAlert_files/saved_resource"></script><div style=""><table cellspacing="0" cellpadding="4" style="&gt;&lt;tr align=" center"=""><tbody><tr><td style=""><a href="https://movie.douban.com/subject/33442331/" title="我是余欢水
+
+余欢水" target="_blank"><img src="./HookUIAlert_files/p2574916002.jpg" border="0"></a></td><td style=""><a href="https://movie.douban.com/subject/34670218/" title="大赢家
+
+The Winners" target="_blank"><img src="./HookUIAlert_files/p2591946932.jpg" border="0"></a></td><td style=""><a href="https://movie.douban.com/subject/1304447/" title="Memento
+
+记忆碎片 / 失忆" target="_blank"><img src="./HookUIAlert_files/p641688453.jpg" border="0"></a></td></tr><tr align="center"><td style=""><a href="https://movie.douban.com/subject/26709258/" title="罗小黑战记
+
+罗小黑战记大电影" target="_blank"><img src="./HookUIAlert_files/p2568288336.jpg" border="0"></a></td><td style=""><a href="https://movie.douban.com/subject/1308843/" title="I, Robot
+
+我，机器人 / 智能叛变(港)" target="_blank"><img src="./HookUIAlert_files/p691069814.jpg" border="0"></a></td><td style=""><a href="https://movie.douban.com/subject/27119724/" title="Joker
+
+小丑 / 小丑起源电影：罗密欧" target="_blank"><img src="./HookUIAlert_files/p2567198874.jpg" border="0"></a></td></tr><tr align="center"><td style=""><a href="https://movie.douban.com/subject/26346327/" title="The Breadwinner
+
+养家之人 / 持家小木兰(港)" target="_blank"><img src="./HookUIAlert_files/p2544510784.jpg" border="0"></a></td><td style=""><a href="https://movie.douban.com/subject/30295905/" title="中国机长
+
+The Captain" target="_blank"><img src="./HookUIAlert_files/p2568258113.jpg" border="0"></a></td><td style=""><a href="https://movie.douban.com/subject/1293167/" title="Speed
+
+生死时速 / 捍卫战警(台)" target="_blank"><img src="./HookUIAlert_files/p2197176454.jpg" border="0"></a></td></tr><tr align="center"><td style=""><a href="https://movie.douban.com/subject/32659890/" title="我和我的祖国
+
+My People, My Country" target="_blank"><img src="./HookUIAlert_files/p2567998580.jpg" border="0"></a></td><td style=""><a href="https://movie.douban.com/subject/30345195/" title="老酒馆
+
+The Legendary Tavern" target="_blank"><img src="./HookUIAlert_files/p2567808903.jpg" border="0"></a></td><td style=""><a href="https://movie.douban.com/subject/25849049/" title="Incredibles 2
+
+超人总动员2 / 超人特攻队2(台)" target="_blank"><img src="./HookUIAlert_files/p2522880251.jpg" border="0"></a></td></tr></tbody></table></div>
+</div>
+</div>
+
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer">
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<p> Stay hungry, stay foolish <br>
+			Talk is cheap, show me the code.</p>
+	</section>
+	 
+	<div class="social-font">
+		
+		<a href="http://weibo.com/1680627603" target="_blank" class="icon-weibo" title="微博"></a>
+		
+		
+		<a href="https://github.com/yulingtianxia" target="_blank" class="icon-github" title="github"></a>
+		
+		
+		<a href="http://stackoverflow.com/users/2374982" target="_blank" class="icon-stack-overflow" title="stackoverflow"></a>
+		
+		
+		<a href="https://twitter.com/yulingtianxia" target="_blank" class="icon-twitter" title="twitter"></a>
+		
+		
+		<a href="https://www.facebook.com/yulingtianxia" target="_blank" class="icon-facebook" title="facebook"></a>
+		
+		
+		<a href="https://www.linkedin.com/in/yulingtianxia" target="_blank" class="icon-linkedin" title="linkedin"></a>
+		
+		
+		<a href="https://www.douban.com/people/53279288" target="_blank" class="icon-douban" title="豆瓣"></a>
+		
+		
+		<a href="http://www.zhihu.com/people/yulingtianxia" target="_blank" class="icon-zhihu" title="知乎"></a>
+		
+		
+		<a href="https://plus.google.com/106642427004837273341?rel=author" target="_blank" class="icon-google_plus" title="Google+"></a>
+		
+		
+		<a href="mailto:yulingtianxia@gmail.com" target="_blank" class="icon-email" title="Email Me"></a>
+		
+	</div>
+			
+		
+				<div class="cc-license">
+          <a href="http://creativecommons.org/licenses/by-nc-nd/4.0" class="cc-opacity" target="_blank">
+            <img src="./HookUIAlert_files/cc-by-nc-nd.svg" alt="Creative Commons">
+          </a>
+        </div>
+    
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io/" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2020 
+		
+		<a href="http://yulingtianxia.com/about" target="_blank" title="杨萧玉">杨萧玉</a>
+		
+		
+		</p>
+</div>
+</footer>
+    <script src="./HookUIAlert_files/jquery-2.0.3.min.js"></script>
+<script src="./HookUIAlert_files/jquery.imagesloaded.min.js"></script>
+<script src="./HookUIAlert_files/gallery.js"></script>
+<script src="./HookUIAlert_files/jquery.qrcode-0.12.0.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var html = [
+  '<div class="hoverqrcode clearfix"></div>',
+  '<a class="overlay" id="qrcode"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+
+  $('.hoverqrcode').hide();
+
+  var myWidth = 0;
+  function updatehoverqrcode(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+    var qrsize = myWidth > 1024 ? 200:100;
+    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
+    var p = $('.article-share-qrcode').position();
+    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
+                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
+                          .qrcode(options);
+  };
+  $(window).resize(function(){
+    $('.hoverqrcode').hide();
+  });
+  $('.article-share-qrcode').click(function(){
+    updatehoverqrcode();
+    $('.hoverqrcode').toggle();
+  });
+  $('.article-share-qrcode').hover(function(){}, function(){
+      $('.hoverqrcode').hide();
+  });
+});   
+</script>
+
+
+
+
+<script type="text/javascript">
+
+var disqus_shortname = 'yulingtianxia';
+
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="./HookUIAlert_files/jquery.fancybox.css" media="screen" type="text/css"><iframe style="display: none;" src="./HookUIAlert_files/saved_resource(2).html"></iframe>
+<script src="./HookUIAlert_files/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-49704553-1', 'auto');  
+ga('send', 'pageview');
+</script>
+
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?b5cb508df15ee6247a8c32c64eadb075";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+	<div id="totop" style="display: block; opacity: 0;">
+	<a title="返回顶部"><img src="./HookUIAlert_files/scrollup.png"></a>
+	</div>
+	<script src="./HookUIAlert_files/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Tiny_search Begin -->
+
+<!-- Tiny_search End -->
+
+  <script type="text/x-mathjax-config;executed=true">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="./HookUIAlert_files/MathJax.js" id=""></script>
+
+
+</body></html>
