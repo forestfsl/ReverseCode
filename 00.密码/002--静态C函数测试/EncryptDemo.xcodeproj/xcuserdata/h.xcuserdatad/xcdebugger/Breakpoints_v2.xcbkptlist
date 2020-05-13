@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "SecKeyEncrypt"
+            moduleName = "">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SecKeyEncrypt"
+                  moduleName = "Security"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "my_encrypt"
+            moduleName = "">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController touchesBegan:withEvent:]"
+                  moduleName = "EncryptDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Hank/Hank%E5%B7%A5%E4%BD%9C/%E8%AF%BE%E7%A8%8B/%E5%A4%87%E8%AF%BE/%E5%AE%89%E5%85%A8%E6%94%BB%E9%98%B2/iOS%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E4%B8%8E%E5%BA%94%E7%94%A8%E5%AE%89%E5%85%A8/001--%E5%AF%86%E7%A0%81%E5%AD%A6&amp;%E9%87%8D%E7%AD%BE%E5%90%8D/%E5%A4%87%E8%AF%BE%E4%BB%A3%E7%A0%81/002--%E9%9D%99%E6%80%81C%E5%87%BD%E6%95%B0%E6%B5%8B%E8%AF%95/EncryptDemo/ViewController.m"
+                  timestampString = "563088723.820083"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
