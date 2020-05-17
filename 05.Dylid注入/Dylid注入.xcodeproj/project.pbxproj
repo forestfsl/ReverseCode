@@ -13,6 +13,8 @@
 		18923E722452CCB900B75DB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18923E712452CCB900B75DB8 /* Assets.xcassets */; };
 		18923E752452CCB900B75DB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18923E732452CCB900B75DB8 /* LaunchScreen.storyboard */; };
 		18923E782452CCB900B75DB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18923E772452CCB900B75DB8 /* main.m */; };
+		18FE9492246A90E500374938 /* DyldHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE9491246A90E500374938 /* DyldHook.m */; };
+		18FE9493246A90E500374938 /* DyldHook.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18FE9490246A90E500374938 /* DyldHook.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -22,6 +24,16 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FE948C246A90E500374938 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				18FE9493246A90E500374938 /* DyldHook.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,12 +50,20 @@
 		18923E742452CCB900B75DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18923E762452CCB900B75DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18923E772452CCB900B75DB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18923EA52452D99B00B75DB8 /* TestDylidHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDylidHook.h; sourceTree = "<group>"; };
-		18923EA72452D99B00B75DB8 /* TestDylidHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDylidHook.m; sourceTree = "<group>"; };
+		18FE948E246A90E500374938 /* libDyldHook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDyldHook.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FE9490246A90E500374938 /* DyldHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DyldHook.h; sourceTree = "<group>"; };
+		18FE9491246A90E500374938 /* DyldHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DyldHook.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		18923E5F2452CCB600B75DB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FE948B246A90E500374938 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -57,7 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				18923E642452CCB600B75DB8 /* Dylid注入 */,
-				18923EA42452D99B00B75DB8 /* TestDylidHook */,
+				18FE948F246A90E500374938 /* DyldHook */,
 				18923E632452CCB600B75DB8 /* Products */,
 				18923E8D2452D53500B75DB8 /* Frameworks */,
 			);
@@ -67,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				18923E622452CCB600B75DB8 /* Dylid注入.app */,
+				18FE948E246A90E500374938 /* libDyldHook.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,13 +115,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		18923EA42452D99B00B75DB8 /* TestDylidHook */ = {
+		18FE948F246A90E500374938 /* DyldHook */ = {
 			isa = PBXGroup;
 			children = (
-				18923EA52452D99B00B75DB8 /* TestDylidHook.h */,
-				18923EA72452D99B00B75DB8 /* TestDylidHook.m */,
+				18FE9490246A90E500374938 /* DyldHook.h */,
+				18FE9491246A90E500374938 /* DyldHook.m */,
 			);
-			path = TestDylidHook;
+			path = DyldHook;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +146,23 @@
 			productReference = 18923E622452CCB600B75DB8 /* Dylid注入.app */;
 			productType = "com.apple.product-type.application";
 		};
+		18FE948D246A90E500374938 /* DyldHook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FE9494246A90E500374938 /* Build configuration list for PBXNativeTarget "DyldHook" */;
+			buildPhases = (
+				18FE948A246A90E500374938 /* Sources */,
+				18FE948B246A90E500374938 /* Frameworks */,
+				18FE948C246A90E500374938 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DyldHook;
+			productName = DyldHook;
+			productReference = 18FE948E246A90E500374938 /* libDyldHook.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -135,6 +173,9 @@
 				ORGANIZATIONNAME = apple;
 				TargetAttributes = {
 					18923E612452CCB600B75DB8 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					18FE948D246A90E500374938 = {
 						CreatedOnToolsVersion = 11.4;
 					};
 				};
@@ -153,6 +194,7 @@
 			projectRoot = "";
 			targets = (
 				18923E612452CCB600B75DB8 /* Dylid注入 */,
+				18FE948D246A90E500374938 /* DyldHook */,
 			);
 		};
 /* End PBXProject section */
@@ -198,6 +240,14 @@
 				18923E6D2452CCB600B75DB8 /* ViewController.m in Sources */,
 				18923E672452CCB600B75DB8 /* AppDelegate.m in Sources */,
 				18923E782452CCB900B75DB8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FE948A246A90E500374938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FE9492246A90E500374938 /* DyldHook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +423,28 @@
 			};
 			name = Release;
 		};
+		18FE9495246A90E500374938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18FE9496246A90E500374938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -390,6 +462,15 @@
 			buildConfigurations = (
 				18923E7C2452CCB900B75DB8 /* Debug */,
 				18923E7D2452CCB900B75DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FE9494246A90E500374938 /* Build configuration list for PBXNativeTarget "DyldHook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FE9495246A90E500374938 /* Debug */,
+				18FE9496246A90E500374938 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
