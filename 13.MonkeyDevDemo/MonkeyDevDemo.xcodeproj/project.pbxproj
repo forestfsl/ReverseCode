@@ -86,7 +86,7 @@
 		078CD5B2245D020100A30969 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		078CD5B4245D020100A30969 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		078CD5B6245D020100A30969 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		078CD5BA245D020100A30969 /* MonkeyDevDemoDylib.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = MonkeyDevDemoDylib.xm; sourceTree = "<group>"; };
+		078CD5BA245D020100A30969 /* MonkeyDevDemoDylib.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = MonkeyDevDemoDylib.xm; sourceTree = "<group>"; };
 		078CD5BB245D020100A30969 /* MonkeyDevDemoDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MonkeyDevDemoDylib.mm; sourceTree = "<group>"; };
 		078CD5BE245D020100A30969 /* MDConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDConfigManager.h; sourceTree = "<group>"; };
 		078CD5C0245D020100A30969 /* MDConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDConfigManager.m; sourceTree = "<group>"; };
@@ -115,6 +115,7 @@
 		078CD5F1245D020100A30969 /* MonkeyDevDemoDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonkeyDevDemoDylib.h; sourceTree = "<group>"; };
 		078CD5F3245D020100A30969 /* MonkeyDevDemoDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonkeyDevDemoDylib.m; sourceTree = "<group>"; };
 		0E5C7EF9208B6B65F5DB7FEF /* Pods_MonkeyDevDemoDylib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonkeyDevDemoDylib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1874938F247294EB003E11F5 /* sl.cy */ = {isa = PBXFileReference; lastKnownFileType = text; name = sl.cy; path = ../../../../../Desktop/sl.cy; sourceTree = "<group>"; };
 		2AE16ECB5072BC3EC79AEF7D /* Pods-MonkeyDevDemoDylib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonkeyDevDemoDylib.release.xcconfig"; path = "Target Support Files/Pods-MonkeyDevDemoDylib/Pods-MonkeyDevDemoDylib.release.xcconfig"; sourceTree = "<group>"; };
 		9576AA341F9F1946689770C1 /* Pods-MonkeyDevDemoDylib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonkeyDevDemoDylib.debug.xcconfig"; path = "Target Support Files/Pods-MonkeyDevDemoDylib/Pods-MonkeyDevDemoDylib.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -164,6 +165,7 @@
 		078CD59E245D020000A30969 /* MonkeyDevDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1874938F247294EB003E11F5 /* sl.cy */,
 				076202D1245E872500822064 /* test.cy */,
 				076202D3245E875800822064 /* md.cy */,
 				076202D4245E875800822064 /* MS.cy */,
@@ -308,7 +310,6 @@
 				9576AA341F9F1946689770C1 /* Pods-MonkeyDevDemoDylib.debug.xcconfig */,
 				2AE16ECB5072BC3EC79AEF7D /* Pods-MonkeyDevDemoDylib.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -439,7 +440,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = /opt/MonkeyDev/Tools/pack.sh;
+			shellScript = "/opt/MonkeyDev/Tools/pack.sh\n";
 		};
 		078CD59A245D020000A30969 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;

@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1874930B24728530003E11F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1874930A24728530003E11F5 /* UIKit.framework */; };
+		1874930D24728530003E11F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1874930C24728530003E11F5 /* Foundation.framework */; };
+		1874930F24728530003E11F5 /* CydiaSubstrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1874930E24728530003E11F5 /* CydiaSubstrate.framework */; };
+		1874931824728530003E11F5 /* WeChatHB.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1874931724728530003E11F5 /* WeChatHB.mm */; };
+		1874939724729F1D003E11F5 /* WechatSetting.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1874939624729F1D003E11F5 /* WechatSetting.mm */; };
+		187493992472A03C003E11F5 /* BaseMsgContentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 187493982472A03C003E11F5 /* BaseMsgContentViewController.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1874930724728530003E11F5 /* WeChatHB.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = WeChatHB.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		1874930A24728530003E11F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1874930C24728530003E11F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1874930E24728530003E11F5 /* CydiaSubstrate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CydiaSubstrate.framework; path = Library/Frameworks/CydiaSubstrate.framework; sourceTree = DEVELOPER_DIR; };
+		1874931324728530003E11F5 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		1874931524728530003E11F5 /* WeChatHB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WeChatHB-Prefix.pch"; path = "../WeChatHB-Prefix.pch"; sourceTree = "<group>"; };
+		1874931624728530003E11F5 /* WeChatHB.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = WeChatHB.xm; sourceTree = "<group>"; };
+		1874931724728530003E11F5 /* WeChatHB.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WeChatHB.mm; sourceTree = "<group>"; };
+		1874931C24728530003E11F5 /* WeChatHB.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WeChatHB.plist; sourceTree = "<group>"; };
+		18749390247295BE003E11F5 /* weChatHeaders */ = {isa = PBXFileReference; lastKnownFileType = text; path = weChatHeaders; sourceTree = SOURCE_ROOT; };
+		1874939524729EE2003E11F5 /* WechatSetting.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = WechatSetting.xm; sourceTree = "<group>"; };
+		1874939624729F1D003E11F5 /* WechatSetting.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WechatSetting.mm; sourceTree = "<group>"; };
+		187493982472A03C003E11F5 /* BaseMsgContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMsgContentViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1874930324728530003E11F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1874930B24728530003E11F5 /* UIKit.framework in Frameworks */,
+				1874930D24728530003E11F5 /* Foundation.framework in Frameworks */,
+				1874930F24728530003E11F5 /* CydiaSubstrate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187492FC24728530003E11F5 = {
+			isa = PBXGroup;
+			children = (
+				1874931024728530003E11F5 /* WeChatHB */,
+				1874930924728530003E11F5 /* Frameworks */,
+				1874930824728530003E11F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1874930824728530003E11F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1874930724728530003E11F5 /* WeChatHB.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1874930924728530003E11F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1874930A24728530003E11F5 /* UIKit.framework */,
+				1874930C24728530003E11F5 /* Foundation.framework */,
+				1874930E24728530003E11F5 /* CydiaSubstrate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1874931024728530003E11F5 /* WeChatHB */ = {
+			isa = PBXGroup;
+			children = (
+				187493982472A03C003E11F5 /* BaseMsgContentViewController.h */,
+				18749390247295BE003E11F5 /* weChatHeaders */,
+				1874931624728530003E11F5 /* WeChatHB.xm */,
+				1874931724728530003E11F5 /* WeChatHB.mm */,
+				1874939524729EE2003E11F5 /* WechatSetting.xm */,
+				1874939624729F1D003E11F5 /* WechatSetting.mm */,
+				1874931124728530003E11F5 /* Package */,
+				1874931424728530003E11F5 /* Supporting Files */,
+			);
+			path = WeChatHB;
+			sourceTree = "<group>";
+		};
+		1874931124728530003E11F5 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				1874931224728530003E11F5 /* DEBIAN */,
+				1874931924728530003E11F5 /* Library */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		1874931224728530003E11F5 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				1874931324728530003E11F5 /* control */,
+			);
+			path = DEBIAN;
+			sourceTree = "<group>";
+		};
+		1874931424728530003E11F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1874931524728530003E11F5 /* WeChatHB-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1874931924728530003E11F5 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				1874931A24728530003E11F5 /* MobileSubstrate */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		1874931A24728530003E11F5 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				1874931B24728530003E11F5 /* DynamicLibraries */,
+			);
+			path = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		1874931B24728530003E11F5 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				1874931C24728530003E11F5 /* WeChatHB.plist */,
+			);
+			path = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1874930424728530003E11F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187493992472A03C003E11F5 /* BaseMsgContentViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1874930624728530003E11F5 /* WeChatHB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1874931F24728530003E11F5 /* Build configuration list for PBXNativeTarget "WeChatHB" */;
+			buildPhases = (
+				1874930124728530003E11F5 /* ShellScript */,
+				1874930224728530003E11F5 /* Sources */,
+				1874930324728530003E11F5 /* Frameworks */,
+				1874930424728530003E11F5 /* Headers */,
+				1874930524728530003E11F5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeChatHB;
+			productName = WeChatHB;
+			productReference = 1874930724728530003E11F5 /* WeChatHB.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187492FD24728530003E11F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				TargetAttributes = {
+					1874930624728530003E11F5 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 1874930024728530003E11F5 /* Build configuration list for PBXProject "WeChatHB" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187492FC24728530003E11F5;
+			productRefGroup = 1874930824728530003E11F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1874930624728530003E11F5 /* WeChatHB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1874930124728530003E11F5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+		1874930524728530003E11F5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1874930224728530003E11F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1874939724729F1D003E11F5 /* WechatSetting.mm in Sources */,
+				1874931824728530003E11F5 /* WeChatHB.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1874931D24728530003E11F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"WeChatHB\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1874931E24728530003E11F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"WeChatHB\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		1874932024728530003E11F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Polly Wilbur (R2N9CWGB83)";
+				CODE_SIGN_STYLE = Manual;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeChatHB/WeChatHB-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = localhost;
+				MonkeyDevDevicePassword = songlin;
+				MonkeyDevDevicePort = 10010;
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1874932124728530003E11F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Polly Wilbur (R2N9CWGB83)";
+				CODE_SIGN_STYLE = Manual;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeChatHB/WeChatHB-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = localhost;
+				MonkeyDevDevicePassword = songlin;
+				MonkeyDevDevicePort = 10010;
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1874930024728530003E11F5 /* Build configuration list for PBXProject "WeChatHB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1874931D24728530003E11F5 /* Release */,
+				1874931E24728530003E11F5 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1874931F24728530003E11F5 /* Build configuration list for PBXNativeTarget "WeChatHB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1874932024728530003E11F5 /* Release */,
+				1874932124728530003E11F5 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187492FD24728530003E11F5 /* Project object */;
+}
