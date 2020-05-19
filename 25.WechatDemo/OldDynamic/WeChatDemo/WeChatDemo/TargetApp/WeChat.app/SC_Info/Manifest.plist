@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SinfPaths</key>
+	<array>
+		<string>SC_Info/WeChat.sinf</string>
+	</array>
+	<key>SinfReplicationPaths</key>
+	<array>
+		<string>Frameworks/ConfSDK.framework/SC_Info/ConfSDK.sinf</string>
+		<string>Frameworks/GPUImage.framework/SC_Info/GPUImage.sinf</string>
+		<string>Frameworks/MMCommon.framework/SC_Info/MMCommon.sinf</string>
+		<string>Frameworks/MultiMedia.framework/SC_Info/MultiMedia.sinf</string>
+		<string>Frameworks/QBar.framework/SC_Info/QBar.sinf</string>
+		<string>Frameworks/QMapKit.framework/SC_Info/QMapKit.sinf</string>
+		<string>Frameworks/TXLiteAVSDK_Smart_No_VOD.framework/SC_Info/TXLiteAVSDK_Smart_No_VOD.sinf</string>
+		<string>Frameworks/WCDB.framework/SC_Info/WCDB.sinf</string>
+		<string>Frameworks/YTFaceProSDK.framework/SC_Info/YTFaceProSDK.sinf</string>
+		<string>Frameworks/mars.framework/SC_Info/mars.sinf</string>
+		<string>Frameworks/matrixreport.framework/SC_Info/matrixreport.sinf</string>
+		<string>Frameworks/zstd.framework/SC_Info/zstd.sinf</string>
+		<string>PlugIns/WeChatShareExtensionNew.appex/SC_Info/WeChatShareExtensionNew.sinf</string>
+		<string>PlugIns/WeChatSiriExtension.appex/SC_Info/WeChatSiriExtension.sinf</string>
+		<string>PlugIns/WeChatSiriExtensionUI.appex/SC_Info/WeChatSiriExtensionUI.sinf</string>
+		<string>Watch/WeChatWatchNative.app/PlugIns/WeChatWatchNativeExtension.appex/SC_Info/WeChatWatchNativeExtension.sinf</string>
+		<string>SC_Info/WeChat.sinf</string>
+	</array>
+</dict>
+</plist>

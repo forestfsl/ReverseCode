@@ -26,8 +26,8 @@
 		1874931724728530003E11F5 /* WeChatHB.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WeChatHB.mm; sourceTree = "<group>"; };
 		1874931C24728530003E11F5 /* WeChatHB.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WeChatHB.plist; sourceTree = "<group>"; };
 		18749390247295BE003E11F5 /* weChatHeaders */ = {isa = PBXFileReference; lastKnownFileType = text; path = weChatHeaders; sourceTree = SOURCE_ROOT; };
-		1874939524729EE2003E11F5 /* WechatSetting.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = WechatSetting.xm; sourceTree = "<group>"; };
-		1874939624729F1D003E11F5 /* WechatSetting.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WechatSetting.mm; sourceTree = "<group>"; };
+		1874939524729EE2003E11F5 /* WechatSetting.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = WechatSetting.xm; path = ../../25.WechatDemo/25.WechatDemoDylib/Logos/WechatSetting.xm; sourceTree = "<group>"; };
+		1874939624729F1D003E11F5 /* WechatSetting.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = WechatSetting.mm; path = ../../25.WechatDemo/25.WechatDemoDylib/Logos/WechatSetting.mm; sourceTree = "<group>"; };
 		187493982472A03C003E11F5 /* BaseMsgContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMsgContentViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
