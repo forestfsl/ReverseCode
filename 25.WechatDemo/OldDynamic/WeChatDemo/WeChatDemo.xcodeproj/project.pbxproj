@@ -29,6 +29,8 @@
 		07115C5821E8911900094E08 /* WeChatDemoDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = 07115C5721E8911900094E08 /* WeChatDemoDylib.h */; };
 		07115C5A21E8911900094E08 /* WeChatDemoDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = 07115C5921E8911900094E08 /* WeChatDemoDylib.m */; };
 		07115C6521E8918700094E08 /* HKSettiongCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = 07115C6421E8918700094E08 /* HKSettiongCell.mm */; };
+		1874C62F247520FC003E11F5 /* WeChatRedEnvelopesParamQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1874C62D247520FB003E11F5 /* WeChatRedEnvelopesParamQueue.h */; };
+		1874C630247520FC003E11F5 /* WeChatRedEnvelopesParamQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874C62E247520FC003E11F5 /* WeChatRedEnvelopesParamQueue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -12858,6 +12860,8 @@
 		1874C5F92473EFE8003E11F5 /* BoxWidgetUrlInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoxWidgetUrlInfo.h; sourceTree = "<group>"; };
 		1874C5FA2473EFE8003E11F5 /* HbEnvelopSourceLocal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HbEnvelopSourceLocal.h; sourceTree = "<group>"; };
 		1874C5FB2473EFE9003E11F5 /* UnBindLinkedinContactRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnBindLinkedinContactRequest.h; sourceTree = "<group>"; };
+		1874C62D247520FB003E11F5 /* WeChatRedEnvelopesParamQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatRedEnvelopesParamQueue.h; sourceTree = "<group>"; };
+		1874C62E247520FC003E11F5 /* WeChatRedEnvelopesParamQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatRedEnvelopesParamQueue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -12966,6 +12970,8 @@
 		07115C3321E8911900094E08 /* Logos */ = {
 			isa = PBXGroup;
 			children = (
+				1874C62D247520FB003E11F5 /* WeChatRedEnvelopesParamQueue.h */,
+				1874C62E247520FC003E11F5 /* WeChatRedEnvelopesParamQueue.m */,
 				07115C3421E8911900094E08 /* WeChatDemoDylib.xm */,
 				07115C3521E8911900094E08 /* WeChatDemoDylib.mm */,
 				07115C6321E8916300094E08 /* HKSettiongCell.xm */,
@@ -25812,6 +25818,7 @@
 			files = (
 				07115C3D21E8911900094E08 /* MDCycriptManager.h in Headers */,
 				07115C4121E8911900094E08 /* MDMethodTrace.h in Headers */,
+				1874C62F247520FC003E11F5 /* WeChatRedEnvelopesParamQueue.h in Headers */,
 				07115C4A21E8911900094E08 /* LLDBTools.h in Headers */,
 				07115C3921E8911900094E08 /* MDConfigManager.h in Headers */,
 				07115C4521E8911900094E08 /* ANYMethodLog.h in Headers */,
@@ -25984,6 +25991,7 @@
 				07115C4321E8911900094E08 /* MDMethodTrace.m in Sources */,
 				07115C5421E8911900094E08 /* fishhook.c in Sources */,
 				07115C5121E8911900094E08 /* AntiAntiDebug.m in Sources */,
+				1874C630247520FC003E11F5 /* WeChatRedEnvelopesParamQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
