@@ -370,7 +370,7 @@
  然后用ida分析二进制文件
  */
 -(void)onNewSyncAddMessage:(CMessageWrap *)msgWrap{
-//    NSLog(@"是否是群消息:%@",msgWrap.m_nsFromUsr); 
+//    NSLog(@"是否是群消息:%@",msgWrap.m_nsFromUsr);
 //    NSLog(@"%@\n%@",arg1,[arg1 class]);//CMessageWrap
 //    %orig;
     

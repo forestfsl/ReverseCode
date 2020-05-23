@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		071E21D921F5EE9100B9968D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 071E21D821F5EE9100B9968D /* AppDelegate.m */; };
+		071E21DC21F5EE9100B9968D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071E21DB21F5EE9100B9968D /* ViewController.m */; };
+		071E21DF21F5EE9100B9968D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071E21DD21F5EE9100B9968D /* Main.storyboard */; };
+		071E21E121F5EE9200B9968D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 071E21E021F5EE9200B9968D /* Assets.xcassets */; };
+		071E21E421F5EE9200B9968D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071E21E221F5EE9200B9968D /* LaunchScreen.storyboard */; };
+		071E21E721F5EE9200B9968D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 071E21E621F5EE9200B9968D /* main.m */; };
+		074C446C21F84682007BA631 /* MyPtraceHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 074C446B21F84682007BA631 /* MyPtraceHeader.h */; };
+		07F5DE4121F8461A00BAA4F3 /* HankHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 07F5DE3F21F8461A00BAA4F3 /* HankHook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07F5DE4421F8461A00BAA4F3 /* HankHook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F5DE3D21F8461A00BAA4F3 /* HankHook.framework */; };
+		07F5DE4521F8461A00BAA4F3 /* HankHook.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07F5DE3D21F8461A00BAA4F3 /* HankHook.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07F5DE4C21F8462500BAA4F3 /* InjectCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 07F5DE4A21F8462500BAA4F3 /* InjectCode.h */; };
+		07F5DE4D21F8462500BAA4F3 /* InjectCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F5DE4B21F8462500BAA4F3 /* InjectCode.m */; };
+		07F5DE5421F8463600BAA4F3 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 07F5DE4F21F8463600BAA4F3 /* fishhook.c */; };
+		07F5DE5521F8463600BAA4F3 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 07F5DE5021F8463600BAA4F3 /* fishhook.h */; };
+		07F5DE5621F8463600BAA4F3 /* fishhook.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 07F5DE5121F8463600BAA4F3 /* fishhook.podspec */; };
+		07F5DE5721F8463600BAA4F3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 07F5DE5221F8463600BAA4F3 /* LICENSE */; };
+		07F5DE5821F8463600BAA4F3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 07F5DE5321F8463600BAA4F3 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07F5DE4221F8461A00BAA4F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 071E21CC21F5EE9100B9968D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07F5DE3C21F8461A00BAA4F3;
+			remoteInfo = HankHook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		07F5DE4921F8461A00BAA4F3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				07F5DE4521F8461A00BAA4F3 /* HankHook.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		071E21D421F5EE9100B9968D /* 001--antiDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "001--antiDebug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		071E21D721F5EE9100B9968D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		071E21D821F5EE9100B9968D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		071E21DA21F5EE9100B9968D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		071E21DB21F5EE9100B9968D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		071E21DE21F5EE9100B9968D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		071E21E021F5EE9200B9968D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		071E21E321F5EE9200B9968D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		071E21E521F5EE9200B9968D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		071E21E621F5EE9200B9968D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		071E220021F5EF2F00B9968D /* MyPtraceHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPtraceHeader.h; sourceTree = "<group>"; };
+		074C446B21F84682007BA631 /* MyPtraceHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPtraceHeader.h; sourceTree = "<group>"; };
+		07F5DE3D21F8461A00BAA4F3 /* HankHook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HankHook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F5DE3F21F8461A00BAA4F3 /* HankHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HankHook.h; sourceTree = "<group>"; };
+		07F5DE4021F8461A00BAA4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07F5DE4A21F8462500BAA4F3 /* InjectCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InjectCode.h; sourceTree = "<group>"; };
+		07F5DE4B21F8462500BAA4F3 /* InjectCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InjectCode.m; sourceTree = "<group>"; };
+		07F5DE4F21F8463600BAA4F3 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		07F5DE5021F8463600BAA4F3 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		07F5DE5121F8463600BAA4F3 /* fishhook.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fishhook.podspec; sourceTree = "<group>"; };
+		07F5DE5221F8463600BAA4F3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		07F5DE5321F8463600BAA4F3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		071E21D121F5EE9100B9968D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F5DE4421F8461A00BAA4F3 /* HankHook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F5DE3A21F8461A00BAA4F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		071E21CB21F5EE9100B9968D = {
+			isa = PBXGroup;
+			children = (
+				071E21D621F5EE9100B9968D /* 001--antiDebug */,
+				07F5DE3E21F8461A00BAA4F3 /* HankHook */,
+				071E21D521F5EE9100B9968D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		071E21D521F5EE9100B9968D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				071E21D421F5EE9100B9968D /* 001--antiDebug.app */,
+				07F5DE3D21F8461A00BAA4F3 /* HankHook.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		071E21D621F5EE9100B9968D /* 001--antiDebug */ = {
+			isa = PBXGroup;
+			children = (
+				071E220021F5EF2F00B9968D /* MyPtraceHeader.h */,
+				071E21D721F5EE9100B9968D /* AppDelegate.h */,
+				071E21D821F5EE9100B9968D /* AppDelegate.m */,
+				071E21DA21F5EE9100B9968D /* ViewController.h */,
+				071E21DB21F5EE9100B9968D /* ViewController.m */,
+				071E21DD21F5EE9100B9968D /* Main.storyboard */,
+				071E21E021F5EE9200B9968D /* Assets.xcassets */,
+				071E21E221F5EE9200B9968D /* LaunchScreen.storyboard */,
+				071E21E521F5EE9200B9968D /* Info.plist */,
+				071E21E621F5EE9200B9968D /* main.m */,
+			);
+			path = "001--antiDebug";
+			sourceTree = "<group>";
+		};
+		07F5DE3E21F8461A00BAA4F3 /* HankHook */ = {
+			isa = PBXGroup;
+			children = (
+				074C446B21F84682007BA631 /* MyPtraceHeader.h */,
+				07F5DE4E21F8463600BAA4F3 /* fishhook */,
+				07F5DE3F21F8461A00BAA4F3 /* HankHook.h */,
+				07F5DE4A21F8462500BAA4F3 /* InjectCode.h */,
+				07F5DE4B21F8462500BAA4F3 /* InjectCode.m */,
+				07F5DE4021F8461A00BAA4F3 /* Info.plist */,
+			);
+			path = HankHook;
+			sourceTree = "<group>";
+		};
+		07F5DE4E21F8463600BAA4F3 /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				07F5DE4F21F8463600BAA4F3 /* fishhook.c */,
+				07F5DE5021F8463600BAA4F3 /* fishhook.h */,
+				07F5DE5121F8463600BAA4F3 /* fishhook.podspec */,
+				07F5DE5221F8463600BAA4F3 /* LICENSE */,
+				07F5DE5321F8463600BAA4F3 /* README.md */,
+			);
+			path = fishhook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07F5DE3821F8461A00BAA4F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074C446C21F84682007BA631 /* MyPtraceHeader.h in Headers */,
+				07F5DE4C21F8462500BAA4F3 /* InjectCode.h in Headers */,
+				07F5DE4121F8461A00BAA4F3 /* HankHook.h in Headers */,
+				07F5DE5521F8463600BAA4F3 /* fishhook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		071E21D321F5EE9100B9968D /* 001--antiDebug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 071E21EA21F5EE9200B9968D /* Build configuration list for PBXNativeTarget "001--antiDebug" */;
+			buildPhases = (
+				071E21D021F5EE9100B9968D /* Sources */,
+				071E21D121F5EE9100B9968D /* Frameworks */,
+				071E21D221F5EE9100B9968D /* Resources */,
+				07F5DE4921F8461A00BAA4F3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07F5DE4321F8461A00BAA4F3 /* PBXTargetDependency */,
+			);
+			name = "001--antiDebug";
+			productName = "001--antiDebug";
+			productReference = 071E21D421F5EE9100B9968D /* 001--antiDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07F5DE3C21F8461A00BAA4F3 /* HankHook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F5DE4821F8461A00BAA4F3 /* Build configuration list for PBXNativeTarget "HankHook" */;
+			buildPhases = (
+				07F5DE3821F8461A00BAA4F3 /* Headers */,
+				07F5DE3921F8461A00BAA4F3 /* Sources */,
+				07F5DE3A21F8461A00BAA4F3 /* Frameworks */,
+				07F5DE3B21F8461A00BAA4F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HankHook;
+			productName = HankHook;
+			productReference = 07F5DE3D21F8461A00BAA4F3 /* HankHook.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		071E21CC21F5EE9100B9968D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = LogicEDU;
+				TargetAttributes = {
+					071E21D321F5EE9100B9968D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					07F5DE3C21F8461A00BAA4F3 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 071E21CF21F5EE9100B9968D /* Build configuration list for PBXProject "001--antiDebug" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 071E21CB21F5EE9100B9968D;
+			productRefGroup = 071E21D521F5EE9100B9968D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				071E21D321F5EE9100B9968D /* 001--antiDebug */,
+				07F5DE3C21F8461A00BAA4F3 /* HankHook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		071E21D221F5EE9100B9968D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071E21E421F5EE9200B9968D /* LaunchScreen.storyboard in Resources */,
+				071E21E121F5EE9200B9968D /* Assets.xcassets in Resources */,
+				071E21DF21F5EE9100B9968D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F5DE3B21F8461A00BAA4F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F5DE5821F8463600BAA4F3 /* README.md in Resources */,
+				07F5DE5721F8463600BAA4F3 /* LICENSE in Resources */,
+				07F5DE5621F8463600BAA4F3 /* fishhook.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		071E21D021F5EE9100B9968D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071E21DC21F5EE9100B9968D /* ViewController.m in Sources */,
+				071E21E721F5EE9200B9968D /* main.m in Sources */,
+				071E21D921F5EE9100B9968D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F5DE3921F8461A00BAA4F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F5DE5421F8463600BAA4F3 /* fishhook.c in Sources */,
+				07F5DE4D21F8462500BAA4F3 /* InjectCode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07F5DE4321F8461A00BAA4F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07F5DE3C21F8461A00BAA4F3 /* HankHook */;
+			targetProxy = 07F5DE4221F8461A00BAA4F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		071E21DD21F5EE9100B9968D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				071E21DE21F5EE9100B9968D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		071E21E221F5EE9200B9968D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				071E21E321F5EE9200B9968D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		071E21E821F5EE9200B9968D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		071E21E921F5EE9200B9968D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		071E21EB21F5EE9200B9968D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5LAHK8PW6;
+				INFOPLIST_FILE = "001--antiDebug/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.logic.-01--antiDebug";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		071E21EC21F5EE9200B9968D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5LAHK8PW6;
+				INFOPLIST_FILE = "001--antiDebug/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.logic.-01--antiDebug";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07F5DE4621F8461A00BAA4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = U5LAHK8PW6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HankHook/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.logic.HankHook;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		07F5DE4721F8461A00BAA4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = U5LAHK8PW6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HankHook/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.logic.HankHook;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		071E21CF21F5EE9100B9968D /* Build configuration list for PBXProject "001--antiDebug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071E21E821F5EE9200B9968D /* Debug */,
+				071E21E921F5EE9200B9968D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		071E21EA21F5EE9200B9968D /* Build configuration list for PBXNativeTarget "001--antiDebug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071E21EB21F5EE9200B9968D /* Debug */,
+				071E21EC21F5EE9200B9968D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07F5DE4821F8461A00BAA4F3 /* Build configuration list for PBXNativeTarget "HankHook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F5DE4621F8461A00BAA4F3 /* Debug */,
+				07F5DE4721F8461A00BAA4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 071E21CC21F5EE9100B9968D /* Project object */;
+}
