@@ -49,7 +49,7 @@
 }
 
 
-
+//通过syscall 绕过前面断点
 void syscallDemo(){
     /**
      1、参数是函数编号

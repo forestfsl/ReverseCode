@@ -1,0 +1,1785 @@
+default		WeChat	 init
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:139[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> init]
+
+default		WeChat	 hash
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:506[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> hash]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:506[m [0;30;46mDEBUG:[m  = 5369591296
+
+default	10:27:18.000000+0800	WeChat	 initDeepLinkConfig
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:345[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> initDeepLinkConfig]
+
+default	11:27:18.000000+0800	WeChat	 description
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> description]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m  = <BaseMsgContentViewController: 0x1400d7600>
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:139[m [0;30;46mDEBUG:[m  = <BaseMsgContentViewController: 0x1400d7600>
+
+default	10:27:18.000000+0800	WeChat	 setM_delegate:
+
+default		WeChat	 setM_backgroundThreadDelegate:
+
+default		WeChat	 willEnterRoom
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:188[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> willEnterRoom]
+
+default	10:27:18.000000+0800	WeChat	 GetContact
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default		WeChat	 setM_bIsInMainFrame:
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:11[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> setM_bIsInMainFrame:1]
+
+default		WeChat	 description
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> description]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m  = <BaseMsgContentViewController: 0x1400d7600>
+
+default		WeChat	 description
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> description]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m  = <BaseMsgContentViewController: 0x1400d7600>
+
+default	10:27:18.000000+0800	WeChat	 viewDidLoad
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:143[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> viewDidLoad]
+
+default	10:27:18.000000+0800	WeChat	 initData
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:344[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> initData]
+
+default	10:27:18.000000+0800	WeChat	 initHistroyMessageNodeData
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:353[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> initHistroyMessageNodeData]
+
+default		WeChat	 GetMessageNodeDataArray
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:398[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetMessageNodeDataArray]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:398[m [0;30;46mDEBUG:[m  = (
+	)
+
+default		WeChat	 GetMessageNodeDataArray
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:398[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetMessageNodeDataArray]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:398[m [0;30;46mDEBUG:[m  = (
+	)
+
+default	10:27:18.000000+0800	WeChat	 m_badRoomLogicController
+
+default	10:27:18.000000+0800	WeChat	 MoreMsgBtnUpdate:unReadCount:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:343[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> MoreMsgBtnUpdate:0 unReadCount:0]
+
+default		WeChat	 reloadTableHeaderView:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:339[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> reloadTableHeaderView:0]
+
+default	10:27:18.000000+0800	WeChat	 addMessageNode:layout:addMoreMsg:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:354[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> addMessageNode:{m_uiMesLocalID=1, m_ui64MesSvrID=4656654375014035175, m_nsFromUsr=wxi*o22~19, m_nsToUsr=wxi*421~19, m_uiStatus=2, type=1, createTime=1589799596 msgSource="(null)"}  layout:0 addMoreMsg:0]
+
+default	11:27:18.000000+0800	WeChat	 findNodeDataByLocalId:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:499[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> findNodeDataByLocalId:1]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:499[m [0;30;46mDEBUG:[m  = (null)
+
+default	10:27:18.000000+0800	WeChat	 getCurContentSizeHeight
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:495[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getCurContentSizeHeight]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:495[m [0;30;46mDEBUG:[m  = 0
+
+default		WeChat	 getTableViewVisibleHeightWithOrientation:
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:166[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getTableViewVisibleHeightWithOrientation:1]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:166[m [0;30;46mDEBUG:[m  = 0.000000
+
+default		WeChat	 addTimeNode:layout:addMoreMsg:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:358[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> addTimeNode:{m_uiMesLocalID=1, m_ui64MesSvrID=4656654375014035175, m_nsFromUsr=wxi*o22~19, m_nsToUsr=wxi*421~19, m_uiStatus=2, type=1, createTime=1589799596 msgSource="(null)"}  layout:0 addMoreMsg:0]
+
+default	11:27:18.000000+0800	WeChat	 isShowHeadImage:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:360[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> isShowHeadImage:{m_uiMesLocalID=1, m_ui64MesSvrID=4656654375014035175, m_nsFromUsr=wxi*o22~19, m_nsToUsr=wxi*421~19, m_uiStatus=2, type=1, createTime=1589799596 msgSource="(null)"} ]
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:360[m [0;30;46mDEBUG:[m  = 1
+
+default	10:27:18.000000+0800	WeChat	 getMessageChatContactByMessageWrap:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:359[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getMessageChatContactByMessageWrap:{m_uiMesLocalID=1, m_ui64MesSvrID=4656654375014035175, m_nsFromUsr=wxi*o22~19, m_nsToUsr=wxi*421~19, m_uiStatus=2, type=1, createTime=1589799596 msgSource="(null)"} ]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:359[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*o22~19, m_nsEncodeUserName=(null), alias=, m_nsNickName=为算法而生, m_uiType=0, m_uiConType=0, m_nsRemark=(null),  m_nsCountry=(null) m_nsProvince=(null) m_nsCity=(null) m_nsSignature=(null) 	 m_uiSex=0 m_uiCerFlag=0 m_nsCer=(null) scene=0 }
+
+default	10:27:18.000000+0800	WeChat	 getCurContentSizeHeight
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:495[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getCurContentSizeHeight]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:495[m [0;30;46mDEBUG:[m  = 102
+
+default	10:27:18.000000+0800	WeChat	 richTextCoverView
+
+default		WeChat	 getLastNodePreContentSizeHeight
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:496[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getLastNodePreContentSizeHeight]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:496[m [0;30;46mDEBUG:[m  = 44
+
+default		WeChat	 getCurContentSizeHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:495[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getCurContentSizeHeight]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:495[m [0;30;46mDEBUG:[m  = 102
+
+default		WeChat	 GetMessageNodeDataArray
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:398[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetMessageNodeDataArray]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:398[m [0;30;46mDEBUG:[m  = (
+	    "<ChatTimeViewModel: 0x140ecb960>",
+	    "<TextMessageViewModel: 0x1411b2bf0>"
+	)
+
+default		WeChat	 GetMessageNodeDataArray
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:398[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetMessageNodeDataArray]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:398[m [0;30;46mDEBUG:[m  = (
+	    "<ChatTimeViewModel: 0x140ecb960>",
+	    "<TextMessageViewModel: 0x1411b2bf0>"
+	)
+
+default		WeChat	 m_badRoomLogicController
+
+default		WeChat	 setNeedReportStoryEntranceExpose:
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:4[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> setNeedReportStoryEntranceExpose:1]
+
+default	11:27:18.000000+0800	WeChat	 GetContact
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default		WeChat	 GetContact
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:18.000000+0800	WeChat	 GetContact
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:18.000000+0800	WeChat	 initView
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:312[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> initView]
+
+default		WeChat	 reloadBackgroundView
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:314[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> reloadBackgroundView]
+
+default	10:27:18.000000+0800	WeChat	 5 entries in the zip file
+
+default	10:27:18.000000+0800	WeChat	 initToolView
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:336[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> initToolView]
+
+default		WeChat	 ShouldShowKeyboardAnimation
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:335[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> ShouldShowKeyboardAnimation]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:335[m [0;30;46mDEBUG:[m  = 0
+
+default	10:27:18.000000+0800	WeChat	 GetCurrentViewController
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:108[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetCurrentViewController]
+
+default	10:27:18.000000+0800	WeChat	 description
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> description]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m  = <BaseMsgContentViewController: 0x1400d7600>
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:108[m [0;30;46mDEBUG:[m  = <BaseMsgContentViewController: 0x1400d7600>
+
+default	10:27:18.000000+0800	WeChat	 HasCustomInputToolViewAndDontNeedShowToolView:
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:273[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> HasCustomInputToolViewAndDontNeedShowToolView:0x16fdf0bcf]
+
+default	10:27:18.000000+0800	WeChat	 isPeekPreview
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:57[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> isPeekPreview]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:57[m [0;30;46mDEBUG:[m  = 0
+
+default		WeChat	 GetCurrentViewController
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:108[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetCurrentViewController]
+
+default	10:27:18.000000+0800	WeChat	 description
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> description]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m  = <BaseMsgContentViewController: 0x1400d7600>
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:108[m [0;30;46mDEBUG:[m  = <BaseMsgContentViewController: 0x1400d7600>
+
+default		WeChat	 HasCustomInputToolViewAndDontNeedShowToolView:
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:273[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> HasCustomInputToolViewAndDontNeedShowToolView:0x16fdf0bff]
+
+default		WeChat	 isPeekPreview
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:57[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> isPeekPreview]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:57[m [0;30;46mDEBUG:[m  = 0
+
+default		WeChat	 GetCurrentViewController
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:108[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetCurrentViewController]
+
+default	11:27:18.000000+0800	WeChat	 description
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> description]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m  = <BaseMsgContentViewController: 0x1400d7600>
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:108[m [0;30;46mDEBUG:[m  = <BaseMsgContentViewController: 0x1400d7600>
+
+default	10:27:18.000000+0800	WeChat	 HasCustomInputToolViewAndDontNeedShowToolView:
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:273[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> HasCustomInputToolViewAndDontNeedShowToolView:0x16fdf0c1f]
+
+default	10:27:18.000000+0800	WeChat	 isPeekPreview
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:57[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> isPeekPreview]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:57[m [0;30;46mDEBUG:[m  = 0
+
+default	10:27:18.000000+0800	WeChat	 initMultiSelectToolView
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:331[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> initMultiSelectToolView]
+
+default	11:27:18.000000+0800	WeChat	 initTableView
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:338[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> initTableView]
+
+default	10:27:18.000000+0800	WeChat	 m_badRoomLogicController
+
+default		WeChat	 numberOfSectionsInTableView:
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:309[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> numberOfSectionsInTableView:<YYTableView: 0x140208600; baseClass = UITableView; frame = (0 0; 375 667); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x143a47960>; layer = <CALayer: 0x143a57620>; contentOffset: {0, 0}; contentSize: {0, 0}>]
+
+default	10:27:18.000000+080543	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:309[m [0;30;46mDEBUG:[m  = 2
+
+default	10:27:18.000000+0800	WeChat	 tableView:numberOfRowsInSection:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:308[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> tableView:<YYTableView: 0x140208600; baseClass = UITableView; frame = (0 0; 375 667); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x143a47960>; layer = <CALayer: 0x143a57620>; contentOffset: {0, 0}; contentSize: {0, 0}> numberOfRowsInSection:1]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:308[m [0;30;46mDEBUG:[m  = 1
+
+default	10:27:18.000000+0800	WeChat	 tableView:heightForRowAtIndexPath:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:306[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> tableView:<YYTableView: 0x140208600; baseClass = UITableView; frame = (0 0; 375 667); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x143a47960>; layer = <CALayer: 0x143a57620>; contentOffset: {0, 0}; contentSize: {0, 0}> heightForRowAtIndexPath:<NSIndexPath: 0xc000000000000116> {length = 2, path = 1 - 0}]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:306[m [0;30;46mDEBUG:[m  = 58.000000
+
+default	10:27:18.000000+0800	WeChat	 tableView:numberOfRowsInSection:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:308[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> tableView:<YYTableView: 0x140208600; baseClass = UITableView; frame = (0 0; 375 667); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x143a47960>; layer = <CALayer: 0x143a57620>; contentOffset: {0, 0}; contentSize: {0, 0}> numberOfRowsInSection:0]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:308[m [0;30;46mDEBUG:[m  = 1
+
+default	10:27:18.000000+0800	WeChat	 tableView:heightForRowAtIndexPath:
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:306[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> tableView:<YYTableView: 0x140208600; baseClass = UITableView; frame = (0 0; 375 667); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x143a47960>; layer = <CALayer: 0x143a57620>; contentOffset: {0, 0}; contentSize: {0, 0}> heightForRowAtIndexPath:<NSIndexPath: 0xc000000000000016> {length = 2, path = 0 - 0}]
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:306[m [0;30;46mDEBUG:[m  = 44.000000
+
+default	10:27:18.000000+0800	WeChat	 didFinishedLoading:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:307[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> didFinishedLoading:<YYTableView: 0x140208600; baseClass = UITableView; frame = (0 0; 375 667); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x143a47960>; layer = <CALayer: 0x143a57620>; contentOffset: {0, 0}; contentSize: {375, 102}>]
+
+default		WeChat	 updateTableLayoutAnimateDuration:Orientation:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:278[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> updateTableLayoutAnimateDuration:0.000000 Orientation:1]
+
+default	10:27:18.000000+0800	WeChat	 getSearchBarHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:318[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getSearchBarHeight]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:318[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 getTipsHeight
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getTipsHeight]
+
+default	11:27:18.000000+0800	WeChat	 getAddFriendTipHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getAddFriendTipHeight]
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m  = 0.000000
+
+default		WeChat	 getSecurityBannerTipHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getSecurityBannerTipHeight]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m  = 0.000000
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m  = 0.000000
+
+default		WeChat	 getTableViewVisibleHeightWithOrientation:
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:166[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getTableViewVisibleHeightWithOrientation:1]
+
+default	11:27:18.000000+0800	WeChat	 getSearchBarHeight
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:318[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getSearchBarHeight]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:318[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	11:27:18.000000+0800	WeChat	 getTipsHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getTipsHeight]
+
+default	10:27:18.000000+0800	WeChat	 getAddFriendTipHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getAddFriendTipHeight]
+
+default	11:27:18.000000+080543	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m  = 0.000000
+
+default		WeChat	 getSecurityBannerTipHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getSecurityBannerTipHeight]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m  = 0.000000
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m  = 0.000000
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:166[m [0;30;46mDEBUG:[m  = 611.000000
+
+default	11:27:18.000000+0800	WeChat	 scrollViewDidScroll:
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:290[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> scrollViewDidScroll:<YYTableView: 0x140208600; baseClass = UITableView; frame = (0 0; 375 667); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x143a47960>; layer = <CALayer: 0x143a57620>; contentOffset: {0, -64}; contentSize: {375, 102}>]
+
+default	11:27:18.000000+0800	WeChat	 getTableViewVisibleHeightWithOrientation:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:166[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getTableViewVisibleHeightWithOrientation:1]
+
+default	11:27:18.000000+0800	WeChat	 getSearchBarHeight
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:318[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getSearchBarHeight]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:318[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 getTipsHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getTipsHeight]
+
+default	10:27:18.000000+0800	WeChat	 getAddFriendTipHeight
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getAddFriendTipHeight]
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	11:27:18.000000+0800	WeChat	 getSecurityBannerTipHeight
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getSecurityBannerTipHeight]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:166[m [0;30;46mDEBUG:[m  = 611.000000
+
+default	10:27:18.000000+0800	WeChat	 scrollTableToBottomAnimated:init:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:277[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> scrollTableToBottomAnimated:0 init:1]
+
+default	10:27:18.000000+0800	WeChat	 getTableViewVisibleHeightWithOrientation:
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:166[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getTableViewVisibleHeightWithOrientation:1]
+
+default	11:27:18.000000+0800	WeChat	 getSearchBarHeight
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:318[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getSearchBarHeight]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:318[m [0;30;46mDEBUG:[m  = 0.000000
+
+default		WeChat	 getTipsHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getTipsHeight]
+
+default	11:27:18.000000+0800	WeChat	 getAddFriendTipHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getAddFriendTipHeight]
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	11:27:18.000000+080543	WeChat	 getSecurityBannerTipHeight
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getSecurityBannerTipHeight]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:166[m [0;30;46mDEBUG:[m  = 611.000000
+
+default	10:27:18.000000+0800	WeChat	 getTableViewVisibleHeightWithOrientation:
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:166[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getTableViewVisibleHeightWithOrientation:1]
+
+default	10:27:18.000000+0800	WeChat	 getSearchBarHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:318[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getSearchBarHeight]
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:318[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 getTipsHeight
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getTipsHeight]
+
+default	10:27:18.000000+0800	WeChat	 getAddFriendTipHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getAddFriendTipHeight]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 getSecurityBannerTipHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getSecurityBannerTipHeight]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:166[m [0;30;46mDEBUG:[m  = 611.000000
+
+default	10:27:18.000000+0800	WeChat	 initSearchBar
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:315[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> initSearchBar]
+
+default	10:27:18.000000+0800	WeChat	 initNavigationView
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:321[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> initNavigationView]
+
+default	10:27:18.000000+0800	WeChat	 updateRightBar
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:322[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> updateRightBar]
+
+default	10:27:18.000000+0800	WeChat	 getRightBarButton
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:325[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getRightBarButton]
+
+default	10:27:18.000000+0800	WeChat	 getRightBarButtonWithMultiFlag:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:324[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getRightBarButtonWithMultiFlag:0]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:324[m [0;30;46mDEBUG:[m  = <MMBarButtonItem: 0x1411de9f0>
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:325[m [0;30;46mDEBUG:[m  = <MMBarButtonItem: 0x1411de9f0>
+
+default	11:27:18.000000+080543	WeChat	 GetContact
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default		WeChat	 getLeftBarButton
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:323[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getLeftBarButton]
+
+default	10:27:18.000000+0800	WeChat	 GetContact
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default		WeChat	 GetContact
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:18.000000+0800	WeChat	 GetContact
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:323[m [0;30;46mDEBUG:[m  = <MMBarButtonItem: 0x143a60800>
+
+default	10:27:18.000000+0800	WeChat	 updateTitleView:
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:491[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> updateTitleView:(null)]
+
+default	10:27:18.000000+0800	WeChat	 getLeftBarButton
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:323[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getLeftBarButton]
+
+default	11:27:18.000000+0800	WeChat	 GetContact
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:18.000000+0800	WeChat	 GetContact
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:18.000000+0800	WeChat	 GetContact
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:323[m [0;30;46mDEBUG:[m  = <MMBarButtonItem: 0x143a67920>
+
+default	11:27:18.000000+080543	WeChat	 getRightBarButton
+
+default	11:27:18.000000+080543	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:325[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getRightBarButton]
+
+default	11:27:18.000000+080543	WeChat	 getRightBarButtonWithMultiFlag:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:324[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getRightBarButtonWithMultiFlag:0]
+
+default	11:27:18.000000+080543	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:324[m [0;30;46mDEBUG:[m  = <MMBarButtonItem: 0x143a66070>
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:325[m [0;30;46mDEBUG:[m  = <MMBarButtonItem: 0x143a66070>
+
+default	10:27:18.000000+0800	WeChat	 reloadNavigationRightStoryButton
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:28[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> reloadNavigationRightStoryButton]
+
+default	10:27:18.000000+0800	WeChat	 storyCheckHasItem
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:26[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> storyCheckHasItem]
+
+default	10:27:18.000000+0800	WeChat	 GetContact
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	11:27:18.000000+080543	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	11:27:18.000000+080543	WeChat	 GetContact
+
+default	11:27:18.000000+080543	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	11:27:18.000000+0800	WeChat	 GetContact
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:26[m [0;30;46mDEBUG:[m  = 0
+
+default	10:27:18.000000+0800	WeChat	 getRightBarButton
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:325[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getRightBarButton]
+
+default		WeChat	 getRightBarButtonWithMultiFlag:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:324[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getRightBarButtonWithMultiFlag:0]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:324[m [0;30;46mDEBUG:[m  = <MMBarButtonItem: 0x143a6b0f0>
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:325[m [0;30;46mDEBUG:[m  = <MMBarButtonItem: 0x143a6b0f0>
+
+default	11:27:18.000000+0800	WeChat	 MoreMsgBtnUpdate:unReadCount:
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:343[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> MoreMsgBtnUpdate:0 unReadCount:0]
+
+default	10:27:18.000000+0800	WeChat	 reloadTableHeaderView:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:339[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> reloadTableHeaderView:0]
+
+default	10:27:18.000000+0800	WeChat	 updateBanner
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:98[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> updateBanner]
+
+default	10:27:18.000000+0800	WeChat	 GetContact
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:18.000000+0800	WeChat	 hideTrackRoomTips
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:95[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> hideTrackRoomTips]
+
+default		WeChat	 updateFirstUnReadButtonOnShowBanner:
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:160[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> updateFirstUnReadButtonOnShowBanner:0.000000]
+
+default	11:27:18.000000+0800	WeChat	 getTipsHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getTipsHeight]
+
+default	10:27:18.000000+0800	WeChat	 getAddFriendTipHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getAddFriendTipHeight]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 getSecurityBannerTipHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getSecurityBannerTipHeight]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 GetContact
+
+default	10:27:18.000000+080543	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	11:27:18.000000+080543	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	11:27:18.000000+0800	WeChat	 hideMultiTalkTips
+
+default	11:27:18.000000+080543	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:94[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> hideMultiTalkTips]
+
+default	10:27:18.000000+080543	WeChat	 updateFirstUnReadButtonOnShowBanner:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:160[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> updateFirstUnReadButtonOnShowBanner:0.000000]
+
+default	10:27:18.000000+0800	WeChat	 getTipsHeight
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getTipsHeight]
+
+default		WeChat	 getAddFriendTipHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getAddFriendTipHeight]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 getSecurityBannerTipHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getSecurityBannerTipHeight]
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	11:27:18.000000+0800	WeChat	 scrollTableToBottomAnimated:init:
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:277[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> scrollTableToBottomAnimated:0 init:1]
+
+default	10:27:18.000000+0800	WeChat	 getTableViewVisibleHeightWithOrientation:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:166[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getTableViewVisibleHeightWithOrientation:1]
+
+default	10:27:18.000000+0800	WeChat	 getSearchBarHeight
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:318[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getSearchBarHeight]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:318[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 getTipsHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getTipsHeight]
+
+default	10:27:18.000000+0800	WeChat	 getAddFriendTipHeight
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getAddFriendTipHeight]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m  = 0.000000
+
+default		WeChat	 getSecurityBannerTipHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getSecurityBannerTipHeight]
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:166[m [0;30;46mDEBUG:[m  = 611.000000
+
+default	10:27:18.000000+080543	WeChat	 getTableViewVisibleHeightWithOrientation:
+
+default	11:27:18.000000+080543	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:166[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getTableViewVisibleHeightWithOrientation:1]
+
+default	10:27:18.000000+0800	WeChat	 getSearchBarHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:318[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getSearchBarHeight]
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:318[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 getTipsHeight
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getTipsHeight]
+
+default		WeChat	 getAddFriendTipHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getAddFriendTipHeight]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 getSecurityBannerTipHeight
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getSecurityBannerTipHeight]
+
+default	11:27:18.000000+080543	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:166[m [0;30;46mDEBUG:[m  = 611.000000
+
+default	10:27:18.000000+0800	WeChat	 viewWillAppear:
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:200[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> viewWillAppear:1]
+
+default	10:27:18.000000+0800	WeChat	 description
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> description]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m  = <BaseMsgContentViewController: 0x1400d7600>
+
+default		WeChat	 description
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> description]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m  = <BaseMsgContentViewController: 0x1400d7600>
+
+default	10:27:18.000000+0800	WeChat	 description
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> description]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m  = <BaseMsgContentViewController: 0x1400d7600>
+
+default	10:27:18.000000+0800	WeChat	 description
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> description]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m  = <BaseMsgContentViewController: 0x1400d7600>
+
+default	10:27:18.000000+0800	WeChat	 viewWillBePushed:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:173[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> viewWillBePushed:1]
+
+default		WeChat	 description
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> description]
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m  = <BaseMsgContentViewController: 0x1400d7600>
+
+default	10:27:18.000000+0800	WeChat	 visibleViewModelList
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:498[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> visibleViewModelList]
+
+default	10:27:18.000000+0800	WeChat	 tableView:cellForRowAtIndexPath:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:304[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> tableView:<YYTableView: 0x140208600; baseClass = UITableView; frame = (0 0; 375 667); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x143a47960>; layer = <CALayer: 0x143a57620>; contentOffset: {0, -64}; contentSize: {375, 102}> cellForRowAtIndexPath:<NSIndexPath: 0xc000000000000016> {length = 2, path = 0 - 0}]
+
+default	10:27:18.000000+0800	WeChat	 makeCell:indexPath:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:310[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> makeCell:<ChatTableViewCell: 0x1411e8250; baseClass = UITableViewCell; frame = (0 0; 320 44); layer = <CALayer: 0x143a77650>> indexPath:<NSIndexPath: 0xc000000000000016> {length = 2, path = 0 - 0}]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:304[m [0;30;46mDEBUG:[m  = <ChatTableViewCell: 0x1411e8250; baseClass = UITableViewCell; frame = (0 0; 320 44); layer = <CALayer: 0x143a77650>>
+
+default	10:27:18.000000+0800	WeChat	 tableView:heightForRowAtIndexPath:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:306[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> tableView:<YYTableView: 0x140208600; baseClass = UITableView; frame = (0 0; 375 667); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x143a47960>; layer = <CALayer: 0x143a57620>; contentOffset: {0, -64}; contentSize: {375, 102}> heightForRowAtIndexPath:<NSIndexPath: 0xc000000000000016> {length = 2, path = 0 - 0}]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:306[m [0;30;46mDEBUG:[m  = 44.000000
+
+default	10:27:18.000000+0800	WeChat	 tableView:willDisplayCell:forRowAtIndexPath:
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:300[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> tableView:<YYTableView: 0x140208600; baseClass = UITableView; frame = (0 0; 375 667); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x143a47960>; layer = <CALayer: 0x143a57620>; contentOffset: {0, -64}; contentSize: {375, 102}> willDisplayCell:<ChatTableViewCell: 0x1411e8250; baseClass = UITableViewCell; frame = (0 0; 375 44); autoresize = W; layer = <CALayer: 0x143a77650>> forRowAtIndexPath:<NSIndexPath: 0xc000000000000016> {length = 2, path = 0 - 0}]
+
+default	11:27:18.000000+0800	WeChat	 GetContact
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:18.000000+0800	WeChat	 tableView:cellForRowAtIndexPath:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:304[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> tableView:<YYTableView: 0x140208600; baseClass = UITableView; frame = (0 0; 375 667); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x143a47960>; layer = <CALayer: 0x143a57620>; contentOffset: {0, -64}; contentSize: {375, 102}> cellForRowAtIndexPath:<NSIndexPath: 0xc000000000000116> {length = 2, path = 1 - 0}]
+
+default	10:27:18.000000+0800	WeChat	 makeCell:indexPath:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:310[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> makeCell:<ChatTableViewCell: 0x143a7c000; baseClass = UITableViewCell; frame = (0 0; 320 44); layer = <CALayer: 0x143a7a1d0>> indexPath:<NSIndexPath: 0xc000000000000116> {length = 2, path = 1 - 0}]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:304[m [0;30;46mDEBUG:[m  = <ChatTableViewCell: 0x143a7c000; baseClass = UITableViewCell; frame = (0 0; 320 44); layer = <CALayer: 0x143a7a1d0>>
+
+default	11:27:18.000000+0800	WeChat	 tableView:heightForRowAtIndexPath:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:306[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> tableView:<YYTableView: 0x140208600; baseClass = UITableView; frame = (0 0; 375 667); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x143a47960>; layer = <CALayer: 0x143a57620>; contentOffset: {0, -64}; contentSize: {375, 102}> heightForRowAtIndexPath:<NSIndexPath: 0xc000000000000116> {length = 2, path = 1 - 0}]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:306[m [0;30;46mDEBUG:[m  = 58.000000
+
+default		WeChat	 tableView:willDisplayCell:forRowAtIndexPath:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:300[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> tableView:<YYTableView: 0x140208600; baseClass = UITableView; frame = (0 0; 375 667); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x143a47960>; layer = <CALayer: 0x143a57620>; contentOffset: {0, -64}; contentSize: {375, 102}> willDisplayCell:<ChatTableViewCell: 0x143a7c000; baseClass = UITableViewCell; frame = (0 44; 375 58); autoresize = W; layer = <CALayer: 0x143a7a1d0>> forRowAtIndexPath:<NSIndexPath: 0xc000000000000116> {length = 2, path = 1 - 0}]
+
+default	11:27:18.000000+0800	WeChat	 GetContact
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:498[m [0;30;46mDEBUG:[m  = (
+	    "<ChatTimeViewModel: 0x140ecb960>",
+	    "<TextMessageViewModel: 0x1411b2bf0>"
+	)
+
+default	10:27:18.000000+0800	WeChat	 visibleViewModelList
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:498[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> visibleViewModelList]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:498[m [0;30;46mDEBUG:[m  = (
+	    "<ChatTimeViewModel: 0x140ecb960>",
+	    "<TextMessageViewModel: 0x1411b2bf0>"
+	)
+
+default	10:27:18.000000+0800	WeChat	 visibleViewModelList
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:498[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> visibleViewModelList]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:498[m [0;30;46mDEBUG:[m  = (
+	    "<ChatTimeViewModel: 0x140ecb960>",
+	    "<TextMessageViewModel: 0x1411b2bf0>"
+	)
+
+default		WeChat	 GetContact
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	11:27:18.000000+0800	WeChat	 toolView
+
+default	10:27:18.000000+0800	WeChat	 setAddFriendTipShow:contact:
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:411[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> setAddFriendTipShow:0 contact:(null)]
+
+default	10:27:18.000000+0800	WeChat	 checkTips:
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:418[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> checkTips:1]
+
+default	10:27:18.000000+0800	WeChat	 checkShowSecurityBannerTip:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:416[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> checkShowSecurityBannerTip:0]
+
+default	10:27:18.000000+0800	WeChat	 showAddFriendTip:
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:412[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> showAddFriendTip:0]
+
+default	10:27:18.000000+0800	WeChat	 checkShowRecommandFriendTip:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:417[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> checkShowRecommandFriendTip:1]
+
+default	11:27:18.000000+080543	WeChat	 GetContact
+
+default	11:27:18.000000+080543	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:18.000000+0800	WeChat	 updateFirstUnReadButtonOnShowBanner:
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:160[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> updateFirstUnReadButtonOnShowBanner:0.000000]
+
+default		WeChat	 getTipsHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getTipsHeight]
+
+default	10:27:18.000000+0800	WeChat	 getAddFriendTipHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getAddFriendTipHeight]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 getSecurityBannerTipHeight
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getSecurityBannerTipHeight]
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 updateTableLayoutAnimateDuration:Orientation:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:278[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> updateTableLayoutAnimateDuration:0.000000 Orientation:1]
+
+default	10:27:18.000000+0800	WeChat	 getSearchBarHeight
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:318[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getSearchBarHeight]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:318[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 getTipsHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getTipsHeight]
+
+default	10:27:18.000000+0800	WeChat	 getAddFriendTipHeight
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getAddFriendTipHeight]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	11:27:18.000000+0800	WeChat	 getSecurityBannerTipHeight
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getSecurityBannerTipHeight]
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m  = 0.000000
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 getTableViewVisibleHeightWithOrientation:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:166[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getTableViewVisibleHeightWithOrientation:1]
+
+default	10:27:18.000000+0800	WeChat	 getSearchBarHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:318[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getSearchBarHeight]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:318[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 getTipsHeight
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getTipsHeight]
+
+default	10:27:18.000000+0800	WeChat	 getAddFriendTipHeight
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getAddFriendTipHeight]
+
+default	11:27:18.000000+080543	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	11:27:18.000000+080543	WeChat	 getSecurityBannerTipHeight
+
+default	11:27:18.000000+080543	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getSecurityBannerTipHeight]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:166[m [0;30;46mDEBUG:[m  = 611.000000
+
+default	10:27:18.000000+0800	WeChat	 stopLoading
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:104[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> stopLoading]
+
+default	10:27:18.000000+0800	WeChat	 updateToolViewOrigin
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:132[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> updateToolViewOrigin]
+
+default		WeChat	 willMoveToMainFrame
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:179[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> willMoveToMainFrame]
+
+default	10:27:18.000000+0800	WeChat	 m_bIsInMainFrame
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:12[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> m_bIsInMainFrame]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:12[m [0;30;46mDEBUG:[m  = 1
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:179[m [0;30;46mDEBUG:[m  = 0
+
+default	10:27:18.000000+0800	WeChat	 willAppear
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:185[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> willAppear]
+
+default	10:27:18.000000+0800	WeChat	 updateTitleView:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:491[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> updateTitleView:(null)]
+
+default		WeChat	 beginLockerTimer
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:150[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> beginLockerTimer]
+
+default	10:27:18.000000+0800	WeChat	 stopLockerTimesup
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:151[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> stopLockerTimesup]
+
+default		WeChat	 setM_LockerTimer:
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:19[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> setM_LockerTimer:<MMTimer: 0x143a83ef0>]
+
+default	11:27:18.000000+0800	WeChat	 updateTableLayoutAnimateDuration:Orientation:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:278[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> updateTableLayoutAnimateDuration:0.000000 Orientation:1]
+
+default	10:27:18.000000+0800	WeChat	 getSearchBarHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:318[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getSearchBarHeight]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:318[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 getTipsHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getTipsHeight]
+
+default	10:27:18.000000+0800	WeChat	 getAddFriendTipHeight
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getAddFriendTipHeight]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m  = 0.000000
+
+default		WeChat	 getSecurityBannerTipHeight
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getSecurityBannerTipHeight]
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 getTableViewVisibleHeightWithOrientation:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:166[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getTableViewVisibleHeightWithOrientation:1]
+
+default	10:27:18.000000+0800	WeChat	 getSearchBarHeight
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:318[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getSearchBarHeight]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:318[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 getTipsHeight
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getTipsHeight]
+
+default	10:27:18.000000+0800	WeChat	 getAddFriendTipHeight
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getAddFriendTipHeight]
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:414[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	11:27:18.000000+0800	WeChat	 getSecurityBannerTipHeight
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getSecurityBannerTipHeight]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:413[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:415[m [0;30;46mDEBUG:[m  = 0.000000
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:166[m [0;30;46mDEBUG:[m  = 611.000000
+
+default	10:27:18.000000+0800	WeChat	 numberOfSectionsInTableView:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:309[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> numberOfSectionsInTableView:<YYTableView: 0x140208600; baseClass = UITableView; frame = (0 0; 375 667); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x143a47960>; layer = <CALayer: 0x143a57620>; contentOffset: {0, -64}; contentSize: {375, 102}>]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:309[m [0;30;46mDEBUG:[m  = 2
+
+default	10:27:18.000000+0800	WeChat	 tableView:numberOfRowsInSection:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:308[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> tableView:<YYTableView: 0x140208600; baseClass = UITableView; frame = (0 0; 375 667); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x143a47960>; layer = <CALayer: 0x143a57620>; contentOffset: {0, -64}; contentSize: {375, 102}> numberOfRowsInSection:1]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:308[m [0;30;46mDEBUG:[m  = 1
+
+default	10:27:18.000000+0800	WeChat	 tableView:heightForRowAtIndexPath:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:306[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> tableView:<YYTableView: 0x140208600; baseClass = UITableView; frame = (0 0; 375 667); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x143a47960>; layer = <CALayer: 0x143a57620>; contentOffset: {0, -64}; contentSize: {375, 102}> heightForRowAtIndexPath:<NSIndexPath: 0xc000000000000116> {length = 2, path = 1 - 0}]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:306[m [0;30;46mDEBUG:[m  = 58.000000
+
+default		WeChat	 tableView:numberOfRowsInSection:
+
+default	11:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:308[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> tableView:<YYTableView: 0x140208600; baseClass = UITableView; frame = (0 0; 375 667); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x143a47960>; layer = <CALayer: 0x143a57620>; contentOffset: {0, -64}; contentSize: {375, 102}> numberOfRowsInSection:0]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:308[m [0;30;46mDEBUG:[m  = 1
+
+default	11:27:18.000000+0800	WeChat	 tableView:heightForRowAtIndexPath:
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:306[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> tableView:<YYTableView: 0x140208600; baseClass = UITableView; frame = (0 0; 375 667); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x143a47960>; layer = <CALayer: 0x143a57620>; contentOffset: {0, -64}; contentSize: {375, 102}> heightForRowAtIndexPath:<NSIndexPath: 0xc000000000000016> {length = 2, path = 0 - 0}]
+
+default	10:27:18.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:306[m [0;30;46mDEBUG:[m  = 44.000000
+
+default	10:27:18.000000+0800	WeChat	 numberOfSectionsInTableView:
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:309[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> numberOfSectionsInTableView:<YYTableView: 0x140208600; baseClass = UITableView; frame = (0 0; 375 667); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x143a47960>; layer = <CALayer: 0x143a57620>; contentOffset: {0, -64}; contentSize: {375, 102}>]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:309[m [0;30;46mDEBUG:[m  = 2
+
+default	10:27:19.000000+0800	WeChat	 tableView:numberOfRowsInSection:
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:308[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> tableView:<YYTableView: 0x140208600; baseClass = UITableView; frame = (0 0; 375 667); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x143a47960>; layer = <CALayer: 0x143a57620>; contentOffset: {0, -64}; contentSize: {375, 102}> numberOfRowsInSection:1]
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:308[m [0;30;46mDEBUG:[m  = 1
+
+default	10:27:19.000000+0800	WeChat	 tableView:heightForRowAtIndexPath:
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:306[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> tableView:<YYTableView: 0x140208600; baseClass = UITableView; frame = (0 0; 375 667); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x143a47960>; layer = <CALayer: 0x143a57620>; contentOffset: {0, -64}; contentSize: {375, 102}> heightForRowAtIndexPath:<NSIndexPath: 0xc000000000000116> {length = 2, path = 1 - 0}]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:306[m [0;30;46mDEBUG:[m  = 58.000000
+
+default		WeChat	 tableView:numberOfRowsInSection:
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:308[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> tableView:<YYTableView: 0x140208600; baseClass = UITableView; frame = (0 0; 375 667); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x143a47960>; layer = <CALayer: 0x143a57620>; contentOffset: {0, -64}; contentSize: {375, 102}> numberOfRowsInSection:0]
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:308[m [0;30;46mDEBUG:[m  = 1
+
+default	10:27:19.000000+0800	WeChat	 tableView:heightForRowAtIndexPath:
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:306[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> tableView:<YYTableView: 0x140208600; baseClass = UITableView; frame = (0 0; 375 667); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x143a47960>; layer = <CALayer: 0x143a57620>; contentOffset: {0, -64}; contentSize: {375, 102}> heightForRowAtIndexPath:<NSIndexPath: 0xc000000000000016> {length = 2, path = 0 - 0}]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:306[m [0;30;46mDEBUG:[m  = 44.000000
+
+default	10:27:19.000000+0800	WeChat	 onToolViewDidMoveToWindow
+
+default	10:27:19.000000+080543	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:270[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> onToolViewDidMoveToWindow]
+
+default		WeChat	 trySetInputToolviewFirstResponder
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:201[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> trySetInputToolviewFirstResponder]
+
+default	10:27:19.000000+0800	WeChat	 canBecomeFirstResponder
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:347[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> canBecomeFirstResponder]
+
+default	10:27:19.000000+080543	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:347[m [0;30;46mDEBUG:[m  = 0
+
+default	10:27:19.000000+0800	WeChat	 traitCollectionDidChange:
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:53[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> traitCollectionDidChange:(null)]
+
+default	10:27:19.000000+0800	WeChat	 viewDidLayoutSubviews
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:311[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> viewDidLayoutSubviews]
+
+default	10:27:19.000000+0800	WeChat	 highLightSearchKeyWordInSelectCell
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:470[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> highLightSearchKeyWordInSelectCell]
+
+default	10:27:19.000000+0800	WeChat	 GetCurrentViewController
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:108[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetCurrentViewController]
+
+default	11:27:19.000000+0800	WeChat	 description
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> description]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m  = <BaseMsgContentViewController: 0x1400d7600>
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:108[m [0;30;46mDEBUG:[m  = <BaseMsgContentViewController: 0x1400d7600>
+
+default		WeChat	 isHiddenInputChangeButton
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:109[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> isHiddenInputChangeButton]
+
+default		WeChat	 getMsgSendOpEntry
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:226[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getMsgSendOpEntry]
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:226[m [0;30;46mDEBUG:[m  = (null)
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:109[m [0;30;46mDEBUG:[m  = 0
+
+default	10:27:19.000000+0800	WeChat	 canShowLocation
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:111[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> canShowLocation]
+
+default	11:27:19.000000+0800	WeChat	 getMsgSendOpEntry
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:226[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getMsgSendOpEntry]
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:226[m [0;30;46mDEBUG:[m  = (null)
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:111[m [0;30;46mDEBUG:[m  = 1
+
+default	10:27:19.000000+0800	WeChat	 canShowFavEntry
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:112[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> canShowFavEntry]
+
+default	11:27:19.000000+0800	WeChat	 getMsgSendOpEntry
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:226[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getMsgSendOpEntry]
+
+default	10:27:19.000000+080543	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:226[m [0;30;46mDEBUG:[m  = (null)
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:112[m [0;30;46mDEBUG:[m  = 1
+
+default	11:27:19.000000+0800	WeChat	 canShowEnterpriseBrandEntry
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:110[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> canShowEnterpriseBrandEntry]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:110[m [0;30;46mDEBUG:[m  = 0
+
+default		WeChat	 initAllowVoip
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:120[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> initAllowVoip]
+
+default	10:27:19.000000+0800	WeChat	 isAllowVoip
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:121[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> isAllowVoip]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:121[m [0;30;46mDEBUG:[m  = 1
+
+default	10:27:19.000000+0800	WeChat	 isAllowVoip
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:121[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> isAllowVoip]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:121[m [0;30;46mDEBUG:[m  = 1
+
+default	10:27:19.000000+0800	WeChat	 initAllowVoiceInput
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:118[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> initAllowVoiceInput]
+
+default	10:27:19.000000+0800	WeChat	 isAllowVoiceInput
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:119[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> isAllowVoiceInput]
+
+default	11:27:19.000000+0800	WeChat	 GetContact
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:119[m [0;30;46mDEBUG:[m  = 1
+
+default	10:27:19.000000+0800	WeChat	 initAllowWxTalk
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:116[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> initAllowWxTalk]
+
+default		WeChat	 isAllowWxTalk
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:117[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> isAllowWxTalk]
+
+default	10:27:19.000000+0800	WeChat	 GetContact
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:19.000000+0800	WeChat	 GetContact
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default		WeChat	 GetContact
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	11:27:19.000000+0800	WeChat	 GetContact
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:117[m [0;30;46mDEBUG:[m  = 1
+
+default		WeChat	 initAllowMultiTalk
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:115[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> initAllowMultiTalk]
+
+default		WeChat	 GetContact
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:19.000000+0800	WeChat	 GetContact
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:19.000000+0800	WeChat	 initAllowWxTalkFollowSight
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:114[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> initAllowWxTalkFollowSight]
+
+default	10:27:19.000000+0800	WeChat	 GetContact
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default		WeChat	 initAllowNameCardFollowRedEnvelope
+
+default	11:27:19.000000+080543	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:113[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> initAllowNameCardFollowRedEnvelope]
+
+default	10:27:19.000000+0800	WeChat	 GetContact
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:19.000000+0800	WeChat	 GetCurrentViewController
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:108[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetCurrentViewController]
+
+default	11:27:19.000000+0800	WeChat	 description
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> description]
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m  = <BaseMsgContentViewController: 0x1400d7600>
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:108[m [0;30;46mDEBUG:[m  = <BaseMsgContentViewController: 0x1400d7600>
+
+default	11:27:19.000000+0800	WeChat	 HasCustomInputToolViewAndDontNeedShowToolView:
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:273[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> HasCustomInputToolViewAndDontNeedShowToolView:0x16fdf15df]
+
+default		WeChat	 isPeekPreview
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:57[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> isPeekPreview]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:57[m [0;30;46mDEBUG:[m  = 0
+
+default	10:27:19.000000+0800	WeChat	 isUseDefaultChatBkgImage
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:196[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> isUseDefaultChatBkgImage]
+
+default	10:27:19.000000+0800	WeChat	 GetContact
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:19.000000+0800	WeChat	 GetContact
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:196[m [0;30;46mDEBUG:[m  = 1
+
+default		WeChat	 isUseDefaultChatBkgImage
+
+default	11:27:19.000000+080543	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:196[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> isUseDefaultChatBkgImage]
+
+default	10:27:19.000000+0800	WeChat	 GetContact
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:19.000000+0800	WeChat	 GetContact
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:196[m [0;30;46mDEBUG:[m  = 1
+
+default		WeChat	 isUseDefaultChatBkgImage
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:196[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> isUseDefaultChatBkgImage]
+
+default	10:27:19.000000+0800	WeChat	 GetContact
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	11:27:19.000000+0800	WeChat	 GetContact
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:196[m [0;30;46mDEBUG:[m  = 1
+
+default	10:27:19.000000+0800	WeChat	 viewDidLayoutSubviews
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:311[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> viewDidLayoutSubviews]
+
+default	10:27:19.000000+0800	WeChat	 highLightSearchKeyWordInSelectCell
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:470[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> highLightSearchKeyWordInSelectCell]
+
+default		WeChat	 GetCurrentViewController
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:108[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetCurrentViewController]
+
+default	10:27:19.000000+0800	WeChat	 description
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> description]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m  = <BaseMsgContentViewController: 0x1400d7600>
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:108[m [0;30;46mDEBUG:[m  = <BaseMsgContentViewController: 0x1400d7600>
+
+default	11:27:19.000000+080543	WeChat	 isHiddenInputChangeButton
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:109[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> isHiddenInputChangeButton]
+
+default		WeChat	 getMsgSendOpEntry
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:226[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getMsgSendOpEntry]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:226[m [0;30;46mDEBUG:[m  = (null)
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:109[m [0;30;46mDEBUG:[m  = 0
+
+default	10:27:19.000000+0800	WeChat	 canShowLocation
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:111[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> canShowLocation]
+
+default	10:27:19.000000+0800	WeChat	 getMsgSendOpEntry
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:226[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getMsgSendOpEntry]
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:226[m [0;30;46mDEBUG:[m  = (null)
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:111[m [0;30;46mDEBUG:[m  = 1
+
+default	11:27:19.000000+080543	WeChat	 canShowFavEntry
+
+default	11:27:19.000000+080543	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:112[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> canShowFavEntry]
+
+default	10:27:19.000000+0800	WeChat	 getMsgSendOpEntry
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:226[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getMsgSendOpEntry]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:226[m [0;30;46mDEBUG:[m  = (null)
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:112[m [0;30;46mDEBUG:[m  = 1
+
+default	10:27:19.000000+0800	WeChat	 canShowEnterpriseBrandEntry
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:110[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> canShowEnterpriseBrandEntry]
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:110[m [0;30;46mDEBUG:[m  = 0
+
+default	10:27:19.000000+0800	WeChat	 initAllowVoip
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:120[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> initAllowVoip]
+
+default	10:27:19.000000+0800	WeChat	 isAllowVoip
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:121[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> isAllowVoip]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:121[m [0;30;46mDEBUG:[m  = 1
+
+default	11:27:19.000000+0800	WeChat	 isAllowVoip
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:121[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> isAllowVoip]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:121[m [0;30;46mDEBUG:[m  = 1
+
+default	10:27:19.000000+0800	WeChat	 initAllowVoiceInput
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:118[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> initAllowVoiceInput]
+
+default	10:27:19.000000+0800	WeChat	 isAllowVoiceInput
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:119[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> isAllowVoiceInput]
+
+default	10:27:19.000000+0800	WeChat	 GetContact
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:119[m [0;30;46mDEBUG:[m  = 1
+
+default	10:27:19.000000+0800	WeChat	 initAllowWxTalk
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:116[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> initAllowWxTalk]
+
+default	11:27:19.000000+080543	WeChat	 isAllowWxTalk
+
+default	11:27:19.000000+080543	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:117[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> isAllowWxTalk]
+
+default	10:27:19.000000+0800	WeChat	 GetContact
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:19.000000+0800	WeChat	 GetContact
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:19.000000+0800	WeChat	 GetContact
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:19.000000+0800	WeChat	 GetContact
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	11:27:19.000000+080543	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:117[m [0;30;46mDEBUG:[m  = 1
+
+default	11:27:19.000000+0800	WeChat	 initAllowMultiTalk
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:115[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> initAllowMultiTalk]
+
+default	10:27:19.000000+0800	WeChat	 GetContact
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:19.000000+0800	WeChat	 GetContact
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:19.000000+0800	WeChat	 initAllowWxTalkFollowSight
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:114[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> initAllowWxTalkFollowSight]
+
+default	11:27:19.000000+0800	WeChat	 GetContact
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:19.000000+0800	WeChat	 initAllowNameCardFollowRedEnvelope
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:113[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> initAllowNameCardFollowRedEnvelope]
+
+default	10:27:19.000000+0800	WeChat	 GetContact
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:19.000000+0800	WeChat	 GetCurrentViewController
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:108[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetCurrentViewController]
+
+default		WeChat	 description
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> description]
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m  = <BaseMsgContentViewController: 0x1400d7600>
+
+default	11:27:19.000000+080543	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:108[m [0;30;46mDEBUG:[m  = <BaseMsgContentViewController: 0x1400d7600>
+
+default	10:27:19.000000+0800	WeChat	 HasCustomInputToolViewAndDontNeedShowToolView:
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:273[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> HasCustomInputToolViewAndDontNeedShowToolView:0x16fdf15df]
+
+default	10:27:19.000000+0800	WeChat	 isPeekPreview
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:57[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> isPeekPreview]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:57[m [0;30;46mDEBUG:[m  = 0
+
+default	10:27:19.000000+0800	WeChat	 viewDidAppear:
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:195[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> viewDidAppear:1]
+
+default	10:27:19.000000+0800	WeChat	 hash
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:506[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> hash]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:506[m [0;30;46mDEBUG:[m  = 5369591296
+
+default		WeChat	 hash
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:506[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> hash]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:506[m [0;30;46mDEBUG:[m  = 5369591296
+
+default	10:27:19.000000+0800	WeChat	 hash
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:506[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> hash]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:506[m [0;30;46mDEBUG:[m  = 5369591296
+
+default	10:27:19.000000+0800	WeChat	 description
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> description]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m  = <BaseMsgContentViewController: 0x1400d7600>
+
+default		WeChat	 tagForActivePage
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:194[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> tagForActivePage]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:194[m [0;30;46mDEBUG:[m  = WeixinContentLogicController
+
+default		WeChat	 tagForCurrentPage
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:193[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> tagForCurrentPage]
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:193[m [0;30;46mDEBUG:[m  = WeixinContentLogicController-0
+
+default	10:27:19.000000+0800	WeChat	 viewDidBePushed:
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:178[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> viewDidBePushed:1]
+
+default		WeChat	 hash
+
+default	07:59:59.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:506[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> hash]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:506[m [0;30;46mDEBUG:[m  = 5369591296
+
+default		WeChat	 hash
+
+default	07:59:59.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:506[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> hash]
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:506[m [0;30;46mDEBUG:[m  = 5369591296
+
+default	11:27:19.000000+0800	WeChat	 description
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> description]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m  = <BaseMsgContentViewController: 0x1400d7600>
+
+default	10:27:19.000000+0800	WeChat	 viewDidBePushOrPresent:
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:171[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> viewDidBePushOrPresent:1]
+
+default	10:27:19.000000+0800	WeChat	 willMoveToMainFrame
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:179[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> willMoveToMainFrame]
+
+default	11:27:19.000000+0800	WeChat	 m_bIsInMainFrame
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:12[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> m_bIsInMainFrame]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:12[m [0;30;46mDEBUG:[m  = 1
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:179[m [0;30;46mDEBUG:[m  = 0
+
+default	10:27:19.000000+0800	WeChat	 toolView
+
+default	11:27:19.000000+0800	WeChat	 toolView
+
+default	11:27:19.000000+080543	WeChat	 statEnterMsgChat
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:186[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> statEnterMsgChat]
+
+default	10:27:19.000000+0800	WeChat	 updateTitleView:
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:491[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> updateTitleView:(null)]
+
+default	10:27:19.000000+0800	WeChat	 GetMessagesWrapArray
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:399[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetMessagesWrapArray]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:399[m [0;30;46mDEBUG:[m  = (
+	    "{m_uiMesLocalID=1, m_ui64MesSvrID=4656654375014035175, m_nsFromUsr=wxi*o22~19, m_nsToUsr=wxi*421~19, m_uiStatus=2, type=1, createTime=1589799596 msgSource=\"(null)\"} "
+	)
+
+default		WeChat	 description
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> description]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:505[m [0;30;46mDEBUG:[m  = <BaseMsgContentViewController: 0x1400d7600>
+
+default		WeChat	 highLightSearchKeyWordInSelectCell
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:470[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> highLightSearchKeyWordInSelectCell]
+
+default	11:27:19.000000+0800	WeChat	 updateTitleView:
+
+default	11:27:19.000000+080543	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:491[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> updateTitleView:(null)]
+
+default	11:27:19.000000+0800	WeChat	 getLeftBarButton
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:323[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getLeftBarButton]
+
+default	10:27:19.000000+0800	WeChat	 GetContact
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	07:59:59.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:19.000000+0800	WeChat	 GetContact
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default		WeChat	 GetContact
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:323[m [0;30;46mDEBUG:[m  = <MMBarButtonItem: 0x140d12390>
+
+default	11:27:19.000000+0800	WeChat	 getRightBarButton
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:325[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getRightBarButton]
+
+default	10:27:19.000000+0800	WeChat	 getRightBarButtonWithMultiFlag:
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:324[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getRightBarButtonWithMultiFlag:0]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:324[m [0;30;46mDEBUG:[m  = <MMBarButtonItem: 0x143b073e0>
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:325[m [0;30;46mDEBUG:[m  = <MMBarButtonItem: 0x143b073e0>
+
+default	10:27:19.000000+0800	WeChat	 reloadNavigationRightStoryButton
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:28[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> reloadNavigationRightStoryButton]
+
+default		WeChat	 storyCheckHasItem
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:26[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> storyCheckHasItem]
+
+default		WeChat	 GetContact
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:19.000000+0800	WeChat	 GetContact
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:19.000000+0800	WeChat	 GetContact
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> GetContact]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:204[m [0;30;46mDEBUG:[m  = {m_nsUsrName=wxi*421~19, m_nsEncodeUserName=v1_b3ad164a2db7f8f223153c8a53c163687391974340a91e8f09e13543f275afb663615010316ccd4bdb5bbf41acbb1a37@stranger, alias=fs*kz~6, m_nsNickName=forest, m_uiType=1, m_uiConType=0, m_nsRemark=,  m_nsCountry=CN m_nsProvince=Guangdong m_nsCity=Guangzhou m_nsSignature=一子错满盘皆落索 	 m_uiSex=1 m_uiCerFlag=0 m_nsCer=(null) scene=15 }
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:26[m [0;30;46mDEBUG:[m  = 0
+
+default		WeChat	 getRightBarButton
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:325[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getRightBarButton]
+
+default		WeChat	 getRightBarButtonWithMultiFlag:
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:324[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> getRightBarButtonWithMultiFlag:0]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:324[m [0;30;46mDEBUG:[m  = <MMBarButtonItem: 0x143a6c780>
+
+default	11:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:325[m [0;30;46mDEBUG:[m  = <MMBarButtonItem: 0x143a6c780>
+
+default	10:27:19.000000+0800	WeChat	 tryMoveToMainFrame
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:180[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> tryMoveToMainFrame]
+
+default	10:27:19.000000+0800	WeChat	 willMoveToMainFrame
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:179[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> willMoveToMainFrame]
+
+default		WeChat	 m_bIsInMainFrame
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:12[m [0;30;46mDEBUG:[m -[<BaseMsgContentViewController: 0x1400d7600> m_bIsInMainFrame]
+
+default		WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:12[m [0;30;46mDEBUG:[m  = 1
+
+default	10:27:19.000000+0800	WeChat	 [1;36m[WeChatHB] [m[0;36m/Users/apple/Documents/iOSReverse/ReverseCode/WeChatHB/WeChatHB/WechatSetting.xm:179[m [0;30;46mDEBUG:[m  = 0
+

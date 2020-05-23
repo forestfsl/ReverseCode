@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'LogosWeChat7.0.9' target in the 'LogosWeChat7.0.9' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import "/opt/theos/Prefix.pch"  //path/to/theos/Prefix.pch
+#endif
