@@ -149,8 +149,9 @@
 				<integer>2</integer>
 				<key>MethodWhiteList</key>
 				<array>
-					<string>AsyncOnAddMsg:MsgWrap:</string>
+					<string>onNewSyncAddMessage:</string>
 					<string>onRevokeMsg:</string>
+					<string>AsyncOnAddMsg:MsgWrap:</string>
 				</array>
 				<key>MethodBlackList</key>
 				<array/>

@@ -1,0 +1,267 @@
+void __cdecl -[WCRedEnvelopesReceiveControlLogic WCRedEnvelopesReceiveHomeViewOpenRedEnvelopes](#8761 *self, SEL a2)
+{
+  #8761 *v2; // x19
+  void *v3; // x0
+  void *v4; // x0
+  void *v5; // x22
+  void *v6; // x0
+  void *v7; // x0
+  void *v8; // x23
+  void *v9; // x0
+  void *v10; // x25
+  void *v11; // x0
+  void *v12; // x0
+  __int64 v13; // x24
+  struct objc_object *v14; // x0
+  void *v15; // x24
+  void *v16; // x0
+  void *v17; // x22
+  void *v18; // x0
+  __int64 v19; // x26
+  void *v20; // x0
+  __int64 v21; // x23
+  void *v22; // x0
+  void *v23; // x23
+  void *v24; // x0
+  void *v25; // x0
+  void *v26; // x0
+  void *v27; // x24
+  void *v28; // x0
+  void *v29; // x27
+  void *v30; // x0
+  __int64 v31; // x23
+  void *v32; // x0
+  __int64 v33; // x23
+  void *v34; // x0
+  __int64 v35; // x23
+  void *v36; // x0
+  void *v37; // x0
+  void *v38; // x20
+  void *v39; // x0
+  void *v40; // x0
+  void *v41; // x23
+  void *v42; // x0
+  __int64 v43; // x21
+  void *v44; // x0
+  void *v45; // x21
+  void *v46; // x0
+  void *v47; // x0
+  void *v48; // x0
+  void *v49; // x23
+  void *v50; // x0
+  void *v51; // x20
+  void *v52; // x0
+  __int64 v53; // x23
+  void *v54; // x0
+  void *v55; // x0
+  void *v56; // x26
+  void *v57; // x0
+  __int64 v58; // x27
+  void *v59; // x0
+  void *v60; // x0
+  void *v61; // x21
+  void *v62; // x0
+  __int64 v63; // x23
+  void *v64; // x0
+  void *v65; // x0
+  void *v66; // x23
+  void *v67; // x0
+  void *v68; // x20
+  void *v69; // x0
+  void *v70; // x23
+  void *v71; // x0
+  void *v72; // x0
+  void *v73; // x25
+  void *v74; // x0
+  void *v75; // x26
+  void *v76; // x0
+  void *v77; // x0
+  void *v78; // x27
+  void *v79; // x0
+  void *v80; // x0
+  void *v81; // x23
+  void *v82; // x0
+  __int64 v83; // x24
+  __int64 v84; // x22
+  void *v85; // [xsp-110h] [xbp-110h]
+  void *v86; // [xsp-F0h] [xbp-F0h]
+  void *v87; // [xsp-E8h] [xbp-E8h]
+  __int64 v88; // [xsp-E0h] [xbp-E0h]
+  void **v89; // [xsp-C8h] [xbp-C8h]
+  signed __int64 v90; // [xsp-C0h] [xbp-C0h]
+  __int64 (__fastcall *v91)(); // [xsp-B8h] [xbp-B8h]
+  void *v92; // [xsp-B0h] [xbp-B0h]
+  #8761 *v93; // [xsp-A8h] [xbp-A8h]
+  __int64 v94; // [xsp-A0h] [xbp-A0h]
+  void **v95; // [xsp-98h] [xbp-98h]
+  signed __int64 v96; // [xsp-90h] [xbp-90h]
+  __int64 (__fastcall *v97)(); // [xsp-88h] [xbp-88h]
+  void *v98; // [xsp-80h] [xbp-80h]
+  void *v99; // [xsp-78h] [xbp-78h]
+  #8761 *v100; // [xsp-70h] [xbp-70h]
+  __int64 v101; // [xsp-68h] [xbp-68h]
+
+  v2 = self;
+  v3 = objc_msgSend(*(void **)((char *)self + 57), "m_oSelectedMessageWrap");
+  v4 = (void *)objc_retainAutoreleasedReturnValue(v3);
+  v5 = v4;
+  v6 = objc_msgSend(v4, "m_oWCPayInfoItem");
+  v7 = (void *)objc_retainAutoreleasedReturnValue(v6);
+  v8 = v7;
+  v9 = objc_msgSend(v7, "m_c2cNativeUrl");
+  v10 = (void *)objc_retainAutoreleasedReturnValue(v9);
+  v11 = objc_msgSend(CFSTR("wxpay://c2cbizmessagehandler/hongbao/receivehongbao?"), "length");
+  v12 = objc_msgSend(v10, "substringFromIndex:", v11);
+  v13 = objc_retainAutoreleasedReturnValue(v12);
+  objc_release(v10);
+  objc_release(v8);
+  objc_release(v5);
+  v88 = v13;
+  v14 = +[WCBizUtil dictionaryWithDecodedComponets:separator:](
+          &MEMORY[0x1044D18C0],
+          "dictionaryWithDecodedComponets:separator:",
+          v13,
+          CFSTR("&"));
+  v15 = (void *)objc_retainAutoreleasedReturnValue(v14);
+  v16 = objc_msgSend(&OBJC_CLASS___NSMutableDictionary, "dictionary");
+  v17 = (void *)objc_retainAutoreleasedReturnValue(v16);
+  objc_msgSend(v17, "safeSetObject:forKey:", CFSTR("1"), CFSTR("msgType"));
+  v18 = objc_msgSend(v15, "objectForKey:", CFSTR("sendid"));
+  v19 = objc_retainAutoreleasedReturnValue(v18);
+  objc_msgSend(v17, "safeSetObject:forKey:", v19, CFSTR("sendId"));
+  objc_release(v19);
+  v87 = v15;
+  v20 = objc_msgSend(v15, "objectForKey:", CFSTR("channelid"));
+  v21 = objc_retainAutoreleasedReturnValue(v20);
+  objc_msgSend(v17, "safeSetObject:forKey:", v21, CFSTR("channelId"));
+  objc_release(v21);
+  v22 = objc_msgSend(&OBJC_CLASS___MMServiceCenter, "defaultCenter");
+  v23 = (void *)objc_retainAutoreleasedReturnValue(v22);
+  v24 = objc_msgSend(&OBJC_CLASS___CContactMgr, "class");
+  v25 = objc_msgSend(v23, "getService:", v24);
+  v26 = (void *)objc_retainAutoreleasedReturnValue(v25);
+  v27 = v26;
+  v28 = objc_msgSend(v26, "getSelfContact");
+  v29 = (void *)objc_retainAutoreleasedReturnValue(v28);
+  objc_release(v27);
+  objc_release(v23);
+  v30 = objc_msgSend(v29, "getContactDisplayName");
+  v31 = objc_retainAutoreleasedReturnValue(v30);
+  objc_msgSend(v17, "safeSetObject:forKey:", v31, CFSTR("nickName"));
+  objc_release(v31);
+  v86 = v29;
+  v32 = objc_msgSend(v29, "m_nsHeadImgUrl");
+  v33 = objc_retainAutoreleasedReturnValue(v32);
+  objc_msgSend(v17, "safeSetObject:forKey:", v33, CFSTR("headImg"));
+  objc_release(v33);
+  v34 = objc_msgSend(*(void **)((char *)v2 + 57), "m_oSelectedMessageWrap");
+  v35 = objc_retainAutoreleasedReturnValue(v34);
+  objc_release(v35);
+  if ( v35 )
+  {
+    v36 = objc_msgSend(*(void **)((char *)v2 + 57), "m_oSelectedMessageWrap");
+    v37 = (void *)objc_retainAutoreleasedReturnValue(v36);
+    v38 = v37;
+    v39 = objc_msgSend(v37, "m_oWCPayInfoItem");
+    v40 = (void *)objc_retainAutoreleasedReturnValue(v39);
+    v41 = v40;
+    v42 = objc_msgSend(v40, "m_c2cNativeUrl");
+    v43 = objc_retainAutoreleasedReturnValue(v42);
+    objc_msgSend(v17, "safeSetObject:forKey:", v43, CFSTR("nativeUrl"));
+    objc_release(v43);
+    objc_release(v41);
+    objc_release(v38);
+  }
+  v44 = objc_msgSend(&OBJC_CLASS___MMServiceCenter, "defaultCenter");
+  v45 = (void *)objc_retainAutoreleasedReturnValue(v44);
+  v46 = objc_msgSend(&OBJC_CLASS___MMMsgLogicManager, "class");
+  v47 = objc_msgSend(v45, "getService:", v46);
+  v48 = (void *)objc_retainAutoreleasedReturnValue(v47);
+  v49 = v48;
+  v50 = objc_msgSend(v48, "GetCurrentLogicController");
+  v51 = (void *)objc_retainAutoreleasedReturnValue(v50);
+  objc_release(v49);
+  objc_release(v45);
+  if ( v51 )
+  {
+    v52 = objc_msgSend(v51, "m_contact");
+    v53 = objc_retainAutoreleasedReturnValue(v52);
+    if ( v53 )
+    {
+      v54 = objc_msgSend(v51, "m_contact");
+      v55 = (void *)objc_retainAutoreleasedReturnValue(v54);
+      v56 = v55;
+      v57 = objc_msgSend(v55, "m_nsUsrName");
+      v58 = objc_retainAutoreleasedReturnValue(v57);
+      objc_release(v58);
+      objc_release(v56);
+      objc_release(v53);
+      if ( v58 )
+      {
+        v59 = objc_msgSend(v51, "m_contact");
+        v60 = (void *)objc_retainAutoreleasedReturnValue(v59);
+        v61 = v60;
+        v62 = objc_msgSend(v60, "m_nsUsrName");
+        v63 = objc_retainAutoreleasedReturnValue(v62);
+        objc_msgSend(v17, "safeSetObject:forKey:", v63, CFSTR("sessionUserName"));
+        objc_release(v63);
+        objc_release(v61);
+      }
+    }
+  }
+  v85 = v51;
+  v64 = objc_msgSend(*(void **)((char *)v2 + 57), "m_structDicRedEnvelopesBaseInfo");
+  v65 = (void *)objc_retainAutoreleasedReturnValue(v64);
+  v66 = v65;
+  v67 = objc_msgSend(v65, "stringForKey:", CFSTR("timingIdentifier"));
+  v68 = (void *)objc_retainAutoreleasedReturnValue(v67);
+  objc_release(v66);
+  if ( objc_msgSend(v68, "length") )
+    objc_msgSend(v17, "safeSetObject:forKey:", v68, CFSTR("timingIdentifier"));
+  objc_initWeak(&v101, v2);
+  v69 = objc_msgSend(&OBJC_CLASS___MMServiceCenter, "defaultCenter");
+  v70 = (void *)objc_retainAutoreleasedReturnValue(v69);
+  v71 = objc_msgSend(&OBJC_CLASS___WCPayLogicMgr, "class");
+  v72 = objc_msgSend(v70, "getService:", v71);
+  v73 = (void *)objc_retainAutoreleasedReturnValue(v72);
+  objc_msgSend(v73, "setRealnameReportScene:", 1003LL);
+  objc_release(v73);
+  objc_release(v70);
+  v74 = objc_msgSend(&OBJC_CLASS___MMServiceCenter, "defaultCenter");
+  v75 = (void *)objc_retainAutoreleasedReturnValue(v74);
+  v76 = objc_msgSend(&OBJC_CLASS___WCPayLogicMgr, "class");
+  v77 = objc_msgSend(v75, "getService:", v76);
+  v78 = (void *)objc_retainAutoreleasedReturnValue(v77);
+  v79 = objc_msgSend(*(void **)((char *)v2 + 57), "m_structDicRedEnvelopesBaseInfo");
+  v80 = (void *)objc_retainAutoreleasedReturnValue(v79);
+  v81 = v80;
+  v82 = objc_msgSend(v80, "objectForKeyedSubscript:", CFSTR("agree_duty"));
+  v83 = objc_retainAutoreleasedReturnValue(v82);
+  v95 = _NSConcreteStackBlock;
+  v96 = 3254779904LL;
+  v97 = sub_10149729C;
+  v98 = &unk_10395D2E8;
+  v99 = v17;
+  v100 = v2;
+  v89 = _NSConcreteStackBlock;
+  v90 = 3254779904LL;
+  v91 = sub_1014973B4;
+  v92 = &unk_10395D318;
+  v84 = objc_retain(v17);
+  objc_copyWeak(&v94, &v101);
+  v93 = v2;
+  objc_msgSend(v78, "checkHongbaoOpenLicense:acceptCallback:denyCallback:", v83, &v95, &v89);
+  objc_release(v83);
+  objc_release(v81);
+  objc_release(v78);
+  objc_release(v75);
+  objc_destroyWeak(&v94);
+  objc_release(v99);
+  objc_release(v84);
+  objc_destroyWeak(&v101);
+  objc_release(v68);
+  objc_release(v85);
+  objc_release(v86);
+  objc_release(v87);
+  objc_release(v88);
+}
