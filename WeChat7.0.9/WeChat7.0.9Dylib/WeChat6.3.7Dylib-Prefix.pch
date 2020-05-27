@@ -1,8 +1,0 @@
-//
-// Prefix header for all source files of the 'WeChat7.0.9Dylib' target in the 'WeChat7.0.9Dylib' project
-//
-
-#ifdef __OBJC__
-    #import <Foundation/Foundation.h>
-    #import "/opt/theos/Prefix.pch"  //path/to/theos/Prefix.pch
-#endif
