@@ -1,14 +1,4 @@
 #line 1 "/Users/apple/Documents/iOSReverse/ReverseCode/WeChat7.0.9/WeChat7.0.9Dylib/Logos/WeChat7_0_9Dylib.xm"
-@interface WCPayInfoItem
-@property(retain, nonatomic) NSString *m_c2cNativeUrl;
-
-@end
-
-@interface  CMessageWrap
-@property(retain, nonatomic) WCPayInfoItem *m_oWCPayInfoItem;
-@property(nonatomic) unsigned int m_uiMessageType;
-@property(retain, nonatomic) NSString *m_nsFromUsr;
-@end
 
 
 #include <substrate.h>
@@ -31,20 +21,38 @@
 #define _LOGOS_RETURN_RETAINED
 #endif
 
-@class CMessageMgr; 
-static void (*_logos_orig$_ungrouped$CMessageMgr$MainThreadNotifyToExt$)(_LOGOS_SELF_TYPE_NORMAL CMessageMgr* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$_ungrouped$CMessageMgr$MainThreadNotifyToExt$(_LOGOS_SELF_TYPE_NORMAL CMessageMgr* _LOGOS_SELF_CONST, SEL, id); static void (*_logos_orig$_ungrouped$CMessageMgr$onNewSyncAddMessage$)(_LOGOS_SELF_TYPE_NORMAL CMessageMgr* _LOGOS_SELF_CONST, SEL, CMessageWrap *); static void _logos_method$_ungrouped$CMessageMgr$onNewSyncAddMessage$(_LOGOS_SELF_TYPE_NORMAL CMessageMgr* _LOGOS_SELF_CONST, SEL, CMessageWrap *); 
+@class BaseMsgContentViewController; 
+static void (*_logos_orig$_ungrouped$BaseMsgContentViewController$addMessageNode$layout$addMoreMsg$)(_LOGOS_SELF_TYPE_NORMAL BaseMsgContentViewController* _LOGOS_SELF_CONST, SEL, id, _Bool, _Bool); static void _logos_method$_ungrouped$BaseMsgContentViewController$addMessageNode$layout$addMoreMsg$(_LOGOS_SELF_TYPE_NORMAL BaseMsgContentViewController* _LOGOS_SELF_CONST, SEL, id, _Bool, _Bool); 
 
-#line 12 "/Users/apple/Documents/iOSReverse/ReverseCode/WeChat7.0.9/WeChat7.0.9Dylib/Logos/WeChat7_0_9Dylib.xm"
+#line 2 "/Users/apple/Documents/iOSReverse/ReverseCode/WeChat7.0.9/WeChat7.0.9Dylib/Logos/WeChat7_0_9Dylib.xm"
 
-static void _logos_method$_ungrouped$CMessageMgr$MainThreadNotifyToExt$(_LOGOS_SELF_TYPE_NORMAL CMessageMgr* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd, id arg1){
-    _logos_orig$_ungrouped$CMessageMgr$MainThreadNotifyToExt$(self, _cmd, arg1);
+static void _logos_method$_ungrouped$BaseMsgContentViewController$addMessageNode$layout$addMoreMsg$(_LOGOS_SELF_TYPE_NORMAL BaseMsgContentViewController* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd, id arg1, _Bool arg2, _Bool arg3){
+    _logos_orig$_ungrouped$BaseMsgContentViewController$addMessageNode$layout$addMoreMsg$(self, _cmd, arg1, arg2, arg3);
 }
 
-static void _logos_method$_ungrouped$CMessageMgr$onNewSyncAddMessage$(_LOGOS_SELF_TYPE_NORMAL CMessageMgr* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd, CMessageWrap * msgWrap){
-      NSLog(@"是否是群消息:%@",msgWrap.m_nsFromUsr);
 
-        _logos_orig$_ungrouped$CMessageMgr$onNewSyncAddMessage$(self, _cmd, msgWrap);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 static __attribute__((constructor)) void _logosLocalInit() {
-{Class _logos_class$_ungrouped$CMessageMgr = objc_getClass("CMessageMgr"); MSHookMessageEx(_logos_class$_ungrouped$CMessageMgr, @selector(MainThreadNotifyToExt:), (IMP)&_logos_method$_ungrouped$CMessageMgr$MainThreadNotifyToExt$, (IMP*)&_logos_orig$_ungrouped$CMessageMgr$MainThreadNotifyToExt$);MSHookMessageEx(_logos_class$_ungrouped$CMessageMgr, @selector(onNewSyncAddMessage:), (IMP)&_logos_method$_ungrouped$CMessageMgr$onNewSyncAddMessage$, (IMP*)&_logos_orig$_ungrouped$CMessageMgr$onNewSyncAddMessage$);} }
-#line 22 "/Users/apple/Documents/iOSReverse/ReverseCode/WeChat7.0.9/WeChat7.0.9Dylib/Logos/WeChat7_0_9Dylib.xm"
+{Class _logos_class$_ungrouped$BaseMsgContentViewController = objc_getClass("BaseMsgContentViewController"); MSHookMessageEx(_logos_class$_ungrouped$BaseMsgContentViewController, @selector(addMessageNode:layout:addMoreMsg:), (IMP)&_logos_method$_ungrouped$BaseMsgContentViewController$addMessageNode$layout$addMoreMsg$, (IMP*)&_logos_orig$_ungrouped$BaseMsgContentViewController$addMessageNode$layout$addMoreMsg$);} }
+#line 30 "/Users/apple/Documents/iOSReverse/ReverseCode/WeChat7.0.9/WeChat7.0.9Dylib/Logos/WeChat7_0_9Dylib.xm"

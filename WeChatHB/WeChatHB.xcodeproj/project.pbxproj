@@ -11,7 +11,6 @@
 		1874930D24728530003E11F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1874930C24728530003E11F5 /* Foundation.framework */; };
 		1874930F24728530003E11F5 /* CydiaSubstrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1874930E24728530003E11F5 /* CydiaSubstrate.framework */; };
 		1874931824728530003E11F5 /* WeChatHB.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1874931724728530003E11F5 /* WeChatHB.mm */; };
-		1874939724729F1D003E11F5 /* WechatSetting.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1874939624729F1D003E11F5 /* WechatSetting.mm */; };
 		187493992472A03C003E11F5 /* BaseMsgContentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 187493982472A03C003E11F5 /* BaseMsgContentViewController.h */; };
 /* End PBXBuildFile section */
 
@@ -26,8 +25,6 @@
 		1874931724728530003E11F5 /* WeChatHB.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WeChatHB.mm; sourceTree = "<group>"; };
 		1874931C24728530003E11F5 /* WeChatHB.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WeChatHB.plist; sourceTree = "<group>"; };
 		18749390247295BE003E11F5 /* weChatHeaders */ = {isa = PBXFileReference; lastKnownFileType = text; path = weChatHeaders; sourceTree = SOURCE_ROOT; };
-		1874939524729EE2003E11F5 /* WechatSetting.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = WechatSetting.xm; path = ../../25.WechatDemo/25.WechatDemoDylib/Logos/WechatSetting.xm; sourceTree = "<group>"; };
-		1874939624729F1D003E11F5 /* WechatSetting.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = WechatSetting.mm; path = ../../25.WechatDemo/25.WechatDemoDylib/Logos/WechatSetting.mm; sourceTree = "<group>"; };
 		187493982472A03C003E11F5 /* BaseMsgContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMsgContentViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,8 +76,6 @@
 				18749390247295BE003E11F5 /* weChatHeaders */,
 				1874931624728530003E11F5 /* WeChatHB.xm */,
 				1874931724728530003E11F5 /* WeChatHB.mm */,
-				1874939524729EE2003E11F5 /* WechatSetting.xm */,
-				1874939624729F1D003E11F5 /* WechatSetting.mm */,
 				1874931124728530003E11F5 /* Package */,
 				1874931424728530003E11F5 /* Supporting Files */,
 			);
@@ -242,7 +237,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1874939724729F1D003E11F5 /* WechatSetting.mm in Sources */,
 				1874931824728530003E11F5 /* WeChatHB.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

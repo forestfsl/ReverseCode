@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>18E226</string>
+	<string>17G65</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>zh_CN</string>
 	<key>CFBundleDisplayName</key>
@@ -14,7 +14,7 @@
 			<key>CFBundleTypeName</key>
 			<string>officeopenxml</string>
 			<key>LSHandlerRank</key>
-			<string>Alternate</string>
+			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
 				<string>org.openxmlformats.openxml</string>
@@ -24,7 +24,7 @@
 			<key>CFBundleTypeName</key>
 			<string>data</string>
 			<key>LSHandlerRank</key>
-			<string>Alternate</string>
+			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
 				<string>public.data</string>
@@ -34,7 +34,7 @@
 			<key>CFBundleTypeName</key>
 			<string>ppt</string>
 			<key>LSHandlerRank</key>
-			<string>Alternate</string>
+			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
 				<string>com.microsoft.powerpoint.ppt</string>
@@ -44,7 +44,7 @@
 			<key>CFBundleTypeName</key>
 			<string>doc</string>
 			<key>LSHandlerRank</key>
-			<string>Alternate</string>
+			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
 				<string>com.microsoft.word.doc</string>
@@ -54,7 +54,7 @@
 			<key>CFBundleTypeName</key>
 			<string>xls</string>
 			<key>LSHandlerRank</key>
-			<string>Alternate</string>
+			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
 				<string>com.microsoft.excel.xls</string>
@@ -64,7 +64,7 @@
 			<key>CFBundleTypeName</key>
 			<string>pdf</string>
 			<key>LSHandlerRank</key>
-			<string>Alternate</string>
+			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
 				<string>com.adobe.pdf</string>
@@ -74,7 +74,7 @@
 			<key>CFBundleTypeName</key>
 			<string>archive</string>
 			<key>LSHandlerRank</key>
-			<string>Alternate</string>
+			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
 				<string>org.gnu.gnu-tar-archive</string>
@@ -84,7 +84,7 @@
 			<key>CFBundleTypeName</key>
 			<string>audivideo</string>
 			<key>LSHandlerRank</key>
-			<string>Alternate</string>
+			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
 				<string>public.audiovisual-content</string>
@@ -94,7 +94,7 @@
 			<key>CFBundleTypeName</key>
 			<string>image</string>
 			<key>LSHandlerRank</key>
-			<string>Alternate</string>
+			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
 				<string>public.image</string>
@@ -104,7 +104,7 @@
 			<key>CFBundleTypeName</key>
 			<string>txt</string>
 			<key>LSHandlerRank</key>
-			<string>Alternate</string>
+			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
 				<string>public.text</string>
@@ -144,7 +144,7 @@
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>com.appstore.WeChat7-0-9</string>
+	<string>com.appstore.WeChat6-3-7</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -152,7 +152,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>7.0.9</string>
+	<string>6.7.3</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -175,37 +175,29 @@
 				<string>wechat</string>
 				<string>QQ41C152CF</string>
 				<string>prefs</string>
-				<string>wx703</string>
-				<string>weixinULAPI</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>7.0.9.41</string>
-	<key>DTAppStoreToolsBuild</key>
-	<string>11C29</string>
+	<string>6.7.3.48</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>16G73</string>
+	<string>16A366</string>
 	<key>DTPlatformName</key>
 	<string>iphoneos</string>
 	<key>DTPlatformVersion</key>
-	<string>12.4</string>
+	<string>12.0</string>
 	<key>DTSDKBuild</key>
-	<string>16G73</string>
+	<string>16A366</string>
 	<key>DTSDKName</key>
-	<string>iphoneos12.4</string>
+	<string>iphoneos12.0</string>
 	<key>DTXcode</key>
-	<string>1030</string>
+	<string>1000</string>
 	<key>DTXcodeBuild</key>
-	<string>10G8</string>
+	<string>10A255</string>
 	<key>FacebookAppID</key>
 	<string>290293790992170</string>
-	<key>FacebookAutoInitEnabled</key>
-	<false/>
-	<key>FacebookAutoLogAppEventsEnabled</key>
-	<false/>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>qqnews</string>
@@ -229,10 +221,10 @@
 		<string>iosamap</string>
 		<string>baidumap</string>
 		<string>sgmap</string>
-		<string>fbauth2</string>
+		<string>fbauth</string>
 		<string>wx76fc280041c16519</string>
 		<string>wx3bef52104e238bff</string>
-		<string>rijvideo</string>
+		<string>wx369f9a611589ad83</string>
 		<string>wx95a3a4d7c627e07d</string>
 		<string>wx44b60f3ea0534cd7</string>
 		<string>wxacbfe7e1bb3e800f</string>
@@ -260,17 +252,13 @@
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>LSSupportsOpeningDocumentsInPlace</key>
-	<false/>
 	<key>MinimumOSVersion</key>
-	<string>9.0</string>
+	<string>8.0</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
-	<key>NSBluetoothAlwaysUsageDescription</key>
-	<string>Allow WeChat Use Bluetooth Peripheral.</string>
 	<key>NSBluetoothPeripheralUsageDescription</key>
 	<string>Allow WeChat Use Bluetooth Peripheral.</string>
 	<key>NSCameraUsageDescription</key>
@@ -331,10 +319,6 @@
 	<string>Launch Screen</string>
 	<key>UIPrerenderedIcon</key>
 	<true/>
-	<key>UIRequiredDeviceCapabilities</key>
-	<array>
-		<string>arm64</string>
-	</array>
 	<key>UIStatusBarHidden</key>
 	<true/>
 	<key>UIStatusBarStyle</key>
@@ -352,27 +336,9 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
-	<key>UISupportsDocumentBrowser</key>
-	<false/>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 	<key>WeChatBundleVersion</key>
-	<string>7.0.9.41</string>
-	<key>WeChatFeatureIdentifier</key>
-	<string>release_appstore_7.0.9</string>
-	<key>build_time</key>
-	<string>2019-12-19 21:34:11</string>
-	<key>by</key>
-	<string>wx_ios_code_helper</string>
-	<key>path</key>
-	<string>release_appstore_7.0.9_2019_11_27_19_29_32</string>
-	<key>rev</key>
-	<string>c4bc4f87aef33357625df926e2b42e8eee15f367</string>
-	<key>tag</key>
-	<string>release_appstore_7.0.9 #70</string>
-	<key>uuid</key>
-	<string>4ad0c509310c3000bb8a2e11dcb2aedb</string>
-	<key>ver</key>
-	<string>0x17000929</string>
+	<string>6.7.4.16</string>
 </dict>
 </plist>

@@ -298,7 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = GZXZ6RN6N6;
+				DEVELOPMENT_TEAM = VTYD926TDP;
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,7 +306,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.forest.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = WildCard;
+				PROVISIONING_PROFILE_SPECIFIER = "com.* Development";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -316,7 +316,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = GZXZ6RN6N6;
+				DEVELOPMENT_TEAM = VTYD926TDP;
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -324,7 +324,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.forest.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = WildCard;
+				PROVISIONING_PROFILE_SPECIFIER = "com.* Development";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

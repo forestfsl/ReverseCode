@@ -15,15 +15,15 @@
 @implementation NSDictionary (Hook)
 
 + (void)load {
-    //赋值时安全保护
-    Method fromMethod=class_getInstanceMethod(objc_getClass("__NSPlaceholderDictionary"),@selector(initWithObjects:forKeys:count:));
-    Method toMethod =class_getInstanceMethod(objc_getClass("__NSPlaceholderDictionary"),@selector(em_initWithObjects:forKeys:count:));
-    method_exchangeImplementations(fromMethod, toMethod);
-
-//可变字典添加时安全保护
-    fromMethod =class_getInstanceMethod(objc_getClass("__NSDictionaryM"),@selector(setObject:forKey:));
-    toMethod =class_getInstanceMethod(objc_getClass("__NSDictionaryM"),@selector(em_setObject:forKey:));
-    method_exchangeImplementations(fromMethod, toMethod);
+//    //赋值时安全保护
+//    Method fromMethod=class_getInstanceMethod(objc_getClass("__NSPlaceholderDictionary"),@selector(initWithObjects:forKeys:count:));
+//    Method toMethod =class_getInstanceMethod(objc_getClass("__NSPlaceholderDictionary"),@selector(em_initWithObjects:forKeys:count:));
+//    method_exchangeImplementations(fromMethod, toMethod);
+//
+////可变字典添加时安全保护
+//    fromMethod =class_getInstanceMethod(objc_getClass("__NSDictionaryM"),@selector(setObject:forKey:));
+//    toMethod =class_getInstanceMethod(objc_getClass("__NSDictionaryM"),@selector(em_setObject:forKey:));
+//    method_exchangeImplementations(fromMethod, toMethod);
 
 }
 

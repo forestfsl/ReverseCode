@@ -7,6 +7,7 @@
 //  Created by AloneMonkey on 2017/9/6.
 //  Copyright © 2017年 AloneMonkey. All rights reserved.
 //
+#warning 默认traceObject设置为0，所以没有hook住类的信息
 
 #import "MDMethodTrace.h"
 #import <objc/runtime.h>
