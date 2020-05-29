@@ -1,0 +1,530 @@
+__text:0000000101496B54 ; void __cdecl -[WCRedEnvelopesReceiveControlLogic WCRedEnvelopesReceiveHomeViewOpenRedEnvelopes](WCRedEnvelopesReceiveControlLogic *self, SEL)
+__text:0000000101496B54 __WCRedEnvelopesReceiveControlLogic_WCRedEnvelopesReceiveHomeViewOpenRedEnvelopes_
+__text:0000000101496B54                                         ; DATA XREF: __objc_const:0000000103EFE4C0↓o
+__text:0000000101496B54
+__text:0000000101496B54 var_100         = -0x100
+__text:0000000101496B54 var_F8          = -0xF8
+__text:0000000101496B54 var_F0          = -0xF0
+__text:0000000101496B54 var_E8          = -0xE8
+__text:0000000101496B54 var_E0          = -0xE0
+__text:0000000101496B54 var_D8          = -0xD8
+__text:0000000101496B54 var_D0          = -0xD0
+__text:0000000101496B54 var_C8          = -0xC8
+__text:0000000101496B54 var_C0          = -0xC0
+__text:0000000101496B54 var_B8          = -0xB8
+__text:0000000101496B54 var_B0          = -0xB0
+__text:0000000101496B54 var_A8          = -0xA8
+__text:0000000101496B54 var_A0          = -0xA0
+__text:0000000101496B54 var_98          = -0x98
+__text:0000000101496B54 var_88          = -0x88
+__text:0000000101496B54 var_80          = -0x80
+__text:0000000101496B54 var_78          = -0x78
+__text:0000000101496B54 var_68          = -0x68
+__text:0000000101496B54 var_58          = -0x58
+__text:0000000101496B54 var_50          = -0x50
+__text:0000000101496B54 var_40          = -0x40
+__text:0000000101496B54 var_30          = -0x30
+__text:0000000101496B54 var_20          = -0x20
+__text:0000000101496B54 var_10          = -0x10
+__text:0000000101496B54 var_s0          =  0
+__text:0000000101496B54
+__text:0000000101496B54                 SUB             SP, SP, #0x120
+__text:0000000101496B58                 STP             X28, X27, [SP,#0x110+var_50]
+__text:0000000101496B5C                 STP             X26, X25, [SP,#0x110+var_40]
+__text:0000000101496B60                 STP             X24, X23, [SP,#0x110+var_30]
+__text:0000000101496B64                 STP             X22, X21, [SP,#0x110+var_20]
+__text:0000000101496B68                 STP             X20, X19, [SP,#0x110+var_10]
+__text:0000000101496B6C                 STP             X29, X30, [SP,#0x110+var_s0]
+__text:0000000101496B70                 ADD             X29, SP, #0x110
+；x19 是self
+__text:0000000101496B74                 MOV             X19, X0
+;WCRedEnvelopesReceiveControlLogic 这个类没有data，但是父类有
+__text:0000000101496B78                 ADRP            X8, #_OBJC_IVAR_$_WCRedEnvelopesControlLogic.m_data@PAGE ; WCRedEnvelopesControlData *m_data;
+__text:0000000101496B7C                 NOP
+__text:0000000101496B80                 LDRSW           X27, [X8,#_OBJC_IVAR_$_WCRedEnvelopesControlLogic.m_data@PAGEOFF] ; WCRedEnvelopesControlData *m_data;
+__text:0000000101496B84                 LDR             X0, [X19,X27] ; void *
+；x0 是m_data ,从m_data 中获取_m_oSelectedMessageWrap
+__text:0000000101496B88                 ADRP            X8, #selRef_m_oSelectedMessageWrap@PAGE
+__text:0000000101496B8C                 LDR             X20, [X8,#selRef_m_oSelectedMessageWrap@PAGEOFF]
+__text:0000000101496B90                 MOV             X1, X20 ; char *
+__text:0000000101496B94                 BL              _objc_msgSend
+__text:0000000101496B98                 MOV             X29, X29
+__text:0000000101496B9C                 BL              _objc_retainAutoreleasedReturnValue
+;这个时候x0就是上一个方法的返回值，也就是 CMessageWrap *m_oSelectedMessageWrap
+__text:0000000101496BA0                 MOV             X22, X0
+__text:0000000101496BA4                 ADRP            X8, #selRef_m_oWCPayInfoItem@PAGE
+__text:0000000101496BA8                 LDR             X1, [X8,#selRef_m_oWCPayInfoItem@PAGEOFF] ; char *
+__text:0000000101496BAC                 STR             X1, [SP,#0x110+var_F0]
+__text:0000000101496BB0                 BL              _objc_msgSend
+；上面这几句就是从m_oSelectedMessageWrap 取出m_oWCPayInfoItem
+
+
+__text:0000000101496BB4                 MOV             X29, X29
+__text:0000000101496BB8                 BL              _objc_retainAutoreleasedReturnValue
+；x0也是上一个方法调用的返回值
+__text:0000000101496BBC                 MOV             X23, X0
+__text:0000000101496BC0                 ADRP            X8, #selRef_m_c2cNativeUrl@PAGE
+__text:0000000101496BC4                 LDR             X21, [X8,#selRef_m_c2cNativeUrl@PAGEOFF]
+__text:0000000101496BC8                 MOV             X1, X21 ; char *
+__text:0000000101496BCC                 BL              _objc_msgSend
+；上面几句就是从m_oWCPayInfoItem 取出m_c2cNativeUrl
+
+
+__text:0000000101496BD0                 MOV             X29, X29
+__text:0000000101496BD4                 BL              _objc_retainAutoreleasedReturnValue
+__text:0000000101496BD8                 MOV             X25, X0；x25保存m_c2cNativeUrl
+__text:0000000101496BDC                 ADRP            X8, #selRef_length@PAGE
+；x1 代表length
+__text:0000000101496BE0                 LDR             X1, [X8,#selRef_length@PAGEOFF] ; char *
+__text:0000000101496BE4                 ADRP            X0, #cfstr_WxpayC2cbizmes_0@PAGE ; "wxpay://c2cbizmessagehandler/hongbao/receivehongbao?"
+__text:0000000101496BE8                 ADD             X0, X0, #cfstr_WxpayC2cbizmes_0@PAGEOFF ; void *
+__text:0000000101496BEC                 STR             X1, [SP,#0x110+var_E8]
+__text:0000000101496BF0                 BL              _objc_msgSend
+;x0 是返回的长度
+__text:0000000101496BF4                 MOV             X2, X0
+__text:0000000101496BF8                 ADRP            X8, #selRef_substringFromIndex_@PAGE
+__text:0000000101496BFC                 LDR             X1, [X8,#selRef_substringFromIndex_@PAGEOFF] ; char *
+__text:0000000101496C00                 MOV             X0, X25 ; void *
+__text:0000000101496C04                 BL              _objc_msgSend
+；上面这几句就是截取字符串   相当于这样NSString * m_c2cNativeUrl2 = [m_c2cNativeUrl substringFromIndex:@"wxpay://c2cbizmessagehandler/hongbao/receivehongbao?".length];
+
+__text:0000000101496C08                 MOV             X29, X29
+__text:0000000101496C0C                 BL              _objc_retainAutoreleasedReturnValue
+；X0 赋值给X24,然后X24就相当于是返回的m_c2cNativeUrl2，也就是下面dictionaryWithDecodedComponets:separator: 第一个参数x2
+__text:0000000101496C10                 MOV             X24, X0
+__text:0000000101496C14                 MOV             X0, X25
+__text:0000000101496C18                 BL              _objc_release
+__text:0000000101496C1C                 MOV             X0, X23
+__text:0000000101496C20                 BL              _objc_release
+__text:0000000101496C24                 MOV             X0, X22
+__text:0000000101496C28                 BL              _objc_release
+__text:0000000101496C2C                 ADRP            X8, #classRef_WCBizUtil@PAGE
+__text:0000000101496C30                 LDR             X0, [X8,#classRef_WCBizUtil@PAGEOFF] ; void *
+__text:0000000101496C34                 ADRP            X8, #selRef_dictionaryWithDecodedComponets_separator_@PAGE
+__text:0000000101496C38                 LDR             X1, [X8,#selRef_dictionaryWithDecodedComponets_separator_@PAGEOFF] ; char *
+__text:0000000101496C3C                 ADRP            X3, #stru_1039BE618@PAGE ; "&"
+__text:0000000101496C40                 ADD             X3, X3, #stru_1039BE618@PAGEOFF ; "&"
+__text:0000000101496C44                 STR             X24, [SP,#0x110+var_D0]
+;x2 代表是m_c2cNativeUrl2
+__text:0000000101496C48                 MOV             X2, X24
+__text:0000000101496C4C                 BL              _objc_msgSend
+
+ ； NSDictionary * url_dic = [%c(WCBizUtil) dictionaryWithDecodedComponets:m_c2cNativeUrl2 separator:@"&"];
+
+
+
+
+
+;下面这一段介绍伪代码分析，请移步到伪代码
+
+__text:0000000101496C50                 MOV             X29, X29
+__text:0000000101496C54                 BL              _objc_retainAutoreleasedReturnValue
+__text:0000000101496C58                 MOV             X24, X0
+__text:0000000101496C5C                 ADRP            X8, #classRef_NSMutableDictionary@PAGE
+__text:0000000101496C60                 LDR             X0, [X8,#classRef_NSMutableDictionary@PAGEOFF] ; void *
+__text:0000000101496C64                 ADRP            X8, #selRef_dictionary@PAGE
+__text:0000000101496C68                 LDR             X1, [X8,#selRef_dictionary@PAGEOFF] ; char *
+__text:0000000101496C6C                 BL              _objc_msgSend
+__text:0000000101496C70                 MOV             X29, X29
+__text:0000000101496C74                 BL              _objc_retainAutoreleasedReturnValue
+__text:0000000101496C78                 MOV             X22, X0
+__text:0000000101496C7C                 ADRP            X8, #selRef_safeSetObject_forKey_@PAGE
+__text:0000000101496C80                 LDR             X25, [X8,#selRef_safeSetObject_forKey_@PAGEOFF]
+__text:0000000101496C84                 ADRP            X2, #cfstr_1@PAGE ; "1"
+__text:0000000101496C88                 ADD             X2, X2, #cfstr_1@PAGEOFF ; "1"
+__text:0000000101496C8C                 ADRP            X3, #cfstr_Msgtype_1@PAGE ; "msgType"
+__text:0000000101496C90                 ADD             X3, X3, #cfstr_Msgtype_1@PAGEOFF ; "msgType"
+__text:0000000101496C94                 MOV             X1, X25 ; char *
+__text:0000000101496C98                 BL              _objc_msgSend
+__text:0000000101496C9C                 ADRP            X8, #selRef_objectForKey_@PAGE
+__text:0000000101496CA0                 LDR             X23, [X8,#selRef_objectForKey_@PAGEOFF]
+__text:0000000101496CA4                 ADRP            X2, #cfstr_Sendid_6@PAGE ; "sendid"
+__text:0000000101496CA8                 ADD             X2, X2, #cfstr_Sendid_6@PAGEOFF ; "sendid"
+__text:0000000101496CAC                 MOV             X0, X24 ; void *
+__text:0000000101496CB0                 MOV             X1, X23 ; char *
+__text:0000000101496CB4                 BL              _objc_msgSend
+__text:0000000101496CB8                 MOV             X29, X29
+__text:0000000101496CBC                 BL              _objc_retainAutoreleasedReturnValue
+__text:0000000101496CC0                 MOV             X26, X0
+__text:0000000101496CC4                 ADRP            X3, #cfstr_Sendid_5@PAGE ; "sendId"
+__text:0000000101496CC8                 ADD             X3, X3, #cfstr_Sendid_5@PAGEOFF ; "sendId"
+__text:0000000101496CCC                 MOV             X0, X22 ; void *
+__text:0000000101496CD0                 MOV             X1, X25 ; char *
+__text:0000000101496CD4                 MOV             X2, X26
+__text:0000000101496CD8                 BL              _objc_msgSend
+__text:0000000101496CDC                 MOV             X0, X26
+__text:0000000101496CE0                 MOV             X26, X27
+__text:0000000101496CE4                 BL              _objc_release
+__text:0000000101496CE8                 ADRP            X2, #cfstr_Channelid_0@PAGE ; "channelid"
+__text:0000000101496CEC                 ADD             X2, X2, #cfstr_Channelid_0@PAGEOFF ; "channelid"
+__text:0000000101496CF0                 STR             X24, [SP,#0x110+var_D8]
+__text:0000000101496CF4                 MOV             X0, X24 ; void *
+__text:0000000101496CF8                 MOV             X1, X23 ; char *
+__text:0000000101496CFC                 BL              _objc_msgSend
+__text:0000000101496D00                 MOV             X29, X29
+__text:0000000101496D04                 BL              _objc_retainAutoreleasedReturnValue
+__text:0000000101496D08                 MOV             X23, X0
+__text:0000000101496D0C                 ADRP            X3, #cfstr_Channelid@PAGE ; "channelId"
+__text:0000000101496D10                 ADD             X3, X3, #cfstr_Channelid@PAGEOFF ; "channelId"
+__text:0000000101496D14                 MOV             X0, X22 ; void *
+__text:0000000101496D18                 MOV             X1, X25 ; char *
+__text:0000000101496D1C                 MOV             X2, X23
+__text:0000000101496D20                 BL              _objc_msgSend
+__text:0000000101496D24                 MOV             X0, X23
+__text:0000000101496D28                 BL              _objc_release
+__text:0000000101496D2C                 ADRP            X8, #classRef_MMServiceCenter@PAGE
+__text:0000000101496D30                 LDR             X0, [X8,#classRef_MMServiceCenter@PAGEOFF] ; void *
+__text:0000000101496D34                 ADRP            X8, #selRef_defaultCenter@PAGE
+__text:0000000101496D38                 LDR             X28, [X8,#selRef_defaultCenter@PAGEOFF]
+__text:0000000101496D3C                 MOV             X1, X28 ; char *
+__text:0000000101496D40                 BL              _objc_msgSend
+__text:0000000101496D44                 MOV             X29, X29
+__text:0000000101496D48                 BL              _objc_retainAutoreleasedReturnValue
+__text:0000000101496D4C                 MOV             X23, X0
+__text:0000000101496D50                 ADRP            X8, #classRef_CContactMgr@PAGE
+__text:0000000101496D54                 LDR             X0, [X8,#classRef_CContactMgr@PAGEOFF] ; void *
+__text:0000000101496D58                 ADRP            X8, #selRef_class@PAGE
+__text:0000000101496D5C                 LDR             X1, [X8,#selRef_class@PAGEOFF] ; char *
+__text:0000000101496D60                 STR             X1, [SP,#0x110+var_C0]
+__text:0000000101496D64                 BL              _objc_msgSend
+__text:0000000101496D68                 MOV             X2, X0
+__text:0000000101496D6C                 ADRP            X8, #selRef_getService_@PAGE
+__text:0000000101496D70                 LDR             X1, [X8,#selRef_getService_@PAGEOFF] ; char *
+__text:0000000101496D74                 MOV             X0, X23 ; void *
+__text:0000000101496D78                 STR             X1, [SP,#0x110+var_C8]
+__text:0000000101496D7C                 BL              _objc_msgSend
+__text:0000000101496D80                 MOV             X29, X29
+__text:0000000101496D84                 BL              _objc_retainAutoreleasedReturnValue
+__text:0000000101496D88                 MOV             X24, X0
+__text:0000000101496D8C                 ADRP            X8, #selRef_getSelfContact@PAGE
+__text:0000000101496D90                 LDR             X1, [X8,#selRef_getSelfContact@PAGEOFF] ; char *
+__text:0000000101496D94                 BL              _objc_msgSend
+__text:0000000101496D98                 MOV             X29, X29
+__text:0000000101496D9C                 BL              _objc_retainAutoreleasedReturnValue
+__text:0000000101496DA0                 MOV             X27, X0
+__text:0000000101496DA4                 MOV             X0, X24
+__text:0000000101496DA8                 BL              _objc_release
+__text:0000000101496DAC                 MOV             X0, X23
+__text:0000000101496DB0                 BL              _objc_release
+__text:0000000101496DB4                 ADRP            X8, #selRef_getContactDisplayName@PAGE
+__text:0000000101496DB8                 LDR             X1, [X8,#selRef_getContactDisplayName@PAGEOFF] ; char *
+__text:0000000101496DBC                 MOV             X0, X27 ; void *
+__text:0000000101496DC0                 BL              _objc_msgSend
+__text:0000000101496DC4                 MOV             X29, X29
+__text:0000000101496DC8                 BL              _objc_retainAutoreleasedReturnValue
+__text:0000000101496DCC                 MOV             X23, X0
+__text:0000000101496DD0                 ADRP            X3, #cfstr_Nickname_4@PAGE ; "nickName"
+__text:0000000101496DD4                 ADD             X3, X3, #cfstr_Nickname_4@PAGEOFF ; "nickName"
+__text:0000000101496DD8                 MOV             X0, X22 ; void *
+__text:0000000101496DDC                 MOV             X1, X25 ; char *
+__text:0000000101496DE0                 MOV             X2, X23
+__text:0000000101496DE4                 BL              _objc_msgSend
+__text:0000000101496DE8                 MOV             X0, X23
+__text:0000000101496DEC                 BL              _objc_release
+__text:0000000101496DF0                 ADRP            X8, #selRef_m_nsHeadImgUrl@PAGE
+__text:0000000101496DF4                 LDR             X1, [X8,#selRef_m_nsHeadImgUrl@PAGEOFF] ; char *
+__text:0000000101496DF8                 STR             X27, [SP,#0x110+var_E0]
+__text:0000000101496DFC                 MOV             X0, X27 ; void *
+__text:0000000101496E00                 BL              _objc_msgSend
+__text:0000000101496E04                 MOV             X29, X29
+__text:0000000101496E08                 BL              _objc_retainAutoreleasedReturnValue
+__text:0000000101496E0C                 MOV             X23, X0
+__text:0000000101496E10                 ADRP            X3, #cfstr_Headimg_5@PAGE ; "headImg"
+__text:0000000101496E14                 ADD             X3, X3, #cfstr_Headimg_5@PAGEOFF ; "headImg"
+__text:0000000101496E18                 MOV             X0, X22 ; void *
+__text:0000000101496E1C                 MOV             X1, X25 ; char *
+__text:0000000101496E20                 MOV             X2, X23
+__text:0000000101496E24                 BL              _objc_msgSend
+__text:0000000101496E28                 MOV             X0, X23
+__text:0000000101496E2C                 BL              _objc_release
+__text:0000000101496E30                 LDR             X0, [X19,X26] ; void *
+__text:0000000101496E34                 MOV             X1, X20 ; char *
+__text:0000000101496E38                 BL              _objc_msgSend
+__text:0000000101496E3C                 MOV             X29, X29
+__text:0000000101496E40                 BL              _objc_retainAutoreleasedReturnValue
+__text:0000000101496E44                 MOV             X23, X0
+__text:0000000101496E48                 BL              _objc_release
+__text:0000000101496E4C                 CBZ             X23, loc_101496EC0
+__text:0000000101496E50                 LDR             X0, [X19,X26] ; void *
+__text:0000000101496E54                 MOV             X1, X20 ; char *
+__text:0000000101496E58                 BL              _objc_msgSend
+__text:0000000101496E5C                 MOV             X29, X29
+__text:0000000101496E60                 BL              _objc_retainAutoreleasedReturnValue
+__text:0000000101496E64                 MOV             X20, X0
+__text:0000000101496E68                 LDR             X1, [SP,#0x110+var_F0] ; char *
+__text:0000000101496E6C                 BL              _objc_msgSend
+__text:0000000101496E70                 MOV             X29, X29
+__text:0000000101496E74                 BL              _objc_retainAutoreleasedReturnValue
+__text:0000000101496E78                 MOV             X23, X0
+__text:0000000101496E7C                 MOV             X1, X21 ; char *
+__text:0000000101496E80                 BL              _objc_msgSend
+__text:0000000101496E84                 MOV             X29, X29
+__text:0000000101496E88                 BL              _objc_retainAutoreleasedReturnValue
+__text:0000000101496E8C                 MOV             X21, X0
+__text:0000000101496E90                 ADRP            X3, #cfstr_Nativeurl_4@PAGE ; "nativeUrl"
+__text:0000000101496E94                 ADD             X3, X3, #cfstr_Nativeurl_4@PAGEOFF ; "nativeUrl"
+__text:0000000101496E98                 MOV             X0, X22 ; void *
+__text:0000000101496E9C                 MOV             X1, X25 ; char *
+__text:0000000101496EA0                 MOV             X2, X21
+__text:0000000101496EA4                 BL              _objc_msgSend
+__text:0000000101496EA8                 MOV             X0, X21
+__text:0000000101496EAC                 BL              _objc_release
+__text:0000000101496EB0                 MOV             X0, X23
+__text:0000000101496EB4                 BL              _objc_release
+__text:0000000101496EB8                 MOV             X0, X20
+__text:0000000101496EBC                 BL              _objc_release
+__text:0000000101496EC0
+__text:0000000101496EC0 loc_101496EC0                           ; CODE XREF: -[WCRedEnvelopesReceiveControlLogic WCRedEnvelopesReceiveHomeViewOpenRedEnvelopes]+2F8↑j
+__text:0000000101496EC0                 ADRP            X8, #classRef_MMServiceCenter@PAGE
+__text:0000000101496EC4                 LDR             X0, [X8,#classRef_MMServiceCenter@PAGEOFF] ; void *
+__text:0000000101496EC8                 STR             X28, [SP,#0x110+var_F0]
+__text:0000000101496ECC                 MOV             X1, X28 ; char *
+__text:0000000101496ED0                 BL              _objc_msgSend
+__text:0000000101496ED4                 MOV             X29, X29
+__text:0000000101496ED8                 BL              _objc_retainAutoreleasedReturnValue
+__text:0000000101496EDC                 MOV             X21, X0
+__text:0000000101496EE0                 ADRP            X8, #classRef_MMMsgLogicManager@PAGE
+__text:0000000101496EE4                 LDR             X0, [X8,#classRef_MMMsgLogicManager@PAGEOFF] ; void *
+__text:0000000101496EE8                 LDR             X1, [SP,#0x110+var_C0] ; char *
+__text:0000000101496EEC                 BL              _objc_msgSend
+__text:0000000101496EF0                 MOV             X2, X0
+__text:0000000101496EF4                 MOV             X0, X21 ; void *
+__text:0000000101496EF8                 LDR             X1, [SP,#0x110+var_C8] ; char *
+__text:0000000101496EFC                 BL              _objc_msgSend
+__text:0000000101496F00                 MOV             X29, X29
+__text:0000000101496F04                 BL              _objc_retainAutoreleasedReturnValue
+__text:0000000101496F08                 MOV             X23, X0
+__text:0000000101496F0C                 ADRP            X8, #selRef_GetCurrentLogicController@PAGE
+__text:0000000101496F10                 LDR             X1, [X8,#selRef_GetCurrentLogicController@PAGEOFF] ; char *
+__text:0000000101496F14                 BL              _objc_msgSend
+__text:0000000101496F18                 MOV             X29, X29
+__text:0000000101496F1C                 BL              _objc_retainAutoreleasedReturnValue
+__text:0000000101496F20                 MOV             X20, X0
+__text:0000000101496F24                 MOV             X0, X23
+__text:0000000101496F28                 BL              _objc_release
+__text:0000000101496F2C                 MOV             X0, X21
+__text:0000000101496F30                 BL              _objc_release
+__text:0000000101496F34                 CBZ             X20, loc_101497004
+__text:0000000101496F38                 ADRP            X8, #selRef_m_contact@PAGE
+__text:0000000101496F3C                 LDR             X21, [X8,#selRef_m_contact@PAGEOFF]
+__text:0000000101496F40                 MOV             X0, X20 ; void *
+__text:0000000101496F44                 MOV             X1, X21 ; char *
+__text:0000000101496F48                 BL              _objc_msgSend
+__text:0000000101496F4C                 MOV             X29, X29
+__text:0000000101496F50                 BL              _objc_retainAutoreleasedReturnValue
+__text:0000000101496F54                 MOV             X23, X0
+__text:0000000101496F58                 CBZ             X23, loc_101497004
+__text:0000000101496F5C                 MOV             X0, X20 ; void *
+__text:0000000101496F60                 MOV             X1, X21 ; char *
+__text:0000000101496F64                 BL              _objc_msgSend
+__text:0000000101496F68                 MOV             X29, X29
+__text:0000000101496F6C                 BL              _objc_retainAutoreleasedReturnValue
+__text:0000000101496F70                 MOV             X28, X26
+__text:0000000101496F74                 MOV             X26, X0
+__text:0000000101496F78                 ADRP            X8, #selRef_m_nsUsrName@PAGE
+__text:0000000101496F7C                 LDR             X24, [X8,#selRef_m_nsUsrName@PAGEOFF]
+__text:0000000101496F80                 MOV             X1, X24 ; char *
+__text:0000000101496F84                 BL              _objc_msgSend
+__text:0000000101496F88                 MOV             X29, X29
+__text:0000000101496F8C                 BL              _objc_retainAutoreleasedReturnValue
+__text:0000000101496F90                 MOV             X27, X0
+__text:0000000101496F94                 BL              _objc_release
+__text:0000000101496F98                 MOV             X0, X26
+__text:0000000101496F9C                 MOV             X26, X28
+__text:0000000101496FA0                 BL              _objc_release
+__text:0000000101496FA4                 MOV             X0, X23
+__text:0000000101496FA8                 BL              _objc_release
+__text:0000000101496FAC                 CBZ             X27, loc_101497004
+__text:0000000101496FB0                 MOV             X0, X20 ; void *
+__text:0000000101496FB4                 MOV             X1, X21 ; char *
+__text:0000000101496FB8                 BL              _objc_msgSend
+__text:0000000101496FBC                 MOV             X29, X29
+__text:0000000101496FC0                 BL              _objc_retainAutoreleasedReturnValue
+__text:0000000101496FC4                 MOV             X21, X0
+__text:0000000101496FC8                 MOV             X1, X24 ; char *
+__text:0000000101496FCC                 BL              _objc_msgSend
+__text:0000000101496FD0                 MOV             X29, X29
+__text:0000000101496FD4                 BL              _objc_retainAutoreleasedReturnValue
+__text:0000000101496FD8                 MOV             X23, X0
+__text:0000000101496FDC                 ADRP            X3, #cfstr_Sessionusernam@PAGE ; "sessionUserName"
+__text:0000000101496FE0                 ADD             X3, X3, #cfstr_Sessionusernam@PAGEOFF ; "sessionUserName"
+__text:0000000101496FE4                 MOV             X0, X22 ; void *
+__text:0000000101496FE8                 MOV             X1, X25 ; char *
+__text:0000000101496FEC                 MOV             X2, X23
+__text:0000000101496FF0                 BL              _objc_msgSend
+__text:0000000101496FF4                 MOV             X0, X23
+__text:0000000101496FF8                 BL              _objc_release
+__text:0000000101496FFC                 MOV             X0, X21
+__text:0000000101497000                 BL              _objc_release
+__text:0000000101497004
+__text:0000000101497004 loc_101497004                           ; CODE XREF: -[WCRedEnvelopesReceiveControlLogic WCRedEnvelopesReceiveHomeViewOpenRedEnvelopes]+3E0↑j
+__text:0000000101497004                                         ; -[WCRedEnvelopesReceiveControlLogic WCRedEnvelopesReceiveHomeViewOpenRedEnvelopes]+404↑j ...
+__text:0000000101497004                 STP             X20, X26, [SP,#0x110+var_100]
+__text:0000000101497008                 LDR             X0, [X19,X26] ; void *
+__text:000000010149700C                 ADRP            X8, #selRef_m_structDicRedEnvelopesBaseInfo@PAGE
+__text:0000000101497010                 LDR             X24, [X8,#selRef_m_structDicRedEnvelopesBaseInfo@PAGEOFF]
+__text:0000000101497014                 MOV             X1, X24 ; char *
+__text:0000000101497018                 BL              _objc_msgSend
+__text:000000010149701C                 MOV             X29, X29
+__text:0000000101497020                 BL              _objc_retainAutoreleasedReturnValue
+__text:0000000101497024                 MOV             X23, X0
+__text:0000000101497028                 ADRP            X8, #selRef_stringForKey_@PAGE
+__text:000000010149702C                 LDR             X1, [X8,#selRef_stringForKey_@PAGEOFF] ; char *
+__text:0000000101497030                 ADRP            X2, #cfstr_Timingidentifi@PAGE ; "timingIdentifier"
+__text:0000000101497034                 ADD             X2, X2, #cfstr_Timingidentifi@PAGEOFF ; "timingIdentifier"
+__text:0000000101497038                 BL              _objc_msgSend
+__text:000000010149703C                 MOV             X29, X29
+__text:0000000101497040                 BL              _objc_retainAutoreleasedReturnValue
+__text:0000000101497044                 MOV             X20, X0
+__text:0000000101497048                 MOV             X0, X23
+__text:000000010149704C                 BL              _objc_release
+__text:0000000101497050                 MOV             X0, X20 ; void *
+__text:0000000101497054                 LDR             X1, [SP,#0x110+var_E8] ; char *
+__text:0000000101497058                 BL              _objc_msgSend
+__text:000000010149705C                 CBZ             X0, loc_101497078
+__text:0000000101497060                 ADRP            X3, #cfstr_Timingidentifi@PAGE ; "timingIdentifier"
+__text:0000000101497064                 ADD             X3, X3, #cfstr_Timingidentifi@PAGEOFF ; "timingIdentifier"
+__text:0000000101497068                 MOV             X0, X22 ; void *
+__text:000000010149706C                 MOV             X1, X25 ; char *
+__text:0000000101497070                 MOV             X2, X20
+__text:0000000101497074                 BL              _objc_msgSend
+__text:0000000101497078
+__text:0000000101497078 loc_101497078                           ; CODE XREF: -[WCRedEnvelopesReceiveControlLogic WCRedEnvelopesReceiveHomeViewOpenRedEnvelopes]+508↑j
+__text:0000000101497078                 SUB             X0, X29, #-var_58
+__text:000000010149707C                 MOV             X1, X19
+__text:0000000101497080                 BL              _objc_initWeak
+__text:0000000101497084                 ADRP            X8, #0x104442000
+__text:0000000101497088                 STR             X20, [SP,#0x110+var_E8]
+__text:000000010149708C                 MOV             X20, X8
+__text:0000000101497090                 LDR             X0, [X20,#(classRef_MMServiceCenter - 0x104442000)] ; _OBJC_CLASS_$_MMServiceCenter ; void *
+__text:0000000101497094                 LDR             X26, [SP,#0x110+var_F0]
+__text:0000000101497098                 MOV             X1, X26 ; char *
+__text:000000010149709C                 BL              _objc_msgSend
+__text:00000001014970A0                 MOV             X29, X29
+__text:00000001014970A4                 BL              _objc_retainAutoreleasedReturnValue
+__text:00000001014970A8                 MOV             X23, X0
+__text:00000001014970AC                 ADRP            X27, #classRef_WCPayLogicMgr@PAGE
+__text:00000001014970B0                 LDR             X0, [X27,#classRef_WCPayLogicMgr@PAGEOFF] ; void *
+__text:00000001014970B4                 MOV             X28, X19
+__text:00000001014970B8                 LDR             X19, [SP,#0x110+var_C0]
+__text:00000001014970BC                 MOV             X1, X19 ; char *
+__text:00000001014970C0                 BL              _objc_msgSend
+__text:00000001014970C4                 MOV             X2, X0
+__text:00000001014970C8                 MOV             X0, X23 ; void *
+__text:00000001014970CC                 MOV             X21, X22
+__text:00000001014970D0                 LDR             X22, [SP,#0x110+var_C8]
+__text:00000001014970D4                 MOV             X1, X22 ; char *
+__text:00000001014970D8                 BL              _objc_msgSend
+__text:00000001014970DC                 MOV             X29, X29
+__text:00000001014970E0                 BL              _objc_retainAutoreleasedReturnValue
+__text:00000001014970E4                 MOV             X25, X0
+__text:00000001014970E8                 ADRP            X8, #selRef_setRealnameReportScene_@PAGE
+__text:00000001014970EC                 LDR             X1, [X8,#selRef_setRealnameReportScene_@PAGEOFF] ; char *
+__text:00000001014970F0                 MOV             W2, #0x3EB
+__text:00000001014970F4                 BL              _objc_msgSend
+__text:00000001014970F8                 MOV             X0, X25
+__text:00000001014970FC                 BL              _objc_release
+__text:0000000101497100                 MOV             X0, X23
+__text:0000000101497104                 BL              _objc_release
+__text:0000000101497108                 ADD             X8, SP, #0x110+var_B8
+__text:000000010149710C                 ADD             X25, X8, #0x28
+__text:0000000101497110                 LDR             X0, [X20,#(classRef_MMServiceCenter - 0x104442000)] ; _OBJC_CLASS_$_MMServiceCenter ; void *
+__text:0000000101497114                 MOV             X1, X26 ; char *
+__text:0000000101497118                 BL              _objc_msgSend
+__text:000000010149711C                 MOV             X29, X29
+__text:0000000101497120                 BL              _objc_retainAutoreleasedReturnValue
+__text:0000000101497124                 MOV             X26, X0
+__text:0000000101497128                 LDR             X0, [X27,#classRef_WCPayLogicMgr@PAGEOFF] ; void *
+__text:000000010149712C                 MOV             X1, X19 ; char *
+__text:0000000101497130                 BL              _objc_msgSend
+__text:0000000101497134                 MOV             X2, X0
+__text:0000000101497138                 MOV             X0, X26 ; void *
+__text:000000010149713C                 MOV             X1, X22 ; char *
+__text:0000000101497140                 BL              _objc_msgSend
+__text:0000000101497144                 MOV             X29, X29
+__text:0000000101497148                 BL              _objc_retainAutoreleasedReturnValue
+__text:000000010149714C                 MOV             X27, X0
+__text:0000000101497150                 LDR             X8, [SP,#0x110+var_F8]
+__text:0000000101497154                 LDR             X0, [X28,X8] ; void *
+__text:0000000101497158                 MOV             X1, X24 ; char *
+__text:000000010149715C                 BL              _objc_msgSend
+__text:0000000101497160                 MOV             X29, X29
+__text:0000000101497164                 BL              _objc_retainAutoreleasedReturnValue
+__text:0000000101497168                 MOV             X23, X0
+__text:000000010149716C                 ADRP            X8, #selRef_objectForKeyedSubscript_@PAGE
+__text:0000000101497170                 LDR             X1, [X8,#selRef_objectForKeyedSubscript_@PAGEOFF] ; char *
+__text:0000000101497174                 ADRP            X2, #cfstr_AgreeDuty@PAGE ; "agree_duty"
+__text:0000000101497178                 ADD             X2, X2, #cfstr_AgreeDuty@PAGEOFF ; "agree_duty"
+__text:000000010149717C                 BL              _objc_msgSend
+__text:0000000101497180                 MOV             X29, X29
+__text:0000000101497184                 BL              _objc_retainAutoreleasedReturnValue
+__text:0000000101497188                 MOV             X24, X0
+__text:000000010149718C                 ADRP            X8, #__NSConcreteStackBlock_ptr@PAGE
+__text:0000000101497190                 LDR             X8, [X8,#__NSConcreteStackBlock_ptr@PAGEOFF]
+__text:0000000101497194                 STR             X8, [SP,#0x110+var_88]
+__text:0000000101497198                 ADRP            X9, #qword_1030E1E80@PAGE
+__text:000000010149719C                 LDR             D0, [X9,#qword_1030E1E80@PAGEOFF]
+__text:00000001014971A0                 STR             D0, [SP,#0x110+var_80]
+__text:00000001014971A4                 ADR             X9, sub_10149729C
+__text:00000001014971A8                 NOP
+__text:00000001014971AC                 ADRP            X10, #unk_10395D2E8@PAGE
+__text:00000001014971B0                 ADD             X10, X10, #unk_10395D2E8@PAGEOFF
+__text:00000001014971B4                 STP             X9, X10, [SP,#0x110+var_78]
+__text:00000001014971B8                 STP             X21, X28, [SP,#0x110+var_68]
+__text:00000001014971BC                 STR             X8, [SP,#0x110+var_B8]
+__text:00000001014971C0                 STR             D0, [SP,#0x110+var_B0]
+__text:00000001014971C4                 ADR             X8, sub_1014973B4
+__text:00000001014971C8                 NOP
+__text:00000001014971CC                 STR             X8, [SP,#0x110+var_A8]
+__text:00000001014971D0                 ADRP            X8, #unk_10395D318@PAGE
+__text:00000001014971D4                 ADD             X8, X8, #unk_10395D318@PAGEOFF
+__text:00000001014971D8                 STR             X8, [SP,#0x110+var_A0]
+__text:00000001014971DC                 MOV             X0, X21
+__text:00000001014971E0                 BL              _objc_retain
+__text:00000001014971E4                 MOV             X22, X0
+__text:00000001014971E8                 SUB             X1, X29, #-var_58
+__text:00000001014971EC                 MOV             X0, X25
+__text:00000001014971F0                 BL              _objc_copyWeak
+__text:00000001014971F4                 STR             X28, [SP,#0x110+var_98]
+__text:00000001014971F8                 ADRP            X8, #selRef_checkHongbaoOpenLicense_acceptCallback_denyCallback_@PAGE
+__text:00000001014971FC                 LDR             X1, [X8,#selRef_checkHongbaoOpenLicense_acceptCallback_denyCallback_@PAGEOFF] ; char *
+__text:0000000101497200                 ADD             X3, SP, #0x110+var_88
+__text:0000000101497204                 ADD             X4, SP, #0x110+var_B8
+__text:0000000101497208                 MOV             X0, X27 ; void *
+__text:000000010149720C                 MOV             X2, X24
+__text:0000000101497210                 BL              _objc_msgSend
+__text:0000000101497214                 MOV             X0, X24
+__text:0000000101497218                 BL              _objc_release
+__text:000000010149721C                 MOV             X0, X23
+__text:0000000101497220                 BL              _objc_release
+__text:0000000101497224                 MOV             X0, X27
+__text:0000000101497228                 BL              _objc_release
+__text:000000010149722C                 MOV             X0, X26
+__text:0000000101497230                 BL              _objc_release
+__text:0000000101497234                 MOV             X0, X25
+__text:0000000101497238                 BL              _objc_destroyWeak
+__text:000000010149723C                 LDR             X0, [SP,#0x110+var_68]
+__text:0000000101497240                 BL              _objc_release
+__text:0000000101497244                 MOV             X0, X22
+__text:0000000101497248                 BL              _objc_release
+__text:000000010149724C                 SUB             X0, X29, #-var_58
+__text:0000000101497250                 BL              _objc_destroyWeak
+__text:0000000101497254                 LDR             X0, [SP,#0x110+var_E8]
+__text:0000000101497258                 BL              _objc_release
+__text:000000010149725C                 LDR             X0, [SP,#0x110+var_100]
+__text:0000000101497260                 BL              _objc_release
+__text:0000000101497264                 LDR             X0, [SP,#0x110+var_E0]
+__text:0000000101497268                 BL              _objc_release
+__text:000000010149726C                 LDR             X0, [SP,#0x110+var_D8]
+__text:0000000101497270                 BL              _objc_release
+__text:0000000101497274                 LDR             X0, [SP,#0x110+var_D0]
+__text:0000000101497278                 BL              _objc_release
+__text:000000010149727C                 LDP             X29, X30, [SP,#0x110+var_s0]
+__text:0000000101497280                 LDP             X20, X19, [SP,#0x110+var_10]
+__text:0000000101497284                 LDP             X22, X21, [SP,#0x110+var_20]
+__text:0000000101497288                 LDP             X24, X23, [SP,#0x110+var_30]
+__text:000000010149728C                 LDP             X26, X25, [SP,#0x110+var_40]
+__text:0000000101497290                 LDP             X28, X27, [SP,#0x110+var_50]
+__text:0000000101497294                 ADD             SP, SP, #0x120
+__text:0000000101497298                 RET
+__text:0000000101497298 ; End of function -[WCRedEnvelopesReceiveControlLogic WCRedEnvelopesReceiveHomeViewOpenRedEnvelopes]

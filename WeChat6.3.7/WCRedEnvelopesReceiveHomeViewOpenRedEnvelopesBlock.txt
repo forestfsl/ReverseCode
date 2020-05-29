@@ -1,0 +1,39 @@
+>block
+```
+void *__fastcall sub_101496E14(__int64 a1)
+{
+  __int64 v1; // x19
+  void *v2; // x0
+  void *v3; // x20
+  void *v4; // x0
+  void *v5; // x0
+  void *v6; // x21
+
+  v1 = a1;
+  v2 = objc_msgSend(&OBJC_CLASS___MMServiceCenter, "defaultCenter");
+  v3 = (void *)objc_retainAutoreleasedReturnValue(v2);
+  v4 = objc_msgSend(&OBJC_CLASS___WCRedEnvelopesLogicMgr, "class");
+  v5 = objc_msgSend(v3, "getService:", v4);
+  v6 = (void *)objc_retainAutoreleasedReturnValue(v5);
+  objc_msgSend(v6, "OpenRedEnvelopesRequest:", *(_QWORD *)(v1 + 32));
+  objc_release(v6);
+  objc_release(v3);
+  *(_DWORD *)(*(_QWORD *)(v1 + 40) + 16LL) = 4;
+  return objc_msgSend(*(void **)(*(_QWORD *)(v1 + 40) + 73LL), "startReceiveAnimation");
+}
+```
+
+>block_0
+```
+void *__fastcall sub_101496F2C(__int64 a1)
+{
+  __int64 v1; // x19
+  void *v2; // x20
+
+  v1 = a1;
+  v2 = (void *)objc_loadWeakRetained(a1 + 40);
+  objc_msgSend(v2, "WCRedEnvelopesReceiveHomeViewBack");
+  objc_release(v2);
+  return objc_msgSend(*(void **)(*(_QWORD *)(v1 + 32) + 73LL), "endAnimation");
+}
+```
