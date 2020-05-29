@@ -1,4 +1,4 @@
-#line 1 "/Users/apple/Documents/iOSReverse/ReverseCode/WeChat6.3.7/WeChat6.3.7Dylib/Logos/SLSettiongCell.xm"
+#line 1 "/Users/apple/Documents/iOSReverse/ReverseCode/WeChat7.0.1/WeChat7.0.1Dylib/Logos/SLSettiongCell.xm"
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
@@ -6,9 +6,7 @@
 
 
 
-#define SLDefaults [NSUserDefaults standardUserDefaults]
-#define SLSWITCSLEY @"SLSWITCSLEY"
-#define SLTIMEKEY @"SLTIMEKEY"
+
 
 
 @interface WCTableViewManager
@@ -40,10 +38,10 @@
 #define _LOGOS_RETURN_RETAINED
 #endif
 
-@class WCTableViewManager; @class NewSettingViewController; 
+@class NewSettingViewController; @class WCTableViewManager; 
 static void _logos_method$_ungrouped$WCTableViewManager$textFieldDidChangeValue$(_LOGOS_SELF_TYPE_NORMAL WCTableViewManager* _LOGOS_SELF_CONST, SEL, NSNotification *); static void _logos_method$_ungrouped$WCTableViewManager$switchChang$(_LOGOS_SELF_TYPE_NORMAL WCTableViewManager* _LOGOS_SELF_CONST, SEL, UISwitch *); static void (*_logos_orig$_ungrouped$WCTableViewManager$scrollViewWillBeginDragging$)(_LOGOS_SELF_TYPE_NORMAL WCTableViewManager* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$_ungrouped$WCTableViewManager$scrollViewWillBeginDragging$(_LOGOS_SELF_TYPE_NORMAL WCTableViewManager* _LOGOS_SELF_CONST, SEL, id); static double (*_logos_orig$_ungrouped$WCTableViewManager$tableView$heightForRowAtIndexPath$)(_LOGOS_SELF_TYPE_NORMAL WCTableViewManager* _LOGOS_SELF_CONST, SEL, UITableView *, id); static double _logos_method$_ungrouped$WCTableViewManager$tableView$heightForRowAtIndexPath$(_LOGOS_SELF_TYPE_NORMAL WCTableViewManager* _LOGOS_SELF_CONST, SEL, UITableView *, id); static id (*_logos_orig$_ungrouped$WCTableViewManager$tableView$cellForRowAtIndexPath$)(_LOGOS_SELF_TYPE_NORMAL WCTableViewManager* _LOGOS_SELF_CONST, SEL, UITableView *, id); static id _logos_method$_ungrouped$WCTableViewManager$tableView$cellForRowAtIndexPath$(_LOGOS_SELF_TYPE_NORMAL WCTableViewManager* _LOGOS_SELF_CONST, SEL, UITableView *, id); static long long (*_logos_orig$_ungrouped$WCTableViewManager$tableView$numberOfRowsInSection$)(_LOGOS_SELF_TYPE_NORMAL WCTableViewManager* _LOGOS_SELF_CONST, SEL, UITableView *, long long); static long long _logos_method$_ungrouped$WCTableViewManager$tableView$numberOfRowsInSection$(_LOGOS_SELF_TYPE_NORMAL WCTableViewManager* _LOGOS_SELF_CONST, SEL, UITableView *, long long); static long long (*_logos_orig$_ungrouped$WCTableViewManager$numberOfSectionsInTableView$)(_LOGOS_SELF_TYPE_NORMAL WCTableViewManager* _LOGOS_SELF_CONST, SEL, id); static long long _logos_method$_ungrouped$WCTableViewManager$numberOfSectionsInTableView$(_LOGOS_SELF_TYPE_NORMAL WCTableViewManager* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$_ungrouped$NewSettingViewController$keyboardWillShow$(_LOGOS_SELF_TYPE_NORMAL NewSettingViewController* _LOGOS_SELF_CONST, SEL, NSNotification*); static void _logos_method$_ungrouped$NewSettingViewController$keyboardWillHide$(_LOGOS_SELF_TYPE_NORMAL NewSettingViewController* _LOGOS_SELF_CONST, SEL, NSNotification*); static void (*_logos_orig$_ungrouped$NewSettingViewController$viewDidLoad)(_LOGOS_SELF_TYPE_NORMAL NewSettingViewController* _LOGOS_SELF_CONST, SEL); static void _logos_method$_ungrouped$NewSettingViewController$viewDidLoad(_LOGOS_SELF_TYPE_NORMAL NewSettingViewController* _LOGOS_SELF_CONST, SEL); 
 static __inline__ __attribute__((always_inline)) __attribute__((unused)) Class _logos_static_class_lookup$NewSettingViewController(void) { static Class _klass; if(!_klass) { _klass = objc_getClass("NewSettingViewController"); } return _klass; }
-#line 21 "/Users/apple/Documents/iOSReverse/ReverseCode/WeChat6.3.7/WeChat6.3.7Dylib/Logos/SLSettiongCell.xm"
+#line 19 "/Users/apple/Documents/iOSReverse/ReverseCode/WeChat7.0.1/WeChat7.0.1Dylib/Logos/SLSettiongCell.xm"
 
 
 static void _logos_method$_ungrouped$WCTableViewManager$textFieldDidChangeValue$(_LOGOS_SELF_TYPE_NORMAL WCTableViewManager* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd, NSNotification * notification){
@@ -101,6 +99,7 @@ static id _logos_method$_ungrouped$WCTableViewManager$tableView$cellForRowAtInde
             UISwitch * switchView = [[UISwitch alloc] init];
             switchView.on = [SLDefaults boolForKey:SLSWITCSLEY];
             [WeChatRedEnvelopesParamQueue sharedQueue].isAuto =  switchView.on;
+              NSLog(@"是否自动抢红包%d",[WeChatRedEnvelopesParamQueue sharedQueue].isAuto);
             [switchView addTarget:self action:@selector(switchChang:) forControlEvents:(UIControlEventValueChanged)];
             cell.accessoryView = switchView;
             cell.imageView.image = [UIImage imageNamed:([SLDefaults boolForKey:SLSWITCSLEY] == 1) ? @"unlocked" : @"locked"];
@@ -189,4 +188,4 @@ static void _logos_method$_ungrouped$NewSettingViewController$viewDidLoad(_LOGOS
 
 static __attribute__((constructor)) void _logosLocalInit() {
 {Class _logos_class$_ungrouped$WCTableViewManager = objc_getClass("WCTableViewManager"); { char _typeEncoding[1024]; unsigned int i = 0; _typeEncoding[i] = 'v'; i += 1; _typeEncoding[i] = '@'; i += 1; _typeEncoding[i] = ':'; i += 1; memcpy(_typeEncoding + i, @encode(NSNotification *), strlen(@encode(NSNotification *))); i += strlen(@encode(NSNotification *)); _typeEncoding[i] = '\0'; class_addMethod(_logos_class$_ungrouped$WCTableViewManager, @selector(textFieldDidChangeValue:), (IMP)&_logos_method$_ungrouped$WCTableViewManager$textFieldDidChangeValue$, _typeEncoding); }{ char _typeEncoding[1024]; unsigned int i = 0; _typeEncoding[i] = 'v'; i += 1; _typeEncoding[i] = '@'; i += 1; _typeEncoding[i] = ':'; i += 1; memcpy(_typeEncoding + i, @encode(UISwitch *), strlen(@encode(UISwitch *))); i += strlen(@encode(UISwitch *)); _typeEncoding[i] = '\0'; class_addMethod(_logos_class$_ungrouped$WCTableViewManager, @selector(switchChang:), (IMP)&_logos_method$_ungrouped$WCTableViewManager$switchChang$, _typeEncoding); }MSHookMessageEx(_logos_class$_ungrouped$WCTableViewManager, @selector(scrollViewWillBeginDragging:), (IMP)&_logos_method$_ungrouped$WCTableViewManager$scrollViewWillBeginDragging$, (IMP*)&_logos_orig$_ungrouped$WCTableViewManager$scrollViewWillBeginDragging$);MSHookMessageEx(_logos_class$_ungrouped$WCTableViewManager, @selector(tableView:heightForRowAtIndexPath:), (IMP)&_logos_method$_ungrouped$WCTableViewManager$tableView$heightForRowAtIndexPath$, (IMP*)&_logos_orig$_ungrouped$WCTableViewManager$tableView$heightForRowAtIndexPath$);MSHookMessageEx(_logos_class$_ungrouped$WCTableViewManager, @selector(tableView:cellForRowAtIndexPath:), (IMP)&_logos_method$_ungrouped$WCTableViewManager$tableView$cellForRowAtIndexPath$, (IMP*)&_logos_orig$_ungrouped$WCTableViewManager$tableView$cellForRowAtIndexPath$);MSHookMessageEx(_logos_class$_ungrouped$WCTableViewManager, @selector(tableView:numberOfRowsInSection:), (IMP)&_logos_method$_ungrouped$WCTableViewManager$tableView$numberOfRowsInSection$, (IMP*)&_logos_orig$_ungrouped$WCTableViewManager$tableView$numberOfRowsInSection$);MSHookMessageEx(_logos_class$_ungrouped$WCTableViewManager, @selector(numberOfSectionsInTableView:), (IMP)&_logos_method$_ungrouped$WCTableViewManager$numberOfSectionsInTableView$, (IMP*)&_logos_orig$_ungrouped$WCTableViewManager$numberOfSectionsInTableView$);Class _logos_class$_ungrouped$NewSettingViewController = objc_getClass("NewSettingViewController"); { char _typeEncoding[1024]; unsigned int i = 0; _typeEncoding[i] = 'v'; i += 1; _typeEncoding[i] = '@'; i += 1; _typeEncoding[i] = ':'; i += 1; memcpy(_typeEncoding + i, @encode(NSNotification*), strlen(@encode(NSNotification*))); i += strlen(@encode(NSNotification*)); _typeEncoding[i] = '\0'; class_addMethod(_logos_class$_ungrouped$NewSettingViewController, @selector(keyboardWillShow:), (IMP)&_logos_method$_ungrouped$NewSettingViewController$keyboardWillShow$, _typeEncoding); }{ char _typeEncoding[1024]; unsigned int i = 0; _typeEncoding[i] = 'v'; i += 1; _typeEncoding[i] = '@'; i += 1; _typeEncoding[i] = ':'; i += 1; memcpy(_typeEncoding + i, @encode(NSNotification*), strlen(@encode(NSNotification*))); i += strlen(@encode(NSNotification*)); _typeEncoding[i] = '\0'; class_addMethod(_logos_class$_ungrouped$NewSettingViewController, @selector(keyboardWillHide:), (IMP)&_logos_method$_ungrouped$NewSettingViewController$keyboardWillHide$, _typeEncoding); }MSHookMessageEx(_logos_class$_ungrouped$NewSettingViewController, @selector(viewDidLoad), (IMP)&_logos_method$_ungrouped$NewSettingViewController$viewDidLoad, (IMP*)&_logos_orig$_ungrouped$NewSettingViewController$viewDidLoad);} }
-#line 164 "/Users/apple/Documents/iOSReverse/ReverseCode/WeChat6.3.7/WeChat6.3.7Dylib/Logos/SLSettiongCell.xm"
+#line 163 "/Users/apple/Documents/iOSReverse/ReverseCode/WeChat7.0.1/WeChat7.0.1Dylib/Logos/SLSettiongCell.xm"

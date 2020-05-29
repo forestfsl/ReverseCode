@@ -36,11 +36,11 @@
 		18BA8A572480BFC800F8CCC4 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BA8A562480BFC800F8CCC4 /* fishhook.h */; };
 		18BA8A592480BFC800F8CCC4 /* WeChat7_0_1Dylib.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BA8A582480BFC800F8CCC4 /* WeChat7_0_1Dylib.h */; };
 		18BA8A5B2480BFC800F8CCC4 /* WeChat7_0_1Dylib.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8A5A2480BFC800F8CCC4 /* WeChat7_0_1Dylib.m */; };
-		18BA8A6C2480C0B900F8CCC4 /* WeChatRedEnvelopesParamQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8A642480C0B800F8CCC4 /* WeChatRedEnvelopesParamQueue.m */; };
-		18BA8A6D2480C0B900F8CCC4 /* WeChat6_3_7Dylib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8A662480C0B800F8CCC4 /* WeChat6_3_7Dylib.mm */; };
-		18BA8A6E2480C0B900F8CCC4 /* WeChatRedEnvelopesParamQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BA8A682480C0B800F8CCC4 /* WeChatRedEnvelopesParamQueue.h */; };
-		18BA8A6F2480C0B900F8CCC4 /* SLSettiongCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8A692480C0B800F8CCC4 /* SLSettiongCell.mm */; };
-		18BA8A702480C0B900F8CCC4 /* test.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8A6B2480C0B800F8CCC4 /* test.mm */; };
+		18BA8AF32480DC2900F8CCC4 /* WeChatRedEnvelopesParamQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8AED2480DC2900F8CCC4 /* WeChatRedEnvelopesParamQueue.m */; };
+		18BA8AF42480DC2900F8CCC4 /* WeChatRedEnvelopesParamQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BA8AEE2480DC2900F8CCC4 /* WeChatRedEnvelopesParamQueue.h */; };
+		18BA8AF52480DC2900F8CCC4 /* WeChat6_3_7Dylib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8AEF2480DC2900F8CCC4 /* WeChat6_3_7Dylib.mm */; };
+		18BA8AF62480DC2900F8CCC4 /* SLSettiongCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8AF02480DC2900F8CCC4 /* SLSettiongCell.mm */; };
+		18BA8AF72480DC2900F8CCC4 /* test.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18BA8AF22480DC2900F8CCC4 /* test.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,14 +103,14 @@
 		18BA8A562480BFC800F8CCC4 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
 		18BA8A582480BFC800F8CCC4 /* WeChat7_0_1Dylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeChat7_0_1Dylib.h; sourceTree = "<group>"; };
 		18BA8A5A2480BFC800F8CCC4 /* WeChat7_0_1Dylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChat7_0_1Dylib.m; sourceTree = "<group>"; };
-		18BA8A642480C0B800F8CCC4 /* WeChatRedEnvelopesParamQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeChatRedEnvelopesParamQueue.m; path = ../../../../../../Desktop/WeChat7.0.1Dylib/Logos/WeChatRedEnvelopesParamQueue.m; sourceTree = "<group>"; };
-		18BA8A652480C0B800F8CCC4 /* WeChat6_3_7Dylib.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = WeChat6_3_7Dylib.xm; path = ../../../../../../Desktop/WeChat7.0.1Dylib/Logos/WeChat6_3_7Dylib.xm; sourceTree = "<group>"; };
-		18BA8A662480C0B800F8CCC4 /* WeChat6_3_7Dylib.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = WeChat6_3_7Dylib.mm; path = ../../../../../../Desktop/WeChat7.0.1Dylib/Logos/WeChat6_3_7Dylib.mm; sourceTree = "<group>"; };
-		18BA8A672480C0B800F8CCC4 /* SLSettiongCell.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = SLSettiongCell.xm; path = ../../../../../../Desktop/WeChat7.0.1Dylib/Logos/SLSettiongCell.xm; sourceTree = "<group>"; };
-		18BA8A682480C0B800F8CCC4 /* WeChatRedEnvelopesParamQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeChatRedEnvelopesParamQueue.h; path = ../../../../../../Desktop/WeChat7.0.1Dylib/Logos/WeChatRedEnvelopesParamQueue.h; sourceTree = "<group>"; };
-		18BA8A692480C0B800F8CCC4 /* SLSettiongCell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SLSettiongCell.mm; path = ../../../../../../Desktop/WeChat7.0.1Dylib/Logos/SLSettiongCell.mm; sourceTree = "<group>"; };
-		18BA8A6A2480C0B800F8CCC4 /* test.xm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test.xm; path = ../../../../../../Desktop/WeChat7.0.1Dylib/Logos/test.xm; sourceTree = "<group>"; };
-		18BA8A6B2480C0B800F8CCC4 /* test.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = test.mm; path = ../../../../../../Desktop/WeChat7.0.1Dylib/Logos/test.mm; sourceTree = "<group>"; };
+		18BA8AEB2480DC2900F8CCC4 /* test.xm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.xm; sourceTree = "<group>"; };
+		18BA8AEC2480DC2900F8CCC4 /* WeChat6_3_7Dylib.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = WeChat6_3_7Dylib.xm; sourceTree = "<group>"; };
+		18BA8AED2480DC2900F8CCC4 /* WeChatRedEnvelopesParamQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatRedEnvelopesParamQueue.m; sourceTree = "<group>"; };
+		18BA8AEE2480DC2900F8CCC4 /* WeChatRedEnvelopesParamQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatRedEnvelopesParamQueue.h; sourceTree = "<group>"; };
+		18BA8AEF2480DC2900F8CCC4 /* WeChat6_3_7Dylib.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WeChat6_3_7Dylib.mm; sourceTree = "<group>"; };
+		18BA8AF02480DC2900F8CCC4 /* SLSettiongCell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SLSettiongCell.mm; sourceTree = "<group>"; };
+		18BA8AF12480DC2900F8CCC4 /* SLSettiongCell.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = SLSettiongCell.xm; sourceTree = "<group>"; };
+		18BA8AF22480DC2900F8CCC4 /* test.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = test.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,14 +218,14 @@
 		18BA8A202480BFC800F8CCC4 /* Logos */ = {
 			isa = PBXGroup;
 			children = (
-				18BA8A692480C0B800F8CCC4 /* SLSettiongCell.mm */,
-				18BA8A672480C0B800F8CCC4 /* SLSettiongCell.xm */,
-				18BA8A6B2480C0B800F8CCC4 /* test.mm */,
-				18BA8A6A2480C0B800F8CCC4 /* test.xm */,
-				18BA8A662480C0B800F8CCC4 /* WeChat6_3_7Dylib.mm */,
-				18BA8A652480C0B800F8CCC4 /* WeChat6_3_7Dylib.xm */,
-				18BA8A682480C0B800F8CCC4 /* WeChatRedEnvelopesParamQueue.h */,
-				18BA8A642480C0B800F8CCC4 /* WeChatRedEnvelopesParamQueue.m */,
+				18BA8AF02480DC2900F8CCC4 /* SLSettiongCell.mm */,
+				18BA8AF12480DC2900F8CCC4 /* SLSettiongCell.xm */,
+				18BA8AF22480DC2900F8CCC4 /* test.mm */,
+				18BA8AEB2480DC2900F8CCC4 /* test.xm */,
+				18BA8AEF2480DC2900F8CCC4 /* WeChat6_3_7Dylib.mm */,
+				18BA8AEC2480DC2900F8CCC4 /* WeChat6_3_7Dylib.xm */,
+				18BA8AEE2480DC2900F8CCC4 /* WeChatRedEnvelopesParamQueue.h */,
+				18BA8AED2480DC2900F8CCC4 /* WeChatRedEnvelopesParamQueue.m */,
 			);
 			path = Logos;
 			sourceTree = "<group>";
@@ -311,7 +311,7 @@
 				18BA8A452480BFC800F8CCC4 /* OCSelectorTrampolines.h in Headers */,
 				18BA8A592480BFC800F8CCC4 /* WeChat7_0_1Dylib.h in Headers */,
 				18BA8A412480BFC800F8CCC4 /* OCMethodTrace.h in Headers */,
-				18BA8A6E2480C0B900F8CCC4 /* WeChatRedEnvelopesParamQueue.h in Headers */,
+				18BA8AF42480DC2900F8CCC4 /* WeChatRedEnvelopesParamQueue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,9 +474,9 @@
 				18BA8A352480BFC800F8CCC4 /* a1a2-selectortramps-arm64.s in Sources */,
 				18BA8A332480BFC800F8CCC4 /* a1a2-selectortramps-arm.s in Sources */,
 				18BA8A392480BFC800F8CCC4 /* a1a2-selectortramps-x86_64.s in Sources */,
-				18BA8A6F2480C0B900F8CCC4 /* SLSettiongCell.mm in Sources */,
+				18BA8AF62480DC2900F8CCC4 /* SLSettiongCell.mm in Sources */,
 				18BA8A432480BFC800F8CCC4 /* OCMethodTrace.m in Sources */,
-				18BA8A6D2480C0B900F8CCC4 /* WeChat6_3_7Dylib.mm in Sources */,
+				18BA8AF52480DC2900F8CCC4 /* WeChat6_3_7Dylib.mm in Sources */,
 				18BA8A282480BFC800F8CCC4 /* MDConfigManager.m in Sources */,
 				18BA8A552480BFC800F8CCC4 /* fishhook.c in Sources */,
 				18BA8A522480BFC800F8CCC4 /* AntiAntiDebug.m in Sources */,
@@ -484,8 +484,8 @@
 				18BA8A472480BFC800F8CCC4 /* OCSelectorTrampolines.mm in Sources */,
 				18BA8A372480BFC800F8CCC4 /* a1a2-selectortramps-i386.s in Sources */,
 				18BA8A3D2480BFC800F8CCC4 /* a2a3-selectortramps-i386.s in Sources */,
-				18BA8A6C2480C0B900F8CCC4 /* WeChatRedEnvelopesParamQueue.m in Sources */,
-				18BA8A702480C0B900F8CCC4 /* test.mm in Sources */,
+				18BA8AF32480DC2900F8CCC4 /* WeChatRedEnvelopesParamQueue.m in Sources */,
+				18BA8AF72480DC2900F8CCC4 /* test.mm in Sources */,
 				18BA8A3B2480BFC800F8CCC4 /* a2a3-selectortramps-arm.s in Sources */,
 				18BA8A4D2480BFC800F8CCC4 /* LLDBTools.mm in Sources */,
 				18BA8A3F2480BFC800F8CCC4 /* a2a3-selectortramps-x86_64.s in Sources */,

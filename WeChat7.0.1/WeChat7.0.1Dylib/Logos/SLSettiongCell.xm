@@ -5,9 +5,7 @@
 
 
 
-#define SLDefaults [NSUserDefaults standardUserDefaults]
-#define SLSWITCSLEY @"SLSWITCSLEY"
-#define SLTIMEKEY @"SLTIMEKEY"
+
 
 //关于界面
 @interface WCTableViewManager
@@ -75,6 +73,7 @@
             UISwitch * switchView = [[UISwitch alloc] init];
             switchView.on = [SLDefaults boolForKey:SLSWITCSLEY];
             [WeChatRedEnvelopesParamQueue sharedQueue].isAuto =  switchView.on;
+              NSLog(@"是否自动抢红包%d",[WeChatRedEnvelopesParamQueue sharedQueue].isAuto);
             [switchView addTarget:self action:@selector(switchChang:) forControlEvents:(UIControlEventValueChanged)];
             cell.accessoryView = switchView;
             cell.imageView.image = [UIImage imageNamed:([SLDefaults boolForKey:SLSWITCSLEY] == 1) ? @"unlocked" : @"locked"];

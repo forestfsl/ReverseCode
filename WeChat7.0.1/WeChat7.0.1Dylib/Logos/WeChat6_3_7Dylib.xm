@@ -100,6 +100,7 @@
 %hook CMessageMgr
 -(void)MainThreadNotifyToExt:(id)arg1{//这个是可以在微信界面收到消息的时候就可以调用的办法
     %orig;
+  
 }
 
 
@@ -113,6 +114,9 @@
 
 
 - (void)onNewSyncAddMessage:(CMessageWrap *)msgWrap{
+    BOOL isSwitch =  [SLDefaults boolForKey:SLSWITCSLEY];
+    [WeChatRedEnvelopesParamQueue sharedQueue].isAuto = isSwitch;
+      NSLog(@"onNewSyncAddMessage是否自动抢红包%d",[WeChatRedEnvelopesParamQueue sharedQueue].isAuto);
     if([WeChatRedEnvelopesParamQueue sharedQueue].isAuto){
         //      NSLog(@"是否是群消息:%@",msgWrap.m_nsFromUsr);
         //        NSLog(@"%@\n%@",msgWrap,[msgWrap class]);//CMessageWrap
@@ -230,6 +234,7 @@
 
 %hook WCRedEnvelopesReceiveControlLogic
 - (void)WCRedEnvelopesReceiveHomeViewOpenRedEnvelopes{
+      NSLog(@"WCRedEnvelopesReceiveHomeViewOpenRedEnvelopes是否自动抢红包%d",[WeChatRedEnvelopesParamQueue sharedQueue].isAuto);
     if([WeChatRedEnvelopesParamQueue sharedQueue].isAuto){
           //获取m_data
             WCRedEnvelopesControlData * m_data = MSHookIvar<WCRedEnvelopesControlData *>(self,"m_data");
@@ -356,7 +361,7 @@ param{
  ？、抢红包。 拼接timingIdentifier 开抢！
 */
 - (void)OnWCToHongbaoCommonResponse:(HongBaoRes *)arg1 Request:(id)arg2{
-    NSLog(@"是否自动抢红包%d",[WeChatRedEnvelopesParamQueue sharedQueue].isAuto);
+    NSLog(@"OnWCToHongbaoCommonResponse是否自动抢红包%d",[WeChatRedEnvelopesParamQueue sharedQueue].isAuto);
     if([WeChatRedEnvelopesParamQueue sharedQueue].isAuto){
           NSLog(@"cgiCmdid == %d",arg1.cgiCmdid);
         //    for(int i = 0;i < arr.count ;i++){

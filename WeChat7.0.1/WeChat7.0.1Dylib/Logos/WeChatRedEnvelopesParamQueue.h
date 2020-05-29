@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+#define SLDefaults [NSUserDefaults standardUserDefaults]
+#define SLSWITCSLEY @"SLSWITCSLEY"
+#define SLTIMEKEY @"SLTIMEKEY"
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface WeChatRedEnvelopesParamQueue : NSObject
